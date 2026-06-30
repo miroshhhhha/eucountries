@@ -1,0 +1,760 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EU Country Study Guide",
+  "description": "Unified schema for study immigration data for any EU country",
+  "type": "object",
+  "required": [
+    "country",
+    "country_code",
+    "last_updated",
+    "visa",
+    "financial_requirements",
+    "official_sources"
+  ],
+  "properties": {
+    "country": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "example": "Portugal"
+    },
+    "country_code": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[A-Z]{2}$",
+      "example": "PT"
+    },
+    "last_updated": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date",
+      "example": "2026-06-01"
+    },
+    "schengen_member": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "currency": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "example": "EUR"
+    },
+    "official_language": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "qualifying_courses": {
+      "type": "object",
+      "description": "What study activities qualify for a student visa",
+      "properties": {
+        "long_stay": {
+          "type": "array",
+          "description": "Courses requiring a long-stay national visa (>90 days)",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "example": [
+            "Higher education (Bachelor's, Master's, PhD)",
+            "Vocational/professional training",
+            "Research projects"
+          ]
+        },
+        "short_stay": {
+          "type": "array",
+          "description": "Courses qualifying only for a short-stay Schengen visa (\u226490 days)",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "visa": {
+      "type": "object",
+      "required": [
+        "types",
+        "application_process"
+      ],
+      "properties": {
+        "types": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "code",
+              "name",
+              "for_stays_over_days"
+            ],
+            "properties": {
+              "code": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "example": "D4"
+              },
+              "name": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "example": "Long-stay Study Visa"
+              },
+              "validity_days": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "example": 120
+              },
+              "entries": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "example": 2
+              },
+              "for_stays_over_days": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "example": 90
+              },
+              "notes": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "application_process": {
+          "type": "object",
+          "properties": {
+            "booking_methods": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "method": {
+                    "type": [
+                      "string",
+                      "null"
+                    ],
+                    "example": "VFS Global"
+                  },
+                  "description": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "url": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "steps": {
+              "type": "array",
+              "description": "Ordered list of application steps",
+              "items": {
+                "type": "object",
+                "required": [
+                  "step",
+                  "title"
+                ],
+                "properties": {
+                  "step": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "title": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "description": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "action_required": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            },
+            "processing_time": {
+              "type": "object",
+              "properties": {
+                "legal_deadline_days": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "example": 60
+                },
+                "typical_min_days": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "example": 60
+                },
+                "typical_max_days": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "example": 120
+                },
+                "recommended_apply_before_start_days": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "example": 90
+                }
+              }
+            },
+            "fee_eur": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "example": 90
+            },
+            "interview_required": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "required_documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "mandatory"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "example": "passport"
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "example": "Valid Passport"
+          },
+          "details": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "example": "Valid for at least 3 months beyond intended stay, 2 blank pages"
+          },
+          "mandatory": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "apostille_required": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "exemptions": {
+            "type": "array",
+            "description": "Who is exempt from this document",
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "notes": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "financial_requirements": {
+      "type": "object",
+      "required": [
+        "reference_value_monthly_eur",
+        "reference_basis"
+      ],
+      "properties": {
+        "reference_value_monthly_eur": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "example": 920
+        },
+        "reference_basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "example": "National Minimum Wage (Decreto-Lei n.\u00ba 139/2025)"
+        },
+        "year": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "example": 2026
+        },
+        "calculation_rules": {
+          "type": "object",
+          "description": "Percentage of reference value required per person type",
+          "properties": {
+            "first_adult_pct": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "example": 100
+            },
+            "additional_adult_pct": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "example": 50
+            },
+            "dependent_child_pct": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "example": 30
+            }
+          }
+        },
+        "example_12_months_eur": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "example": 11040
+        },
+        "acceptable_proof": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "example": [
+            "Bank statements",
+            "Scholarship letter",
+            "Sponsorship declaration (termo de responsabilidade)"
+          ]
+        },
+        "exemptions": {
+          "type": "array",
+          "description": "Groups exempt from financial proof",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "residence_permit": {
+      "type": "object",
+      "description": "Post-arrival residence permit process",
+      "properties": {
+        "authority_name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "example": "AIMA"
+        },
+        "authority_full_name": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "example": "Agency for Integration, Migration and Asylum"
+        },
+        "authority_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "apply_within_days_of_arrival": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "example": 120
+        },
+        "validity_months": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "example": 12
+        },
+        "renewable": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "booking_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "required_documents": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "work_while_studying": {
+      "type": "object",
+      "properties": {
+        "allowed": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "max_hours_per_week_during_term": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "example": 20
+        },
+        "full_time_during_breaks": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "requires_notification": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "notification_authority": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "legal_basis": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "restrictions": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "permit_renewal": {
+      "type": "object",
+      "properties": {
+        "apply_before_expiry_min_days": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "example": 30
+        },
+        "apply_before_expiry_max_days": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "example": 90
+        },
+        "online_portal": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "required_documents": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "post_study_work": {
+      "type": "object",
+      "description": "Options for staying and working after graduation",
+      "properties": {
+        "available": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "job_seeking_permit_months": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "example": 12
+        },
+        "legal_basis": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "example": "Article 122(1)(p) REPSAE"
+        },
+        "process_authority": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "requirements": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "official_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "application_forms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "url"
+        ],
+        "properties": {
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "authority": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "tips": {
+      "type": "array",
+      "description": "Practical tips for students",
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "body"
+        ],
+        "properties": {
+          "title": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "body": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "priority": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      }
+    },
+    "common_mistakes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "mistake",
+          "consequence"
+        ],
+        "properties": {
+          "mistake": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "consequence": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "how_to_avoid": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}
