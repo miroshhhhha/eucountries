@@ -176,7 +176,11 @@ def main():
     output_path = Path(args.output) if args.output else OUTPUT_DIR / f"{args.code.upper()}.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
     output_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
-    print(f"\nDone. Data saved to: {output_path}")
+    print(f"\nData saved to: {output_path}")
+
+    print("\nRegistering in frontend...")
+    from add_country import add_country
+    add_country(args.code)
 
 
 if __name__ == "__main__":

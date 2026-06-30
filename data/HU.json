@@ -1,0 +1,368 @@
+{
+  "country": "Hungary",
+  "country_code": "HU",
+  "last_updated": "2026-06-30",
+  "schengen_member": true,
+  "currency": "HUF",
+  "official_language": null,
+  "qualifying_courses": {
+    "long_stay": [
+      "Full-time bachelor's, master's, or doctoral programmes",
+      "State-accredited preparatory/foundation courses",
+      "Full-time vocational training at recognised institutions",
+      "Non-degree preparatory or foundation courses (e.g., intensive English or Hungarian language programs tied to eventual university admission)",
+      "Short-term exchange programs lasting more than 90 days"
+    ],
+    "short_stay": [],
+    "notes": "Applicants must have the linguistic knowledge required for the pursuit of studies."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "Long-stay Study Visa",
+        "validity_days": 30,
+        "entries": 1,
+        "for_stays_over_days": 90,
+        "notes": "The Type D visa is valid for 30 days for single entry to Hungary to collect the residence permit. Transiting through other Schengen countries is problematic; direct flights are recommended."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Official Appointment Booking System",
+          "description": null,
+          "url": "https://konzinfobooking.mfa.gov.hu/home"
+        },
+        {
+          "method": "VFS Global visa centres",
+          "description": "Check the Hungarian embassy website for your specific country, as some countries process applications through VFS Global.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Find the Hungarian Embassy or Consulate",
+          "description": "Locate the Hungarian Embassy or Consulate in your country of citizenship or legal residence.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Book online appointment",
+          "description": "Book an appointment online via the Konsulinfo booking system or VFS Global portal.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Attend appointment and submit documents",
+          "description": "Bring your appointment confirmation to the consular office and submit all required documents in person. Biometric data will be captured.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Visa processing",
+          "description": "Wait for the visa application to be processed.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 30,
+        "typical_max_days": 60,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 110,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 2 years recommended to avoid delays. Must have at least 2 blank pages.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Completed Visa Application Form",
+      "details": "Form + Appendix 13, completed and signed.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photos",
+      "name": "Recent Passport Photos",
+      "details": "3.5 × 4.5 cm, white background, not older than 3 months.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "University Acceptance Letter",
+      "details": "Official letter of acceptance from the Hungarian educational institution.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_payment_proof",
+      "name": "Proof of Paid Tuition Fees",
+      "details": "Bank/wire transfer receipt + university confirmation letter, or a scholarship certificate.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "University dormitory confirmation or a signed rental lease agreement. For private flats, the rental agreement must be signed by two witnesses, and a property registration document (tulajdoni lap) issued within the past 30 days is required.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Health Insurance",
+      "details": "Full coverage for the entire planned stay in Hungary, covering at least €30,000 across the entire Schengen area.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Financial Means",
+      "details": "6 months certified bank statements (student or parent/guardian), commitment letter from sponsor, proof of money origin (employment letter), proof of family ties. Must prove sufficient funds to cover tuition, accommodation, health insurance, and living expenses.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "educational_degrees",
+      "name": "Educational Degrees and Transcripts",
+      "details": "Diploma + transcripts (High School, BA/BSc, MA/MSc).",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "language_proficiency",
+      "name": "Language Proficiency Certificate",
+      "details": "Certificate or official diploma proving study language of previous degree.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record",
+      "name": "Clean Criminal Record Certificate",
+      "details": "Required by some embassies, but not a universal requirement for all nationalities.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": null,
+    "reference_basis": "No specific legal minimum balance; students must prove sufficient funds to cover all expenses (tuition, accommodation, health insurance, living costs).",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": null,
+    "acceptable_proof": [
+      "Personal bank statements from the past 3 to 6 months showing regular income or savings.",
+      "Notarized affidavit of support from a financial sponsor (e.g., parents), backed by their employment records and bank statements.",
+      "Official scholarship award letter (fully exempts you from presenting personal funds if it covers all living expenses).",
+      "Proof of money origin (employment letter).",
+      "Proof of family ties (for parental sponsorship)."
+    ],
+    "exemptions": [
+      "Scholarship holders whose scholarship covers all living expenses"
+    ]
+  },
+  "residence_permit": {
+    "authority_name": "OIF",
+    "authority_full_name": "National Directorate-General for Aliens Policing",
+    "authority_url": "https://oif.gov.hu",
+    "apply_within_days_of_arrival": 30,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [],
+    "notes": "For students who applied at a consulate abroad and hold a Type D visa, the residence permit is delivered to the educational institution, not picked up at OIF. Students with Type D visas should NOT apply online via EnterHungary after arrival, as the application was already submitted at the consulate. Accommodation details must be registered to obtain an Address Card (lakcímkártya), which can be initiated digitally through the EnterHungary portal."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 30,
+    "full_time_during_breaks": false,
+    "requires_notification": true,
+    "notification_authority": "National Tax Authority (NAV)",
+    "legal_basis": null,
+    "restrictions": [
+      "Maximum 90 days per year (or 66 working days) outside the study period."
+    ],
+    "notes": "International students do not need an additional work permit to take on part-time employment. Students must obtain a Hungarian Tax ID (adóazonosító jel) from NAV before starting work."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 30,
+    "apply_before_expiry_max_days": 50,
+    "online_portal": "EnterHungary platform (https://enterhungary.gov.hu)",
+    "required_documents": [
+      "Updated university enrollment certificate",
+      "Current transcripts showing satisfactory academic progress",
+      "Fresh bank statements",
+      "Current proof of housing",
+      "Admission certificate (if changing educational institution)"
+    ],
+    "notes": "Renewal can only be done in Hungary. Traveling abroad without the new or extended permit requires submitting a completely new D-type visa application. If changing educational institution, a new extension application must be submitted via EnterHungary with the new admission certificate. Official guidance states to apply 'in time' before expiry, with specific deadlines varying by source."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": null,
+    "process_authority": "National Directorate-General for Aliens Policing (OIF)",
+    "requirements": [
+      "Apply for the 'Study-to-Work' permit no later than 15 days before your student residence permit expires.",
+      "Use the 9 months to find employment or register a business.",
+      "Convert to a full work/gainful activity residence permit (e.g., residence permit for employment, EU Blue Card, or Hungary Card) once employed."
+    ],
+    "notes": "Every foreign student receiving a degree from a Hungarian university or college is eligible for the study-to-work visa."
+  },
+  "official_sources": [
+    {
+      "name": "OIF (Immigration Authority)",
+      "url": "https://oif.gov.hu",
+      "description": null
+    },
+    {
+      "name": "EnterHungary Portal",
+      "url": "https://enterhungary.gov.hu",
+      "description": null
+    },
+    {
+      "name": "Hungarian MFA Consular Info",
+      "url": "https://konzinfo.mfa.gov.hu",
+      "description": null
+    },
+    {
+      "name": "Study in Hungary (official)",
+      "url": "https://studyinhungary.hu",
+      "description": null
+    },
+    {
+      "name": "Stipendium Hungaricum Scholarship",
+      "url": "https://stipendiumhungaricum.hu",
+      "description": null
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Residence permit application form",
+      "url": "https://oif.gov.hu/factsheets/residence-of-the-student-pupil",
+      "authority": "OIF"
+    },
+    {
+      "name": "Electronic application form (EnterHungary)",
+      "url": "https://enterhungary.gov.hu",
+      "authority": "OIF"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Verify current requirements",
+      "body": "Hungarian immigration rules change rapidly. Always verify current requirements directly with the OIF (https://oif.gov.hu) or the Hungarian Embassy in your country before applying.",
+      "priority": "high"
+    },
+    {
+      "title": "Direct flights recommended",
+      "body": "The Type D visa is single-entry only, making transiting through other Schengen countries problematic. Direct flights to Hungary are recommended.",
+      "priority": "high"
+    },
+    {
+      "title": "Keep funds stable",
+      "body": "Avoid depositing large amounts of cash right before downloading bank statements, as it looks artificial. Keep funds stable in your account for months or rely heavily on formal parental sponsorship documentation.",
+      "priority": "medium"
+    },
+    {
+      "title": "Passport validity",
+      "body": "Official Hungarian embassy guidance recommends 2 years validity for your passport to avoid future delays, even though some sources state 3 or 6 months beyond intended stay.",
+      "priority": "medium"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "Visa refusal or delays, potentially missing course start date.",
+      "how_to_avoid": "Start your visa application at least 3 months before your course begins to allow for 30-60 days processing time and potential requests for additional documents."
+    },
+    {
+      "mistake": "Insufficient funds proof",
+      "consequence": "Visa refusal.",
+      "how_to_avoid": "Ensure you can prove sufficient funds to cover all expenses (tuition, accommodation, health insurance, living costs) with clear bank documents or scholarship letters. There is no fixed minimum amount."
+    },
+    {
+      "mistake": "Applying from within Hungary (for Type D visa holders)",
+      "consequence": "Application refused, as it is not permitted.",
+      "how_to_avoid": "Applications for Type D visas must be submitted from home countries at the Hungarian Embassy or Consulate. Do not wait until you arrive in Hungary."
+    },
+    {
+      "mistake": "Waiting too long for residence permit (for Type D visa holders)",
+      "consequence": "Invalidation of legal stay, potential immigration fines.",
+      "how_to_avoid": "Register your accommodation and ensure your residence permit is processed within 30 days of arrival. Note that the permit is delivered to your university, not picked up at OIF."
+    },
+    {
+      "mistake": "Changing universities without informing OIF",
+      "consequence": "Invalidation of residence permit.",
+      "how_to_avoid": "You must submit a new extension application via the EnterHungary platform with your new admission certificate."
+    },
+    {
+      "mistake": "Missing the study-to-work deadline",
+      "consequence": "Loss of opportunity to stay and seek employment after graduation.",
+      "how_to_avoid": "Apply for the 'study-to-work' permit at least 15 days before your student permit expires."
+    },
+    {
+      "mistake": "Booking multiple embassy appointments",
+      "consequence": "Extra bookings will be cancelled without notice.",
+      "how_to_avoid": "One person may book only one appointment for a consular service."
+    },
+    {
+      "mistake": "Incomplete insurance documentation",
+      "consequence": "Visa refusal.",
+      "how_to_avoid": "Make sure your policy explicitly covers Hungary and the full duration of your stay, with at least €30,000 coverage across the Schengen area."
+    },
+    {
+      "mistake": "Incomplete Rental Documents",
+      "consequence": "Visa refusal.",
+      "how_to_avoid": "If renting a private flat, your rental agreement must be signed by two witnesses, and you must submit the property registration document (tulajdoni lap) issued within the past 30 days. A simple handwritten letter from a landlord will lead to a visa refusal."
+    },
+    {
+      "mistake": "Ignoring the 30-Day Clock for Address Registration",
+      "consequence": "Invalidation of legal stay and structural immigration fines.",
+      "how_to_avoid": "Register your physical address at the OIF office or digitally via EnterHungary within 30 days of landing to obtain an Address Card (lakcímkártya)."
+    },
+    {
+      "mistake": "Applying online via EnterHungary for Type D visa holders after arrival",
+      "consequence": "Incorrect procedure, as the application was already done at the consulate.",
+      "how_to_avoid": "Students with Type D visas should NOT apply online via EnterHungary after arrival. The residence permit application was already submitted at the consulate."
+    },
+    {
+      "mistake": "Visiting OIF in person to pick up residence permit (for Type D visa holders)",
+      "consequence": "Incorrect procedure, as the permit is delivered to the university.",
+      "how_to_avoid": "The residence permit is delivered to your educational institution. Do not visit OIF in person to collect it."
+    }
+  ]
+}

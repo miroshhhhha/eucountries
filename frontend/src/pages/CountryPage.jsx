@@ -5,10 +5,12 @@ import { isAvailable } from '../data/countries'
 import PT from '../data/PT.json'
 import IT from '../data/IT.json'
 import AT from '../data/AT.json'
+import ES from '../data/ES.json'
+import HU from '../data/HU.json'
 
 import CountryPageLayout from '../components/CountryPage'
 
-const DATA = { PT, IT, AT }
+const DATA = { PT, IT, AT, ES, HU }
 
 export default function CountryPage() {
   const { code } = useParams()
