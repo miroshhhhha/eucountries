@@ -2,9 +2,11 @@ export default function CountryHero({ country, countryCode, currency, lastUpdate
   return (
     <div className="bg-white rounded-2xl border border-gray-200 shadow-sm px-6 py-6 flex items-center justify-between">
       <div className="flex items-center gap-5">
-        <span className="text-7xl leading-none" role="img" aria-label={country}>
-          {countryCodeToFlag(countryCode)}
-        </span>
+        <img
+          src={appleFlagUrl(countryCode)}
+          alt={country}
+          className="h-16 w-auto"
+        />
         <div>
           <h1 className="text-3xl font-bold text-gray-900">{country}</h1>
           {currency && (
@@ -21,10 +23,11 @@ export default function CountryHero({ country, countryCode, currency, lastUpdate
   );
 }
 
-function countryCodeToFlag(code) {
-  return code
+function appleFlagUrl(code) {
+  const codepoints = code
     .toUpperCase()
     .split("")
-    .map((c) => String.fromCodePoint(c.charCodeAt(0) + 127397))
-    .join("");
+    .map((c) => (c.charCodeAt(0) + 127397).toString(16))
+    .join("-");
+  return `https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.0.1/img/apple/64/${codepoints}.png`;
 }
