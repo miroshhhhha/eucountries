@@ -1,0 +1,385 @@
+{
+  "country": "Latvia",
+  "country_code": "LV",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Latvian",
+  "qualifying_courses": {
+    "long_stay": [
+      "Full-time Bachelor's degree programs",
+      "Full-time Master's degree programs",
+      "Doctoral (PhD) studies",
+      "Exchange programs (e.g., Erasmus+ or bilateral agreements)",
+      "Long-term language or preparatory courses leading into a degree program",
+      "Vocational/professional training (if duration exceeds 90 days)"
+    ],
+    "short_stay": [],
+    "notes": "All programs must be provided by an accredited higher education institution or a registered educational facility. Study and work residence permits are only granted to students enrolled full-time in programs with at least 40 academic hours per week and at least 40 credits earned per year. An invitation document for the residence/visa application is normally issued only for full-time studies; part-time study applicants must already hold a valid EU residence permit."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "Long-stay Study Visa (Type D)",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": null
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Online Appointment System (MFA)",
+          "description": "For long-stay (D) visas and residence permits, appointments must be booked only through the online appointment system.",
+          "url": "https://pieraksts.mfa.gov.lv"
+        },
+        {
+          "method": "VFS Global",
+          "description": "For Schengen short-stay visa applications, and in some countries for long-stay applications, depending on the applicant’s country of residence.",
+          "url": null
+        },
+        {
+          "method": "Direct Embassy/Consulate Contact",
+          "description": "Via email or phone, especially if electronic booking is not available in that region or for specific embassies (e.g., Washington D.C.). Always check the specific embassy's consular information page first.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Get Admitted and Sign Study Agreement",
+          "description": "Apply to an accredited Latvian university, receive an admission letter, and sign a study agreement.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "University Requests Invitation Number",
+          "description": "The university applies to the Office of Citizenship and Migration Affairs (OCMA/PMLP) in Latvia to request an 'Invitation Number' for the student. The invitation is filed by the university representative.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Book Visa Appointment",
+          "description": "Book an appointment with the relevant Latvian embassy/consulate or VFS Global center through the online system or direct contact.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Submit Visa Application and Documents",
+          "description": "Submit the completed application form and all required documents in person at the embassy/consulate or VFS Global center. The student must provide the invitation number.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Attend Interview (If Requested)",
+          "description": "Attend an interview if requested by the consular officer.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "OCMA Reviews Residence Permit Application",
+          "description": "OCMA reviews the residence permit application. Only if the decision is positive can the student apply for the D-category visa.",
+          "action_required": null
+        },
+        {
+          "step": 7,
+          "title": "D-Visa Issuance",
+          "description": "Once approved by OCMA, the D-category visa is issued within a few days up to 15 days.",
+          "action_required": null
+        },
+        {
+          "step": 8,
+          "title": "Travel to Latvia and Register Residence Permit",
+          "description": "Travel to Latvia and, upon arrival, collect/register the residence permit card with OCMA.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 60,
+        "typical_min_days": 15,
+        "typical_max_days": 60,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": null,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond the intended residence permit period, with at least two blank pages.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Completed National Visa Application Form",
+      "details": "Completed and signed National Visa (Type D) application form, printed from the e-visa system.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photographs",
+      "name": "Passport-sized Color Photographs",
+      "details": "Two recent passport-sized color photographs on a white background, with the face covering about 70% of the photo.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "invitation_number",
+      "name": "OCMA Invitation Number",
+      "details": "The Invitation Number approved by the OCMA/PMLP, provided by the university.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "Official Letter of Admission/Enrollment Confirmation",
+      "details": "Official Letter of Admission from the university or written confirmation from the institution regarding enrolment and arrival for completion of the study program.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "study_agreement",
+      "name": "Signed Study Agreement",
+      "details": "A copy of the signed Study Agreement with the university.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Sufficient Financial Means",
+      "details": "Bank statements showing the required balance, issued within the last 3 months, in or translated into English. If a third party is financing the studies, a notarised and legalised certificate authorising use of that person's funds must also be submitted, accompanied by documents proving the sponsor’s identity and financial capacity.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Intended Residence/Accommodation",
+      "details": "Provided by the university or a rental agreement.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Valid Travel Medical Insurance Policy",
+      "details": "Minimum coverage of 42,600 EUR, valid for at least 90 days from arrival.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "police_clearance",
+      "name": "Police Clearance Certificate",
+      "details": "Criminal record check from the home country, legalized or with an Apostille. Required for some nationalities (e.g., Indian applicants).",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "fee_payment_proof",
+      "name": "Proof of Payment for State Fee",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "education_documents",
+      "name": "Previous Education Documents",
+      "details": "Diplomas and other previous education documents, legalized or apostilled, and translated if necessary. Certificate from the Academic Information Centre (AIC) confirming your education documents are sufficient for studies in Latvia.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "foreign_public_documents",
+      "name": "Other Foreign Public Documents",
+      "details": "Any other foreign public documents (e.g., civil status documents) must be legalised or apostilled by the relevant authority in the home country and translated if necessary.",
+      "mandatory": false,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 780,
+    "reference_basis": "Minimum monthly wage in Latvia (as per university and OCMA guidance)",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": 9360,
+    "acceptable_proof": [
+      "Bank statements (issued within last 3 months, in or translated into English)",
+      "Sponsorship declaration (notarised and legalised, with proof of sponsor's identity and financial capacity)"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "OCMA/PMLP",
+    "authority_full_name": "Office of Citizenship and Migration Affairs",
+    "authority_url": "https://www.pmlp.gov.lv/en/",
+    "apply_within_days_of_arrival": 90,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "Appointment with OCMA (online or regional division)",
+    "required_documents": [
+      "Passport",
+      "Health/life insurance policy",
+      "X-ray/fluorography result",
+      "Proof of payment for state fee",
+      "Biometric data (fingerprints and photo)"
+    ],
+    "notes": "A residence permit card (eID card) is usually issued within 2 to 10 working days after biometrics are taken. Students can also apply for the residence permit at the embassy before travelling."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": true,
+    "notification_authority": "State Revenue Service",
+    "legal_basis": null,
+    "restrictions": [
+      "Master's and PhD students have the right to work without restriction on hours.",
+      "If a student works more hours than they study, their main activity is legally considered employment rather than study, which would require an employment-based residence permit instead."
+    ],
+    "notes": "The right to work is automatically granted with the residence permit for studies; no separate work permit is required, provided the employer registers the employment with the State Revenue Service."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 45,
+    "apply_before_expiry_max_days": 90,
+    "online_portal": null,
+    "required_documents": [
+      "Certificate from the university confirming student’s status",
+      "New study agreement (if applicable)",
+      "Proof of funds for the next year",
+      "Updated health insurance",
+      "Current passport",
+      "Current residence permit card"
+    ],
+    "notes": "Processing an extension can take up to 3 months, so it's recommended to inform the university's international coordinator at least 3 months before expiry. If a master's or PhD student applies 45–90 days before expiry, the extension may be free; applying later means the standard state fee applies."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 4,
+    "legal_basis": null,
+    "process_authority": "OCMA",
+    "requirements": [
+      "Secure a job offer.",
+      "The employer submits a sponsorship request to OCMA along with the employment contract (or draft) and the foreigner's education documents.",
+      "For third-country nationals, the job vacancy must have been registered as open for at least 10 working days on the State Employment Agency's CV and vacancy portal (graduates of Latvian universities often benefit from simplified procedures).",
+      "The applicant submits the residence permit documents either to a Latvian diplomatic/consular mission abroad or to OCMA in Latvia.",
+      "The foreigner must then register with the State Revenue Service as a taxpayer."
+    ],
+    "notes": "Bachelor's graduates receive a residence permit covering the study period plus an additional 4 months after graduation to find work or apply for a master's programme. Master's and doctoral graduates typically receive a similar initial extension, which can be extended further (commonly cited as up to a total of around 9–13 months), subject to OCMA approval. A separate 'work permit' document is not issued; the study-based residence permit is effectively converted into an employment-based one."
+  },
+  "official_sources": [
+    {
+      "name": "Office of Citizenship and Migration Affairs (OCMA/PMLP)",
+      "url": "https://www.pmlp.gov.lv/en/",
+      "description": "Official information regarding residence permits, visas, fees, and forms."
+    },
+    {
+      "name": "Ministry of Foreign Affairs of the Republic of Latvia",
+      "url": "https://www.mfa.gov.lv/en/",
+      "description": "Official information regarding visa policy and embassy directory."
+    },
+    {
+      "name": "Study in Latvia (Official state portal)",
+      "url": "https://www.studyinlatvia.lv",
+      "description": "Official national study-abroad portal, run with the Ministry of Education and the Academic Information Centre."
+    },
+    {
+      "name": "Latvian Embassy/Consulate Pages",
+      "url": "https://www2.mfa.gov.lv/en/[country]/consular-information",
+      "description": "Country-specific consular information for Latvian diplomatic missions abroad."
+    },
+    {
+      "name": "Appointment Booking System",
+      "url": "https://pieraksts.mfa.gov.lv/en/[country]",
+      "description": "Online system for booking visa and residence permit appointments."
+    },
+    {
+      "name": "State Administration Services Portal",
+      "url": "https://latvija.gov.lv",
+      "description": "Provides service descriptions, including residence permit registration."
+    },
+    {
+      "name": "State Employment Agency (NVA)",
+      "url": "https://www.nva.gov.lv/en",
+      "description": "Official portal for job vacancies."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "OCMA Residence Permit Application Form",
+      "url": "https://www.pmlp.gov.lv/en/application-requiring-residence-permit",
+      "authority": "OCMA/PMLP"
+    },
+    {
+      "name": "D-Visa Application Form (e-visa system)",
+      "url": "https://epak.pmlp.gov.lv/NVIS.EService001.WebSite/ApplicationInquiry.aspx",
+      "authority": "OCMA/PMLP"
+    }
+  ],
+  "tips": [],
+  "common_mistakes": [
+    {
+      "mistake": "Incomplete or incorrect documentation",
+      "consequence": "Rejection of application.",
+      "how_to_avoid": "Ensure all documents, including the criminal record certificate, are properly legalized or apostilled according to international requirements and translated if necessary. Forms must be filled in block letters; an incomplete or inaccurate form can lead to rejection."
+    },
+    {
+      "mistake": "Insufficient or outdated financial proof",
+      "consequence": "Rejection of application.",
+      "how_to_avoid": "Ensure you show the exact amount required by law. Bank statements are typically only valid for 3 months from issue (ideally no older than 15-30 days); submitting outdated statements is a common rejection reason."
+    },
+    {
+      "mistake": "Missing deadlines",
+      "consequence": "Can lead to deportation, the need to leave the country and re-apply, or standard state fees applying for renewals.",
+      "how_to_avoid": "Apply early for the visa (recommended 90 days before start). For residence permit renewals, submit the application to the PMLP at least 45-90 days before the current permit expires."
+    },
+    {
+      "mistake": "Incorrect health insurance",
+      "consequence": "Rejection of application.",
+      "how_to_avoid": "Provide insurance that meets the specific minimum coverage amount (42,600 EUR) and the duration required by Latvian law (at least 90 days from arrival)."
+    },
+    {
+      "mistake": "Booking the wrong appointment type or missing the online system",
+      "consequence": "Documents may not be accepted, leading to application delays or rejection.",
+      "how_to_avoid": "Appointments for long-stay (D) visas and residence permits must go through pieraksts.mfa.gov.lv; documents are generally not accepted by mail or walk-in at most embassies. Always check the specific embassy's consular information page first."
+    },
+    {
+      "mistake": "Not confirming current fees and thresholds",
+      "consequence": "Problems with the application due to outdated information.",
+      "how_to_avoid": "Since financial and fee requirements are subject to change (notably with 2026 rule updates), always confirm the current required amounts and fees directly with OCMA or the relevant Latvian embassy before applying."
+    },
+    {
+      "mistake": "Working beyond permitted hours",
+      "consequence": "Can jeopardize the basis of the residence permit, as the main purpose of stay would then be considered employment, not study, potentially requiring an employment-based residence permit instead.",
+      "how_to_avoid": "Adhere to the allowed work hours (e.g., up to 20 hours per week for undergraduates during the academic semester)."
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "country": "Malta",
+  "country_code": "MT",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": null,
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education programs (Bachelor's, Master's, PhD, MQF Level 5 or higher)",
+      "Diplomas and Foundation programs at MQF (Malta Qualifications Framework) Level 5 or higher",
+      "English Language courses (exceeding 90 days, licensed by the ELT Council)",
+      "Vocational training programs (MCAST, ITS, MQF levels 1-4, MQRIC approved)",
+      "Credit-bearing short courses or exchange programs (Erasmus+) at recognized higher education institutions"
+    ],
+    "short_stay": [
+      "Summer schools",
+      "Short language courses",
+      "Short placements"
+    ],
+    "notes": "Courses exceeding 90 calendar days require a National Long Stay Visa (D-Visa); shorter courses fall under short-stay Schengen visa rules."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D-Visa",
+        "name": "National Long Stay Study Visa",
+        "for_stays_over_days": 90,
+        "notes": "Required for courses exceeding 90 days."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "VFS Global",
+          "description": "In most countries, Malta outsources visa collection to VFS Global. Students must create an account on the VFS Malta website specific to their country and book an appointment online."
+        },
+        {
+          "method": "Central Visa Unit (CVU) Portal",
+          "description": "In certain jurisdictions, appointments may be requested through official government booking portals."
+        },
+        {
+          "method": "Direct Contact",
+          "description": "If no external service provider (like VFS) is available, contact the nearest Maltese Embassy or Consulate via email or telephone to request an appointment."
+        },
+        {
+          "method": "Premium Remote Process",
+          "description": "In countries without a Maltese diplomatic mission or VFS centre, applicants initiate contact by email with the Central Visa Unit and submit documents and passport via courier."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Receive Letter of Acceptance",
+          "description": "Obtain an official Letter of Acceptance from a licensed educational institution in Malta, stating institution name, course name, MQF level, ECTS, duration, course hours, and holiday periods."
+        },
+        {
+          "step": 2,
+          "title": "Pay Tuition Fees",
+          "description": "Pay the required tuition fees (at least 50% or full payment) and obtain a receipt."
+        },
+        {
+          "step": 3,
+          "title": "Gather Required Documentation",
+          "description": "Prepare all required documents as per the official checklist."
+        },
+        {
+          "step": 4,
+          "title": "Book Appointment",
+          "description": "Book an appointment at the designated Embassy, Consulate, or VFS Global center."
+        },
+        {
+          "step": 5,
+          "title": "Attend Appointment",
+          "description": "Attend the appointment to submit documents, provide biometric data (fingerprints), and pay the visa fee. A VFS appointment confirmation is required."
+        },
+        {
+          "step": 6,
+          "title": "Attend Visa Interview",
+          "description": "Attend a visa interview if requested by the consular officer.",
+          "action_required": "If requested"
+        },
+        {
+          "step": 7,
+          "title": "Wait for Processing",
+          "description": "Wait for the visa application to be processed and a decision to be made."
+        },
+        {
+          "step": 8,
+          "title": "Travel to Malta",
+          "description": "Travel to Malta within the visa's validity window."
+        },
+        {
+          "step": 9,
+          "title": "Apply for Residence Permit",
+          "description": "If the course lasts more than 90 days, apply for a residence permit in Malta within the first 90 days of arrival."
+        }
+      ],
+      "processing_time": {
+        "typical_min_days": 28,
+        "typical_max_days": 56,
+        "recommended_apply_before_start_days": 84
+      },
+      "fee_eur": null,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "visa_application_form",
+      "name": "Completed and Signed National Visa Application Form",
+      "mandatory": true
+    },
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 10 months, with at least two blank pages.",
+      "mandatory": true
+    },
+    {
+      "id": "photographs",
+      "name": "Passport-sized Photographs",
+      "details": "Two recent passport-sized photographs meeting Schengen/ICAO specifications.",
+      "mandatory": true
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Official Letter of Acceptance/Enrollment",
+      "details": "From a licensed educational institution, stating institution name, course name, MQF level, ECTS, duration, course hours, and holiday periods.",
+      "mandatory": true
+    },
+    {
+      "id": "tuition_payment_proof",
+      "name": "Proof of Tuition Payment",
+      "details": "Receipt showing at least 50% or full payment for the course.",
+      "mandatory": true
+    },
+    {
+      "id": "financial_means_proof",
+      "name": "Proof of Sufficient Financial Means",
+      "details": "Original bank statements for the last 3 to 6 months, a recent bank certificate, and a copy of an international bank card. If a sponsor is used, a notarized letter of sponsorship, the sponsor's bank statements, declaration letter, and ID copy are required.",
+      "mandatory": true
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation in Malta",
+      "details": "Rental agreement, lease, host declaration form, or proof of accommodation for at least the first month of the intended duration of stay.",
+      "mandatory": true
+    },
+    {
+      "id": "travel_medical_insurance",
+      "name": "Travel Medical Insurance",
+      "details": "Minimum coverage of €30,000 for the entire Schengen area, specifically mentioning coverage for 'repatriation'.",
+      "mandatory": true
+    },
+    {
+      "id": "flight_itinerary",
+      "name": "Flight Itinerary",
+      "details": "Flight itinerary to Malta (and return ticket, if the course is under 6 months).",
+      "mandatory": true
+    },
+    {
+      "id": "academic_qualifications",
+      "name": "Copies of Previous Academic Qualifications and Transcripts",
+      "mandatory": true
+    },
+    {
+      "id": "vfs_confirmation",
+      "name": "VFS Appointment Confirmation",
+      "mandatory": true
+    },
+    {
+      "id": "minor_documents",
+      "name": "Documents for Minors",
+      "details": "Birth certificate, parents' passport copies, and signed parental consent.",
+      "mandatory": false
+    },
+    {
+      "id": "translated_documents",
+      "name": "Translated Documents",
+      "details": "All documents not in English must be translated by a certified translator and often legalized or apostilled.",
+      "mandatory": true
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 950,
+    "reference_basis": "Identita and University of Malta official guidance for residence permit",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": 11400,
+    "acceptable_proof": [
+      "Personal bank statements (last 3-6 months)",
+      "Recent bank certificate",
+      "Notarized letter of sponsorship",
+      "Sponsor's bank statements",
+      "Sponsor's declaration letter",
+      "Sponsor's ID copy",
+      "Copy of an international bank card to access funds in Malta"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Identita",
+    "authority_full_name": "Identita (formerly Identity Malta)",
+    "authority_url": "https://identita.gov.mt/",
+    "apply_within_days_of_arrival": 90,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "Online via Identità Expatriates Portal (expatriates.identita.gov.mt), followed by in-person biometrics collection at the Msida office after an appointment is scheduled.",
+    "required_documents": [
+      "Passport",
+      "Visa used for entry",
+      "Proof of enrollment/acceptance letter",
+      "Proof of sufficient funds",
+      "Proof of local health insurance",
+      "Proof of accommodation"
+    ],
+    "notes": "Students must be physically in Malta to apply. Biometrics are collected in person at the Msida office only after the online application is submitted and an appointment is scheduled."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": true,
+    "notification_authority": "Jobsplus",
+    "legal_basis": "Subsidiary Legislation 217.22 (for certain courses)",
+    "restrictions": [
+      "Eligibility to work starts upon issuance of the residence permit for third-country nationals pursuing a full-time course leading to a higher education qualification recognised by MQRIC.",
+      "A 90-day waiting period applies to students following courses that do not fall under Subsidiary Legislation 217.22.",
+      "Students cannot be self-employed.",
+      "Must maintain satisfactory attendance and academic progress (e.g., attendance above 75% of lessons).",
+      "A work authorisation/employment licence from Jobsplus is required before starting work."
+    ],
+    "notes": null
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 21,
+    "apply_before_expiry_max_days": 30,
+    "online_portal": "Identità Expatriates Portal",
+    "required_documents": [
+      "Updated proof of academic progression/successful completion of previous year's exams or modules",
+      "New Letter of Enrollment for the upcoming academic year",
+      "Updated bank statements/proof of funds",
+      "Valid health insurance",
+      "Evidence of continued accommodation in Malta",
+      "Sometimes an updated police conduct certificate"
+    ],
+    "notes": "Incomplete documentation is a common cause of delay. Renewal applications should be submitted not before 30 days and by not later than 21 days before the expiry of the visa/permit."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": "Form CEA N.03 (for post-study permit)",
+    "process_authority": "Identita",
+    "requirements": [
+      "Graduates of MQF Level 6 (Bachelor's) or higher can apply for a post-study stay-back permit.",
+      "This permit allows students to remain in Malta for 9 months to seek employment related to their field of study or set up a business.",
+      "Once a job offer is secured, the applicant must apply for a Single Permit (Work Permit).",
+      "The employer must endorse the Single Permit application.",
+      "High-skill positions may qualify under the Key Employee Initiative (KEI) for faster processing.",
+      "Students generally cannot work full-time until the Single Permit application is formally accepted by Identità.",
+      "Long-term residence status may become possible after several years of continuous legal residence and work (commonly cited as five years, with student-only time generally not counted)."
+    ],
+    "notes": "If you leave Malta or the 9 months lapse, you do not get a second chance at this permit for the same or another course."
+  },
+  "official_sources": [
+    {
+      "name": "Identità",
+      "url": "https://identita.gov.mt/",
+      "description": "Agency responsible for residence permits, visa policies, residence permit FAQs, fees, and forms."
+    },
+    {
+      "name": "Identità Expatriates Portal",
+      "url": "https://expatriates.identita.gov.mt",
+      "description": "Online residence permit applications and renewals."
+    },
+    {
+      "name": "Ministry for Foreign and European Affairs and Trade",
+      "url": "https://foreign.gov.mt/",
+      "description": "Visa information."
+    },
+    {
+      "name": "Jobsplus",
+      "url": "https://jobsplus.gov.mt/",
+      "description": "Employment licenses and student work rules, student employment licences and work permit conditions."
+    },
+    {
+      "name": "Malta Further and Higher Education Authority (MFHEA)",
+      "url": "https://mfhea.mt/",
+      "description": "For checking that an institution and course are officially recognised."
+    },
+    {
+      "name": "Malta's Diplomatic Missions / Visa FAQs",
+      "url": "https://missions.foreign.gov.mt",
+      "description": "Schengen and national visa guidance by mission."
+    },
+    {
+      "name": "Servizz.gov.mt",
+      "url": "https://servizz.gov.mt",
+      "description": "General government services portal, including visa and residence permit service pages."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Long-Stay (D) Visa Application Form",
+      "url": null,
+      "authority": "Identità, Ministry for Foreign Affairs, VFS Global Malta portal, embassies/consulates"
+    },
+    {
+      "name": "Residence Permit Application Form (CEA N.01 for Study)",
+      "url": "https://expatriates.identita.gov.mt",
+      "authority": "Identità Expatriates Portal"
+    },
+    {
+      "name": "Student Work Permit Forms",
+      "url": null,
+      "authority": "Jobsplus"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Source of Funds Clarity",
+      "body": "Ensure bank statements clearly show the source of income or savings to avoid visa refusal due to unclear origins of money.",
+      "priority": "high"
+    },
+    {
+      "title": "Document Translation and Legalization",
+      "body": "All documents not in English must be translated by a certified translator and often legalized or apostilled.",
+      "priority": "high"
+    },
+    {
+      "title": "Comprehensive Health Insurance",
+      "body": "Ensure the health insurance policy specifically mentions coverage for 'repatriation', meets the minimum €30,000 coverage, and is valid for the entire Schengen area, not just Malta. Travel-only policies are often rejected.",
+      "priority": "high"
+    },
+    {
+      "title": "Robust Accommodation Proof",
+      "body": "Avoid using temporary hotel bookings for the entire duration; a signed lease agreement or a formal 'Declaration of Proof' from a host is much stronger and often required for at least the first month.",
+      "priority": "high"
+    },
+    {
+      "title": "Maintain Academic Attendance",
+      "body": "Poor attendance at school is a primary reason for residence permit renewal rejection. Maintain satisfactory attendance and academic progress.",
+      "priority": "high"
+    },
+    {
+      "title": "Apply Early",
+      "body": "Do not wait until the last minute. Maltese authorities require time to verify academic documents and financial records. Submitting less than 9 weeks before the course start date risks missing the intake.",
+      "priority": "high"
+    },
+    {
+      "title": "Complete and Consistent Documents",
+      "body": "Mismatched names, missing bank certificates, or insufficient proof of funds are frequent causes of delay or refusal. Use the official checklist and double-check every item.",
+      "priority": "high"
+    },
+    {
+      "title": "Meet Residence Permit Deadline",
+      "body": "Many students forget that arriving in Malta does not end the process — the residence permit must be applied for within 90 days of arrival.",
+      "priority": "high"
+    },
+    {
+      "title": "Do Not Work Before Authorisation",
+      "body": "Taking up employment before completing the required waiting period or before obtaining the required work authorisation can jeopardize the student's visa status.",
+      "priority": "high"
+    },
+    {
+      "title": "Budget Accurately for Proof of Funds",
+      "body": "Underestimating proof-of-funds requirements (e.g., €950 per month for the residence permit stage) is a common reason for refusal.",
+      "priority": "high"
+    },
+    {
+      "title": "Consult Official Sources",
+      "body": "Requirements and fees change periodically; always cross-check details against identita.gov.mt and other official government websites before submitting an application, rather than relying only on third-party blogs.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "Risks missing the course intake or visa expiry.",
+      "how_to_avoid": "Apply as early as possible, well before the recommended 8-12 weeks prior to course start date."
+    },
+    {
+      "mistake": "Incomplete or inconsistent documents",
+      "consequence": "Frequent cause of delay or refusal.",
+      "how_to_avoid": "Use the official checklist and double-check every item; ensure names match across documents, and all required certificates are present."
+    },
+    {
+      "mistake": "Insufficient or wrong insurance coverage",
+      "consequence": "Visa application rejection.",
+      "how_to_avoid": "Ensure insurance meets the minimum €30,000 coverage, includes repatriation, and is valid Schengen-wide; avoid travel-only policies."
+    },
+    {
+      "mistake": "Missing the 90-day residence permit deadline",
+      "consequence": "Jeopardizes legal stay in Malta.",
+      "how_to_avoid": "Apply for the e-Residence Permit within 90 days of arrival in Malta, even if visa-exempt."
+    },
+    {
+      "mistake": "Working before authorisation",
+      "consequence": "Can jeopardize the student's visa status and lead to refusal of renewal.",
+      "how_to_avoid": "Wait until the residence permit is issued and obtain a work authorisation/employment licence from Jobsplus before starting work. Be aware of any waiting periods (e.g., 90 days for certain courses)."
+    },
+    {
+      "mistake": "Poor attendance",
+      "consequence": "Can affect course standing and lead to visa/residence permit renewal refusal.",
+      "how_to_avoid": "Maintain satisfactory attendance (e.g., above 75% of lessons) and academic progress."
+    },
+    {
+      "mistake": "Not budgeting for the full process / Underestimating proof-of-funds requirements",
+      "consequence": "Common reason for visa refusal.",
+      "how_to_avoid": "Ensure sufficient funds are available and clearly documented, meeting the official requirement of €950 per month for the duration of stay."
+    },
+    {
+      "mistake": "Relying only on third-party blogs",
+      "consequence": "Outdated or inaccurate information leading to application issues.",
+      "how_to_avoid": "Always cross-check details against official government sources like identita.gov.mt before submitting an application."
+    }
+  ]
+}

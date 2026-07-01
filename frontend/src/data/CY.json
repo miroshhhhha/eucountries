@@ -1,0 +1,381 @@
+{
+  "country": "Cyprus",
+  "country_code": "CY",
+  "last_updated": "2026-07-01",
+  "schengen_member": null,
+  "currency": "EUR",
+  "official_language": null,
+  "qualifying_courses": {
+    "long_stay": [
+      "Bachelor's, Master's, and PhD programs at a public or private university registered with the Cyprus Ministry of Education",
+      "Diploma and certificate programs at recognized higher education institutions",
+      "Vocational or certificate courses meeting full-time enrollment criteria",
+      "Courses requiring a minimum full-time course load (commonly at least 12 credits per semester)"
+    ],
+    "short_stay": [
+      "Short courses (language courses, short exchange programs) under 90 days",
+      "Erasmus+ or specialized institutional exchanges"
+    ],
+    "notes": "To qualify for a long-stay student visa, non-EU students must be enrolled as full-time students in a recognized educational institution registered with the Cyprus Ministry of Education. Part-time programs or purely remote/distance learning courses do not qualify."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "Entry Permit (Blue Slip)",
+        "for_stays_over_days": 90,
+        "notes": "This permit allows entry into Cyprus to finalize the Temporary Residence Permit application after arrival."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "University International Office",
+          "description": "For most private and public institutions, the university's International Student Office submits the visa application to the Civil Registry and Migration Department in Cyprus on the student's behalf."
+        },
+        {
+          "method": "Cyprus Embassy/Consulate or Visa Application Centre",
+          "description": "If required by country of origin or specific public university rules, an appointment may be needed for document verification, biometrics, or an interview. Appointments are typically booked directly through the embassy's website or visa centre."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Accept Offer & Pay Deposit",
+          "description": "Secure your admission and pay the required tuition deposit/first installment to the Cypriot institution."
+        },
+        {
+          "step": 2,
+          "title": "University Submission",
+          "description": "Provide your verified documents to the university’s international office, which then applies for your Entry Permit through the Migration Department in Cyprus."
+        },
+        {
+          "step": 3,
+          "title": "Receive Entry Permit",
+          "description": "If approved, you will receive an 'Entry Permit' (sometimes referred to as a Blue Slip) or be directed to collect your visa at a local Cypriot consulate."
+        },
+        {
+          "step": 4,
+          "title": "Travel to Cyprus",
+          "description": "Travel to Cyprus using a legal point of entry (Larnaca or Paphos airports). Entry via the northern occupied territory is illegal and will invalidate your legal status."
+        },
+        {
+          "step": 5,
+          "title": "Finalize Residence Permit",
+          "description": "Within 7 days of arrival, complete local medical tests, open a local bank account, submit biometrics, and apply for your physical Temporary Residence Permit (Pink Slip)."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 30,
+        "typical_max_days": 90,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": null,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "acceptance_letter",
+      "name": "Official Acceptance Letter",
+      "details": "From a registered Cypriot institution.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Must be valid for at least 1-2 years or the entire duration of your studies, with at least two blank pages.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "academic_transcripts",
+      "name": "Academic Transcripts/Certificates",
+      "details": "High school diploma or previous university degrees, clearly translated into English or Greek and authenticated (via an Apostille stamp or the Ministry of Foreign Affairs and Cypriot Embassy in your home country).",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "proof_of_funds",
+      "name": "Proof of Financial Means",
+      "details": "Official bank statements from you or your sponsor covering the past 3 months, showing access to roughly €9,000 to €12,000 per academic year to cover tuition fees and personal living costs. Sponsored applications must also include an originally signed, notarized Affidavit of Support alongside the sponsor's professional financial records.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_certificates",
+      "name": "Health Certificates",
+      "details": "Certificates for HIV, Hepatitis B & C, Syphilis, plus a Chest X-ray. Issued within ~4 months of application. (Actual medical screenings are performed locally in Cyprus after arrival).",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "police_clearance",
+      "name": "Police Clearance Certificate",
+      "details": "Clean criminal record from your country of origin, issued within the last 3 months.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport_photos",
+      "name": "Passport Photos",
+      "details": "2 recent passport-sized color photos on a white background.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Comprehensive Travel Health Insurance",
+      "details": "Minimum coverage of €30,000, valid for your initial entry.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "bank_guarantee_repatriation",
+      "name": "Bank Guarantee for Repatriation",
+      "details": "A fixed bank guarantee deposited to cover repatriation expenses in an emergency. This money is frozen in a Cypriot bank and refunded after graduation or permanent departure. Amount varies by country of origin (typically between €350 and €850).",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "application_form",
+      "name": "Application Form",
+      "details": "Official form MEDU1/MEDUM1.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 800,
+    "reference_basis": "Minimum bank balance required by the Civil Registry and Migration Department for ongoing living expenses, confirmed by a Cyprus bank.",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": 9600,
+    "acceptable_proof": [
+      "Official bank statements (from past 3 months)",
+      "Scholarship letter",
+      "Notarized Affidavit of Support (for sponsored applications)"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Civil Registry and Migration Department",
+    "authority_full_name": "Civil Registry and Migration Department, Republic of Cyprus",
+    "authority_url": "gov.cy/mip-md/en",
+    "apply_within_days_of_arrival": 7,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "University's International Students Office (ISSO) arranges the Migration Department appointment for biometrics and signature.",
+    "required_documents": [
+      "Copy of the passport's or other travel document's page with a stamp that shows the last arrival in Cyprus",
+      "Original Entry Permit (Blue Slip)",
+      "Original medical examination results for Hepatitis B and C, HIV and Syphilis, plus a Chest X-Ray for Tuberculosis (performed locally)",
+      "Certificate of health insurance covering inpatient and outpatient care",
+      "Proof of accommodation (rental agreement certified by a local Community Council President and signed by two Cypriot witnesses, or university housing)",
+      "Bank confirmation of funds (local bank account with a minimum balance of €800)",
+      "Biometrics (fingerprints and signature)",
+      "Application fees (approximately €55 for the permit application, plus €70 if an Alien Registration Certificate/ARC is required for first-time applicants)"
+    ],
+    "notes": "Entry to Cyprus must be via legal points (Larnaca or Paphos airports); entry via the northern occupied territory is illegal and will invalidate your legal status."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": true,
+    "notification_authority": "District Labour Office",
+    "legal_basis": null,
+    "restrictions": [
+      "Eligible to work only after residing in Cyprus for 6 consecutive months.",
+      "Legally confined to specific employment sectors determined by the Ministry of Labour (primarily Hospitality/Tourism, Food Delivery/Couriers, Fuel Stations, and Agriculture).",
+      "Before starting, the student and employer must sign a specific student employment contract and submit it to the District Labour Office for official approval."
+    ],
+    "notes": "Policy details can shift; it's important to confirm the current rules with your university's international office."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 30,
+    "apply_before_expiry_max_days": null,
+    "online_portal": null,
+    "required_documents": [
+      "Completed renewal application form (MEDU1/MEDUM1)",
+      "Valid passport copy",
+      "Copy of your current residence permit",
+      "Updated academic transcripts for all completed semesters (proving satisfactory study progress and course attendance)",
+      "Bank confirmation of sufficient funds to cover living/tuition costs (fresh Cypriot bank statement showing minimum balance of €800+)",
+      "Updated bank guarantee (if the previous one expired)",
+      "Proof of an extended private medical insurance policy valid in Cyprus",
+      "A current certified rental agreement",
+      "Processing fee (€55)"
+    ],
+    "notes": "Renewal is contingent on showing satisfactory academic progress and continuing to meet the original eligibility conditions."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": null,
+    "process_authority": "Civil Registry and Migration Department (after Department of Labour market test for work permit)",
+    "requirements": [
+      "After completing studies, students may first apply for a residence permit valid for up to 12 months specifically to search for employment or set up a business that matches their level of studies.",
+      "To switch from a student residence permit to a Temporary Residence and Employment Permit, you must secure a formal job offer from a company registered and authorized in Cyprus to hire foreign nationals.",
+      "The employer must draft a comprehensive contract of employment and submit it to the Department of Labour to prove that the position could not be filled by a qualified Cypriot or EU citizen (a labor market test), unless the role falls into highly specialized corporate categories.",
+      "The job typically needs to match your field of study.",
+      "Cypriot and EU citizens are usually given hiring priority, which can limit opportunities."
+    ],
+    "notes": "This area of policy can change; it's worth checking the latest rules directly with the Migration Department or your university's career/international office closer to graduation."
+  },
+  "official_sources": [
+    {
+      "name": "Civil Registry and Migration Department (Gov.cy)",
+      "url": "gov.cy/mip-md/en",
+      "description": "The primary government authority managing entry permits, residence cards, and student economic regulations."
+    },
+    {
+      "name": "European Commission's EU Immigration Portal — Cyprus",
+      "url": "home-affairs.ec.europa.eu",
+      "description": "Provides an overview of EU-wide rules transposed into Cyprus law."
+    },
+    {
+      "name": "Ministry of Foreign Affairs (MFA)",
+      "url": "mfa.gov.cy",
+      "description": "For global consular listings, legalization/Apostille standards, and embassy contact points."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "MEDU1/MEDUM1",
+      "url": "gov.cy/mip-md/en",
+      "authority": "Civil Registry and Migration Department"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Apply Early",
+      "body": "Processing can take weeks to months; apply at least 3-4 months ahead of your course start date.",
+      "priority": "high"
+    },
+    {
+      "title": "Choose a Registered Institution",
+      "body": "Always verify the institution is registered with the Cyprus Ministry of Education to avoid visa rejections.",
+      "priority": "high"
+    },
+    {
+      "title": "Ensure Complete and Certified Documents",
+      "body": "Many rejections happen due to missing apostilles/attestations or translations. Double-check all requirements.",
+      "priority": "high"
+    },
+    {
+      "title": "Verify Financial Proof",
+      "body": "Bank letters/statements must meet exact amount and recency requirements. Funds should be seasoned or clearly backed by income history, not a sudden lump sum.",
+      "priority": "high"
+    },
+    {
+      "title": "Check Health Certificate Validity",
+      "body": "Health certificates have a validity window (often 4 months); getting them too early can mean redoing them.",
+      "priority": "medium"
+    },
+    {
+      "title": "Adhere to After-Arrival Deadlines",
+      "body": "Submit documents for your residence permit within 7 days of arrival to avoid complications.",
+      "priority": "high"
+    },
+    {
+      "title": "Double-Check Entry Permit Details",
+      "body": "Verify your name, passport number, and dates immediately upon receiving the Blue Slip; errors must be corrected fast.",
+      "priority": "high"
+    },
+    {
+      "title": "Use Official and Up-to-Date Information",
+      "body": "Visa rules and required documents change; always cross-check with the official Migration Department site or your university's international office before submitting.",
+      "priority": "high"
+    },
+    {
+      "title": "Enter Legally",
+      "body": "Never enter Cyprus through the northern occupied territory (e.g., Ercan Airport or northern seaports). Always book your travel to arrive via Larnaca or Paphos airports to avoid invalidating your legal status.",
+      "priority": "high"
+    },
+    {
+      "title": "Understand Work Restrictions",
+      "body": "Do not work immediately upon arrival or without a contract approved by the District Labour Office. You are eligible to work only after residing for 6 consecutive months and are confined to specific sectors.",
+      "priority": "high"
+    },
+    {
+      "title": "Renew On Time",
+      "body": "Allowing your Pink Slip to expire before submitting renewal paperwork turns you into an illegal resident. Apply at least one month before expiry, ideally with a 4-6 week buffer.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Starting the application process too late.",
+      "consequence": "Processing delays, potentially missing course start date.",
+      "how_to_avoid": "Apply at least 3-4 months in advance."
+    },
+    {
+      "mistake": "Choosing an unregistered educational institution.",
+      "consequence": "Visa rejection.",
+      "how_to_avoid": "Always verify the institution is registered with the Cyprus Ministry of Education."
+    },
+    {
+      "mistake": "Submitting incomplete or improperly certified/translated documents.",
+      "consequence": "Visa rejection or significant delays.",
+      "how_to_avoid": "Ensure all documents are complete, correctly certified (apostilled/attested), and translated into English or Greek."
+    },
+    {
+      "mistake": "Providing insufficient or questionable proof of funds.",
+      "consequence": "Visa denial.",
+      "how_to_avoid": "Bank statements must meet exact amount and recency requirements, and funds should show a clear, sustainable history, not a sudden lump sum."
+    },
+    {
+      "mistake": "Using outdated health certificates.",
+      "consequence": "Requirement to redo medical examinations, causing delays.",
+      "how_to_avoid": "Ensure health certificates are issued within the specified validity window (e.g., 4 months)."
+    },
+    {
+      "mistake": "Missing the after-arrival deadline for residence permit application.",
+      "consequence": "Complications with legal status.",
+      "how_to_avoid": "Submit all required documents for the Temporary Residence Permit within 7 days of arrival."
+    },
+    {
+      "mistake": "Entering Cyprus through an illegal point of entry (e.g., Northern occupied territory).",
+      "consequence": "Immediate denial of residence permit and invalidation of legal status.",
+      "how_to_avoid": "Always arrive via legal points of entry like Larnaca or Paphos airports."
+    },
+    {
+      "mistake": "Working immediately upon arrival or without proper authorization.",
+      "consequence": "Illegal employment, risk of immediate deportation and permanent ban from Schengen/EU area.",
+      "how_to_avoid": "Adhere to the 6-month residency rule before working, and ensure an approved employment contract from the District Labour Office."
+    },
+    {
+      "mistake": "Allowing the residence permit (Pink Slip) to expire before renewal.",
+      "consequence": "Becoming an illegal resident overnight.",
+      "how_to_avoid": "Apply for renewal at least one month before expiry, ideally with a 4-6 week buffer."
+    },
+    {
+      "mistake": "Relying on outdated information for visa rules and documents.",
+      "consequence": "Application issues due to changed requirements.",
+      "how_to_avoid": "Always cross-check with the official Civil Registry and Migration Department website or your university's international office."
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "country": "Lithuania",
+  "country_code": "LT",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Lithuanian",
+  "qualifying_courses": {
+    "long_stay": [
+      "Full-time Bachelor's degree programs",
+      "Full-time Master's degree programs",
+      "Doctoral (PhD) studies",
+      "Exchange programs between higher education institutions",
+      "Vocational training programs (provided the institution is accredited)",
+      "Language courses or preparatory courses (if mandatory prerequisite for main degree program)"
+    ],
+    "short_stay": [],
+    "notes": "Non-formal training programs (short courses, language courses not part of a degree) typically do not qualify for a study residence permit."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "National (D) Visa for Study Purposes",
+        "validity_days": 365,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Typically issued for the first year of studies for stays longer than 90 days."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "MIGRIS Portal",
+          "description": "Electronic application submission and initial registration."
+        },
+        {
+          "method": "VFS Global",
+          "description": "External service provider for application submission and biometric data collection in most countries."
+        },
+        {
+          "method": "Lithuanian Diplomatic Missions",
+          "description": "Direct appointment booking at embassies or consulates where VFS Global is not available."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Get admitted to a Lithuanian higher education institution",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "University submits a 'mediation letter' through MIGRIS",
+          "description": "The mediation letter confirms your enrollment and is submitted by the university via the Lithuanian Migration Information System (MIGRIS), which assigns it a number.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Fill out your visa application electronically in MIGRIS",
+          "description": "Complete the online application form and upload digital copies of all required documents.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Book an appointment",
+          "description": "Schedule an appointment with the External Service Provider (e.g., VFS Global) or the Lithuanian embassy/consulate.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Attend in person to submit biometrics and original documents",
+          "description": "Provide biometric data (fingerprints and photo) and submit physical copies of the required documents.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Pay the visa fee",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 7,
+          "title": "Wait for the decision",
+          "description": null,
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 45,
+        "typical_min_days": 15,
+        "typical_max_days": 45,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": null,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Issued within the last 10 years, valid for at least 3 months longer than the visa duration, with at least 2 blank pages.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "mediation_letter",
+      "name": "Mediation Letter",
+      "details": "Electronic mediation letter number from the Lithuanian educational institution, submitted via MIGRIS.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Sufficient Financial Means",
+      "details": "Bank statements (covering the last 3 months), scholarship certificate, sponsorship affidavit, or income tax returns.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Health Insurance",
+      "details": "Valid in Lithuania and all Schengen countries, with a minimum coverage of 30,000 EUR for a D visa.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "Document certifying lodging in Lithuania.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "application_form",
+      "name": "Completed Application Form",
+      "details": "Generated and completed electronically via MIGRIS, then printed and signed.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photo",
+      "name": "Passport-style Photo",
+      "details": "35x45 mm, white background.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "flight_reservation",
+      "name": "Flight Reservation",
+      "details": "Confirmed air ticket.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record",
+      "name": "Clean Criminal Record Certificate",
+      "details": "Required for Temporary Residence Permit (TRP) applications.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "parental_consent",
+      "name": "Parental/Guardian Consent",
+      "details": "Required for minor applicants.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 576.5,
+    "reference_basis": "0.5 of the Minimum Monthly Wage (MMA) per month for living expenses",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": 8071,
+    "acceptable_proof": [
+      "Bank statements (covering the last 3 months)",
+      "Scholarship certificate",
+      "Sponsorship affidavit/financial undertaking",
+      "Income tax returns"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Migration Department",
+    "authority_full_name": "Migration Department under the Ministry of the Interior",
+    "authority_url": "https://migracija.lrv.lt",
+    "apply_within_days_of_arrival": null,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "MIGRIS",
+    "required_documents": [
+      "Clean criminal record certificate",
+      "Proof of sufficient funds (may require full MMA for some TRP types)",
+      "New mediation letter from educational institution (for renewal)"
+    ],
+    "notes": "Non-EU students must register their address with the Migration Department within 5 days of arrival. A Temporary Residence Permit (TRP) is usually issued for 1-2 years, up to 3 years for PhD students. Health insurance for TRP may require a minimum coverage of €6,000."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": null,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": "Law on the Legal Status of Foreigners",
+    "restrictions": [
+      "Bachelor's Year 1-2 students are limited to 20 hours/week (effective May 22, 2026).",
+      "Bachelor's Year 3+, Master's, and PhD students can work up to 40 hours/week.",
+      "The 20-hour limit does not apply to students who received a TRP before May 21, 2026.",
+      "Food delivery and ride-hailing platforms are required to track foreign students' working hours.",
+      "Universities will monitor student attendance and academic progress more strictly."
+    ],
+    "notes": "Rules are currently in flux due to legislative changes effective May 22, 2026. Students should verify current work hour restrictions on the Migration Department website."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 30,
+    "apply_before_expiry_max_days": 120,
+    "online_portal": "MIGRIS",
+    "required_documents": [
+      "New mediation letter from the educational institution confirming enrollment and academic progress"
+    ],
+    "notes": "Students can set up automatic email reminders in their MIGRIS account, which notify them 120 days and 60 days before their document expires."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": "Law on the Legal Status of Foreigners",
+    "process_authority": "Migration Department",
+    "requirements": [
+      "Completion of studies in Lithuania.",
+      "Graduates of Lithuanian higher education institutions are exempt from the Employment Service decision on labor market suitability for 5 years after graduation.",
+      "Must notify the Migration Department within 10 working days of employment termination."
+    ],
+    "notes": "The temporary residence permit issued or renewed for a student's final year of studies remains valid for 3 months after the expected end of their studies, providing a transition window."
+  },
+  "official_sources": [
+    {
+      "name": "Migration Department under the Ministry of the Interior",
+      "url": "https://migracija.lrv.lt",
+      "description": "Main authority for visas, temporary residence permits, and legal requirements."
+    },
+    {
+      "name": "MIGRIS (Lithuanian Migration Information System)",
+      "url": "https://migracija.lt",
+      "description": "Online application system for visas and residence permits."
+    },
+    {
+      "name": "Study in Lithuania Portal",
+      "url": "https://studyin.lt",
+      "description": "Government/university-backed portal with study and visa overview for international students."
+    },
+    {
+      "name": "Ministry of Foreign Affairs of the Republic of Lithuania",
+      "url": "https://urm.lt",
+      "description": "Provides general information on foreign policy and consular services."
+    },
+    {
+      "name": "EU Immigration Portal",
+      "url": "https://home-affairs.ec.europa.eu",
+      "description": "EU-level overview of Lithuania's rules for non-EU students."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Electronic Visa/Permit Application",
+      "url": "https://migracija.lt",
+      "authority": "MIGRIS"
+    },
+    {
+      "name": "Mediation Letter",
+      "url": "https://migracija.lt",
+      "authority": "Host University via MIGRIS"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Check Mediation Letter Status",
+      "body": "Ensure the university has officially uploaded the mediation letter to MIGRIS before booking your appointment.",
+      "priority": "high"
+    },
+    {
+      "title": "Calculate Funds Accurately",
+      "body": "Ensure bank statements show the total required amount for the entire duration of the permit (usually one year), using the current year's official minimum monthly wage (MMA).",
+      "priority": "high"
+    },
+    {
+      "title": "Verify Insurance Compliance",
+      "body": "Confirm that your health insurance policy specifically covers Lithuania and meets the minimum 30,000 EUR requirement for a D visa.",
+      "priority": "high"
+    },
+    {
+      "title": "Translate and Legalize Documents",
+      "body": "All documents not in Lithuanian or English must be translated and, in many cases, legalized or apostilled.",
+      "priority": "medium"
+    },
+    {
+      "title": "Apply Early",
+      "body": "Submit your application as soon as you receive your acceptance letter to account for potential delays, especially during peak seasons.",
+      "priority": "high"
+    },
+    {
+      "title": "Set Renewal Reminders",
+      "body": "Utilize MIGRIS account features to set up automatic email reminders for permit renewal deadlines.",
+      "priority": "medium"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "Delays in visa/TRP processing or permit lapse.",
+      "how_to_avoid": "Start the mediation letter and MIGRIS application as early as possible."
+    },
+    {
+      "mistake": "Insufficient or incorrectly calculated funds",
+      "consequence": "Visa/permit rejection.",
+      "how_to_avoid": "Always check the current minimum monthly salary on migracija.lt before calculating required funds."
+    },
+    {
+      "mistake": "Incomplete or mismatched documents",
+      "consequence": "Application rejection or delays.",
+      "how_to_avoid": "Carefully review the exact, current document checklist in your MIGRIS application."
+    },
+    {
+      "mistake": "Missing the mediation letter step",
+      "consequence": "Application delays or rejection.",
+      "how_to_avoid": "Ensure the university submits the mediation letter first and provides its number before you apply."
+    },
+    {
+      "mistake": "Not declaring a place of residence",
+      "consequence": "Legal issues or fines.",
+      "how_to_avoid": "Register your address with the Migration Department within 5 days of arrival (for non-EU students)."
+    },
+    {
+      "mistake": "Assuming old work-hour rules still apply",
+      "consequence": "Violation of permit conditions, potential deportation.",
+      "how_to_avoid": "Verify current work hour restrictions on the Migration Department's website, especially for bachelor's students in their first two years."
+    },
+    {
+      "mistake": "Missing renewal deadlines",
+      "consequence": "Loss of legal status in Lithuania.",
+      "how_to_avoid": "Set up automatic email reminders in your MIGRIS account and apply within the specified window (1-4 months before expiry)."
+    }
+  ]
+}

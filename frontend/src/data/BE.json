@@ -1,0 +1,349 @@
+{
+  "country": "Belgium",
+  "country_code": "BE",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Dutch, French, German",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education (Bachelor's, Master's, PhD programs at a recognized institution)",
+      "Recognized preparatory/foundation year for higher education",
+      "Student exchange/mobility programs (e.g., Erasmus+)",
+      "Secondary education (in specific student exchange programs)"
+    ],
+    "short_stay": [],
+    "notes": "Students from the People’s Republic of China must obtain an academic evaluation certificate issued by the Academic Assessment Centre (APS) before being authorised to enrol in a higher education institution."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "C",
+        "name": "Short-Stay Visa",
+        "for_stays_over_days": null,
+        "notes": "For academic programmes of less than 90 days."
+      },
+      {
+        "code": "D",
+        "name": "Long-Stay Visa",
+        "for_stays_over_days": 90,
+        "notes": "For academic programmes of more than 90 days."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Visa On Web (VOW) portal",
+          "description": "Register and fill out your application online."
+        },
+        {
+          "method": "VFS Global",
+          "description": "External service provider for physical appointments, depending on your country."
+        },
+        {
+          "method": "TLScontact",
+          "description": "External service provider for physical appointments, depending on your country."
+        },
+        {
+          "method": "Embassy/Consulate",
+          "description": "Direct appointment booking via email or online portal in some regions."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Obtain Admission",
+          "description": "Receive an official letter of acceptance from a recognized Belgian institution."
+        },
+        {
+          "step": 2,
+          "title": "Pay Administrative Fee",
+          "description": "Most students must pay a fee to the Belgian Immigration Office. €251 for public higher education institutions, €242 for private (as of 2026). Scholarship holders are exempt."
+        },
+        {
+          "step": 3,
+          "title": "Complete Visa Application Form",
+          "description": "Fill out the visa application form through Belgium’s Visa On Web system."
+        },
+        {
+          "step": 4,
+          "title": "Gather Documents",
+          "description": "Prepare all required documents according to the checklist."
+        },
+        {
+          "step": 5,
+          "title": "Submit Application and Biometrics",
+          "description": "Visit the embassy or visa application center for biometrics (fingerprints and photo) and document submission."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 14,
+        "typical_max_days": 90,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 251,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 12 months when arriving in Belgium.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Completed Visa Application Form",
+      "details": "Printed and signed from the Visa On Web portal.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "admission_letter",
+      "name": "Admission Letter / Proof of Enrollment",
+      "details": "Official letter of acceptance or proof of registration from a recognized Belgian institution.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "proof_of_solvency",
+      "name": "Proof of Sufficient Funds",
+      "details": "Evidence you can support yourself financially during your stay.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "medical_certificate",
+      "name": "Medical Certificate",
+      "details": "From an embassy-approved doctor, stating absence of specific infectious diseases.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "criminal_record_certificate",
+      "name": "Criminal Record Certificate",
+      "details": "Certificate of Good Conduct, issued by the competent authority of the country of origin or last residence, not older than 6 months at time of application, legalized or apostilled.",
+      "mandatory": true,
+      "apostille_required": true,
+      "notes": "Required for applicants aged 18 and over."
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Health Insurance",
+      "details": "Valid for Belgium.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "administrative_fee_receipt",
+      "name": "Administrative Fee Receipt",
+      "details": "Proof of payment of the administrative contribution fee.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "diploma",
+      "name": "Higher Secondary Education Diploma",
+      "details": "Original and certified copy of your higher secondary education diploma or equivalent.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "motivation_letter",
+      "name": "Motivation Letter",
+      "details": "Supporting letter explaining your choice of studies.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "language_proficiency",
+      "name": "Proof of Language Proficiency",
+      "mandatory": true,
+      "apostille_required": false
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 1062,
+    "reference_basis": "Set by Royal Decree and indexed annually by the Belgian Immigration Office (IBZ)",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": 12744,
+    "acceptable_proof": [
+      "Blocked Account (transferring total annual amount to a Belgian bank or university, paid back monthly)",
+      "Official scholarship or grant certificate",
+      "Guarantor (Annex 32) with sufficient income (€3,235.88 net/month as of 2026) who signs a formal obligation"
+    ],
+    "exemptions": [
+      "Scholarship holders from qualifying bodies (for administrative fee)"
+    ]
+  },
+  "residence_permit": {
+    "authority_name": "Local Commune / Municipality",
+    "authority_full_name": null,
+    "authority_url": null,
+    "apply_within_days_of_arrival": 8,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [],
+    "notes": "Register address at the local Commune/Municipality. Police will visit to verify residence. You will receive an A-Card (electronic residence permit) which serves as your ID and allows travel within the Schengen Area."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": false,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [],
+    "notes": "Your residence permit (A-Card) will typically mention 'Labor Market: Limited', meaning you do not need a separate work permit for these hours. As of January 2020, international students no longer need a separate Type C work permit."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 15,
+    "apply_before_expiry_max_days": null,
+    "online_portal": null,
+    "required_documents": [
+      "Updated enrollment certificate",
+      "Proof of sufficient funds",
+      "Proof of health insurance",
+      "Proof of sufficient academic progress (e.g., 45 credits over two years for Bachelor's/graduate students, 60 credits over two years for Master's students)"
+    ],
+    "notes": null
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": null,
+    "process_authority": "Local authority of residence (for orientation year application), Employer (for Single Permit application)",
+    "requirements": [
+      "Hold a Bachelor's, Master's, or PhD degree from a recognized Belgian higher education institution",
+      "Valid passport",
+      "Proof of health insurance",
+      "Proof of sufficient funds (€1,062 net/month for 2026-2027)",
+      "Apply to the local authority of your place of residence at least 15 days before your student A-card expires"
+    ],
+    "notes": "During the orientation year (Search Year), you have unrestricted access to the Belgian labor market and can work full-time. Once you find a job meeting the minimum salary threshold, your employer will apply for a Single Permit (combined residence and work permit)."
+  },
+  "official_sources": [
+    {
+      "name": "Belgian Immigration Office (IBZ)",
+      "url": "dofi.ibz.be",
+      "description": "The primary legal source for immigration regulations in Belgium."
+    },
+    {
+      "name": "FPS Foreign Affairs",
+      "url": "diplomatie.belgium.be",
+      "description": "Information on embassy locations and visa types."
+    },
+    {
+      "name": "Study in Flanders",
+      "url": "studyinflanders.be",
+      "description": "Official regional portal for education in Flanders."
+    },
+    {
+      "name": "Study in Wallonia",
+      "url": null,
+      "description": "Official regional portal for education in Wallonia."
+    },
+    {
+      "name": "EU Immigration Portal - Belgium",
+      "url": "home-affairs.ec.europa.eu",
+      "description": "General information on immigration to Belgium."
+    },
+    {
+      "name": "Visa On Web (VOW) portal",
+      "url": "visaonweb.be",
+      "description": "Online portal for visa application."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Visa Application Form (Long Stay)",
+      "url": "visaonweb.be",
+      "authority": "Belgian Immigration Office"
+    },
+    {
+      "name": "Financial Guarantee (Annex 32)",
+      "url": "dofi.ibz.be",
+      "authority": "Belgian Immigration Office"
+    },
+    {
+      "name": "Annexes for Residence Permit",
+      "url": "dofi.ibz.be",
+      "authority": "Belgian Immigration Office",
+      "description": "Available under Documentation, then Legislation (in French and Dutch only)."
+    }
+  ],
+  "tips": [
+    {
+      "title": "Request Physical Admission Letter",
+      "body": "Embassies often reject printed emails as 'originals'. Always request a physical, stamped admission letter if possible.",
+      "priority": "high"
+    },
+    {
+      "title": "Verify Guarantor Income",
+      "body": "Ensure your sponsor’s income is well above the required threshold (€3,235.88 net/month as of 2026) after their own taxes and debts.",
+      "priority": "high"
+    },
+    {
+      "title": "Start Criminal Record Checks Early",
+      "body": "Criminal record certificates can take weeks to obtain and legalize (Apostille). Start this process early.",
+      "priority": "high"
+    },
+    {
+      "title": "Ensure Document Translation Accuracy",
+      "body": "Documents not in English, French, Dutch, or German must be translated by a sworn translator and then legalized as a separate document.",
+      "priority": "high"
+    },
+    {
+      "title": "Track Academic Progress",
+      "body": "Track your academic progress each year to meet credit requirements (e.g., 45 credits over two years for Bachelor's/graduate, 60 credits over two years for Master's) and avoid rejection at residence permit renewal.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late for the visa",
+      "consequence": "Visa may not be processed before your intended start date, delaying or preventing your studies.",
+      "how_to_avoid": "Apply at least 3 months before your intended start date."
+    },
+    {
+      "mistake": "Submitting incomplete documents",
+      "consequence": "Your visa application will be rejected or significantly delayed.",
+      "how_to_avoid": "Check the full list of required documents on your embassy’s website before applying and ensure all are provided."
+    },
+    {
+      "mistake": "Submitting untranslated documents",
+      "consequence": "Documents not in an official language (English, French, Dutch, German) will be rejected.",
+      "how_to_avoid": "Ensure all non-official language documents are translated by a sworn translator and legalized."
+    },
+    {
+      "mistake": "Not registering at the municipality on arrival",
+      "consequence": "Failure to register within the legal deadline can lead to legal issues with your residence status.",
+      "how_to_avoid": "Register at the local Commune/Municipality within 8 days of arrival in Belgium."
+    },
+    {
+      "mistake": "Forgetting to renew the residence permit",
+      "consequence": "Your residence status will expire, leading to potential overstay issues.",
+      "how_to_avoid": "Apply for renewal at least 15 days before your A-card expires."
+    },
+    {
+      "mistake": "Not meeting academic credit requirements",
+      "consequence": "Your residence permit renewal application can be rejected.",
+      "how_to_avoid": "Ensure you meet the required academic progress (e.g., 45 credits over two years for Bachelor's/graduate, 60 credits over two years for Master's)."
+    },
+    {
+      "mistake": "Working more than 20 hours per week during term time",
+      "consequence": "Violation of visa conditions, potentially jeopardizing your student visa status.",
+      "how_to_avoid": "Stay strictly within the legal limit of 20 hours per week during the academic term."
+    },
+    {
+      "mistake": "Missing the Search Year (Orientation Year) deadline",
+      "consequence": "You may lose the opportunity to extend your stay to look for work or start a business.",
+      "how_to_avoid": "Apply for the Search Year before your student A-card expires."
+    }
+  ]
+}

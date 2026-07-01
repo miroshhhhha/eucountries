@@ -1,0 +1,337 @@
+{
+  "country": "Germany",
+  "country_code": "DE",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "German",
+  "qualifying_courses": {
+    "long_stay": [
+      "University degree programs (Bachelor's, Master's, PhD) at a state-recognized or state-accredited institution",
+      "Preparatory courses (Studienkolleg) for university entry",
+      "Intensive German language courses (minimum 18 hours per week, lasting longer than 90 days)",
+      "Study-applicant track (for applying in person or sitting entrance exams)"
+    ],
+    "short_stay": [],
+    "notes": "Programs must be full-time and on-campus. Part-time courses, distance learning programs, and casual/evening language courses do not qualify for a study visa due to physical presence requirements."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "National Study Visa (Visum zum Zwecke des Studiums)",
+        "validity_days": 90,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Initially issued as a temporary entry visa (90-180 days), to be converted into a residence permit after arrival in Germany."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "German Embassy/Consulate website",
+          "description": "Online appointment booking system of your specific local German mission (via the Auswärtiges Amt website)",
+          "url": null
+        },
+        {
+          "method": "External Service Provider",
+          "description": "Such as VFS Global or TLScontact, depending on the country of residence.",
+          "url": null
+        },
+        {
+          "method": "Federal Foreign Office's Consular Services Portal",
+          "description": null,
+          "url": "https://digital.diplo.de/"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Receive Admission Letter",
+          "description": "Obtain an official admission letter (Zulassungsbescheid) or confirmation of application processing (Bewerberbestätigung) from a recognized German university.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Secure Financial Proof and Health Insurance",
+          "description": "Set up a blocked account (Sperrkonto) and arrange for valid travel health insurance.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Gather Documents and Forms",
+          "description": "Collect all required original documents, make necessary copies, and print the national visa application forms.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Book and Attend Visa Appointment",
+          "description": "Book an appointment at the German Embassy/Consulate responsible for your country of residence.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Submit Application and Interview",
+          "description": "Attend the scheduled interview, submit all documents, provide biometric data (fingerprints), and pay the visa processing fee.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Application Processing",
+          "description": "The German mission forwards your application to the local foreigners authority (Ausländerbehörde) in your university's town for an opinion before making a final decision.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 28,
+        "typical_max_days": 56,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 75,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 6 months beyond intended stay, with at least two empty pages. Original and two copies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Completed National Visa Application Form",
+      "details": "Completed and signed national visa application forms. Original and two copies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport_photos",
+      "name": "Biometric Passport Photos",
+      "details": "Recent photos adhering to strict German biometric specifications. Two copies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "Letter of Admission (Zulassungsbescheid)",
+      "details": "Official admission letter from a German university or confirmation of application processing (Bewerberbestätigung). Original and two copies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "academic_certificates",
+      "name": "Academic Certificates and Transcripts",
+      "details": "High school diplomas, university degrees, and academic transcripts. Original and two copies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "language_proficiency",
+      "name": "Proof of Language Proficiency",
+      "details": "German (e.g., TestDaF, Goethe-Zertifikat, Telc) or English (e.g., IELTS, TOEFL) depending on the course language instruction medium. Original and two copies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Financial Resources",
+      "details": "Documentation demonstrating sufficient funds to cover living expenses for at least the first year (see financial requirements section). Original and two copies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Health Insurance",
+      "details": "Travel health insurance valid from your date of entry until your university enrollment (when you switch to public/private student health insurance). Original and two copies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "aps_certificate",
+      "name": "APS Certificate",
+      "details": "Required for some nationalities (e.g., Indian applicants) for verifying academic documents.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [
+        "Applicants from countries where it is not mandatory"
+      ],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 992,
+    "reference_basis": "Germany's Federal Training Assistance Act (BAföG)",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": 11904,
+    "acceptable_proof": [
+      "Blocked account (Sperrkonto) with an approved provider (e.g., Expatrio, Fintiba, Coracle)",
+      "Proof of parents' income and financial circumstances",
+      "Formal declaration of commitment (Verpflichtungserklärung) from a sponsor living in Germany",
+      "Annually renewable bank guarantee deposited at a German bank",
+      "Official scholarship certificate from a recognized organization (e.g., DAAD)"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Ausländerbehörde",
+    "authority_full_name": "Local Foreigners Authority",
+    "authority_url": null,
+    "apply_within_days_of_arrival": 90,
+    "validity_months": 24,
+    "renewable": true,
+    "booking_method": "Online appointment booking with the local Ausländerbehörde",
+    "required_documents": [
+      "Confirmation of Registration (Meldebescheinigung)",
+      "Proof of health insurance",
+      "Letter of admission/enrollment (Immatrikulationsbescheinigung)",
+      "Proof of financial resources",
+      "Valid Passport",
+      "Biometric passport photos"
+    ],
+    "notes": "The initial student visa is a temporary entry visa (90-180 days) that must be converted into a residence permit (Aufenthaltstitel) within the first three months of arrival. An electronic residence permit card (eAT) is issued, usually valid for 1 to 2 years. Address registration (Anmeldung) at the local citizen's office (Einwohnermeldeamt/Burgeramt) is required within 14 days of moving into accommodation."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": true,
+    "notification_authority": "Ausländerbehörde",
+    "legal_basis": "Section 16b(3) Aufenthaltsgesetz (Residence Act), as amended 01.03.2024",
+    "restrictions": [
+      "Studies must remain the main focus.",
+      "Self-employment or freelance work is strictly prohibited unless explicit written permission is granted by the Ausländerbehörde."
+    ],
+    "notes": "Non-EU students are permitted to work up to 140 full days or 280 half days per calendar year. Working as a university student assistant (Studentische Hilfskraft) or tutor does not count towards these limits, but the Foreigners Authority must still be informed."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 42,
+    "apply_before_expiry_max_days": 56,
+    "online_portal": null,
+    "required_documents": [
+      "Current certificate of enrollment",
+      "Proof of ongoing health insurance",
+      "Updated proof of financial resources (e.g., another €11,904 in a blocked account or proof of sufficient income from a part-time job/scholarship)",
+      "Proof of satisfactory academic progress"
+    ],
+    "notes": "The residence permit issued under Section 16b of the Residence Act is initially valid for up to 2 years and can be extended for a further 2 years if the degree is not finished. Renewal is done at the local Ausländerbehörde."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 18,
+    "legal_basis": null,
+    "process_authority": "Ausländerbehörde",
+    "requirements": [
+      "Seek employment that aligns with your qualifications.",
+      "You can work any job during the 18-month period to support yourself financially.",
+      "Transition to a work-related residence title (e.g., EU Blue Card or general employment residence permit) upon securing qualified employment that matches your university degree profile."
+    ],
+    "notes": null
+  },
+  "official_sources": [
+    {
+      "name": "Federal Foreign Office (Auswärtiges Amt) - Visa Service",
+      "url": "https://www.auswaertiges-amt.de/en/visa-service",
+      "description": null
+    },
+    {
+      "name": "Visa Navigator",
+      "url": "https://digital.diplo.de/navigator/en/visa",
+      "description": null
+    },
+    {
+      "name": "Consular Services Portal",
+      "url": "https://digital.diplo.de/",
+      "description": null
+    },
+    {
+      "name": "DAAD (German Academic Exchange Service)",
+      "url": "https://www.daad.de/en/studying-in-germany/living-in-germany/visa/",
+      "description": "Resource for course structural directories, language requirements, and scholarship listings."
+    },
+    {
+      "name": "Make it in Germany",
+      "url": null,
+      "description": "The federal government's official multi-lingual portal for qualified international professionals and students."
+    },
+    {
+      "name": "Residence Act, Section 16b",
+      "url": null,
+      "description": "Legal text governing student residence permits."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "National Visa Application Form (Antrag auf Erteilung eines nationalen Visums)",
+      "url": null,
+      "authority": "German Embassy/Consulate website or official online application portal VIDEX"
+    },
+    {
+      "name": "Residence Permit Application Form (Antrag auf Erteilung/Verlängerung eines Aufenthaltstitels)",
+      "url": null,
+      "authority": "Local Ausländerbehörde website"
+    }
+  ],
+  "tips": [],
+  "common_mistakes": [
+    {
+      "mistake": "Choosing hybrid or online study programs",
+      "consequence": "Visa rejection due to failure to meet the physical-presence requirement for a national study visa.",
+      "how_to_avoid": "Ensure your chosen program is full-time and on-campus."
+    },
+    {
+      "mistake": "Entering Germany on a Schengen (tourist) visa with the intent to convert it to a student visa",
+      "consequence": "Conversion is not possible; you will have to leave Germany and apply for the correct national visa from your home country.",
+      "how_to_avoid": "Always apply for the appropriate national study visa before traveling to Germany."
+    },
+    {
+      "mistake": "Underestimating visa processing time or applying too close to the course start date",
+      "consequence": "Delayed entry and potential missed university enrollment deadlines.",
+      "how_to_avoid": "Apply at least 2 to 4 months before your course begins, as processing can take 4-8 weeks or sometimes longer."
+    },
+    {
+      "mistake": "Incomplete or incorrect blocked account setup, or transferring exact funds without accounting for international wire transfer and intermediary bank fees",
+      "consequence": "Delays in receiving the Sperrbescheinigung (confirmation letter) due to insufficient funds.",
+      "how_to_avoid": "Transfer an extra €50-€100 as a buffer to ensure the full required amount is available."
+    },
+    {
+      "mistake": "Missing the APS certificate for applicants from countries where it is mandatory (e.g., India)",
+      "consequence": "Application rejection or significant delays.",
+      "how_to_avoid": "Check if an APS certificate is required for your nationality and obtain it well in advance."
+    },
+    {
+      "mistake": "Not registering your address (Anmeldung) promptly after arrival",
+      "consequence": "Delays in applying for your residence permit, as the registration certificate (Meldebescheinigung) is a required document.",
+      "how_to_avoid": "Register your address at the local citizen's office (Einwohnermeldeamt/Burgeramt) within 14 days of moving into accommodation."
+    },
+    {
+      "mistake": "Submitting an incomplete or improperly formatted document package",
+      "consequence": "Application rejection or significant delays.",
+      "how_to_avoid": "Ensure all documents are complete, copies are clean, data matches perfectly across all papers, and biometric passport photos strictly meet German requirements."
+    },
+    {
+      "mistake": "Submitting language certificates from non-accredited local language schools",
+      "consequence": "Rejection of proof of language proficiency.",
+      "how_to_avoid": "Only submit standardized, certified language assessments (e.g., Goethe-Institut, TestDaF, Telc, IELTS, or TOEFL)."
+    }
+  ]
+}

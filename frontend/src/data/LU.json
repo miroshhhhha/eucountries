@@ -1,0 +1,301 @@
+{
+  "country": "Luxembourg",
+  "country_code": "LU",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": null,
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education (Bachelor's, Master's, PhD)",
+      "Advanced Technician’s Certificate (Brevet de Technicien Supérieur – BTS)",
+      "Programs at accredited private higher education institutions",
+      "Official student exchange programs"
+    ],
+    "short_stay": [],
+    "notes": "Must be a full-time course of study leading to a higher education qualification. Part-time or distance study generally does not qualify."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "Long-stay Study Visa",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Requires prior approval of a Temporary Authorisation to Stay (AST) from the Directorate General of Immigration."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Post or online portal (MyGuichet.lu)",
+          "description": "For the initial Temporary Authorisation to Stay (AST) application from abroad.",
+          "url": null
+        },
+        {
+          "method": "Luxembourg Diplomatic Mission or Consulate",
+          "description": "For Type D visa application after AST approval. Booking method varies by country.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Apply for Temporary Authorisation to Stay (AST)",
+          "description": "Submit a request for temporary authorisation to stay to the Directorate General of Immigration or a diplomatic/consular representation from your country of origin, before entering Luxembourg.",
+          "action_required": "Apply via post or MyGuichet.lu portal."
+        },
+        {
+          "step": 2,
+          "title": "Apply for Type D Visa (if required)",
+          "description": "After AST approval, if you are subject to a visa requirement to enter Luxembourg, apply for a Type D visa at the nearest Luxembourg embassy/consulate.",
+          "action_required": "Contact embassy/consulate to book an appointment and submit visa application."
+        },
+        {
+          "step": 3,
+          "title": "Enter Luxembourg",
+          "description": "The temporary residence authorisation is valid for 90 days, within which you must enter Luxembourg.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Declare Arrival at Commune",
+          "description": "Within 3 days of arriving in Luxembourg, register at the local commune administration (Administration Communale) where you live.",
+          "action_required": "Register at the local commune."
+        },
+        {
+          "step": 5,
+          "title": "Undergo Medical Check",
+          "description": "Undergo a medical examination by a certified general practitioner in Luxembourg and clear a mandatory tuberculosis screening.",
+          "action_required": "Schedule and complete medical examination and screening."
+        },
+        {
+          "step": 6,
+          "title": "Apply for Residence Permit",
+          "description": "Within 3 months of arrival, submit your final application for a 'Residence Permit for Students' to the Directorate of Immigration.",
+          "action_required": "Submit application online via MyGuichet.lu or by post."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 90,
+        "typical_min_days": null,
+        "typical_max_days": 90,
+        "recommended_apply_before_start_days": null
+      },
+      "fee_eur": null,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Certified full copy (all pages), valid for at least 3 months beyond intended stay.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "Letter of Admission",
+      "details": "Official letter of admission from an accredited Luxembourg higher education institution.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Sufficient Financial Resources",
+      "details": "Documentation proving access to required monthly funds.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Comprehensive Health Insurance",
+      "details": "Covering the full period of travel and stay in Luxembourg.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "eu_residence_permit",
+      "name": "Copy of Residence Permit from another EU Member State",
+      "details": "Where applicable, if residing in another EU member state.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "parental_consent",
+      "name": "Parental Consent",
+      "details": "For minors applying for a study visa.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 1161.6,
+    "reference_basis": "80% of the current social inclusion income (REVIS) in Luxembourg",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": 13939.2,
+    "acceptable_proof": [
+      "Original certificate of a student grant or scholarship",
+      "Bank certificate confirming funds are held in your name for the last 6 months",
+      "Signed sponsorship declaration (attestation de prise en charge) from parents or a guarantor legally living in Luxembourg",
+      "Income from salaried activity (maximum 15 hours per week)",
+      "Proof of free housing"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Directorate General of Immigration",
+    "authority_full_name": "Directorate General of Immigration of the Ministry of Home Affairs",
+    "authority_url": "gouvernement.lu",
+    "apply_within_days_of_arrival": 90,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "Online via MyGuichet.lu",
+    "required_documents": [
+      "Passport copy",
+      "Proof of admission to a higher education institution",
+      "Proof of sufficient financial resources",
+      "Proof of comprehensive health insurance",
+      "Medical examination certificate",
+      "Tuberculosis screening certificate",
+      "Declaration of arrival from commune"
+    ],
+    "notes": "Declaration of arrival at the local commune required within 3 days of arrival. A medical examination and tuberculosis screening are mandatory."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 15,
+    "full_time_during_breaks": true,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [
+      "Bachelor's and BTS students are not permitted to work during their first two semesters of study."
+    ],
+    "notes": "Work hours are calculated as a monthly average, not a strict weekly cap (maximum 60 hours over a 4-week period)."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": null,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "MyGuichet.lu",
+    "required_documents": [
+      "Updated enrollment certificate",
+      "Transcripts showing good academic progress",
+      "Updated financial proofs (80% of REVIS)",
+      "Sponsorship letter (if applicable)",
+      "Application form (Demande en renouvellement d'un titre de séjour pour étudiant)",
+      "Proof of €80 fee payment"
+    ],
+    "notes": "Must meet original conditions for enrollment and financial resources. Application must be submitted before the current permit expires."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": null,
+    "process_authority": "Directorate General of Immigration",
+    "requirements": [
+      "Must have successfully completed a Master's degree or defended a doctoral thesis in Luxembourg",
+      "Application must be made at least 30 days before the expiry date of the student residence permit",
+      "Payment of an €80 issuance fee",
+      "Proof of monthly financial resources of at least €1,161.60"
+    ],
+    "notes": "This pathway is explicitly for Master's and PhD-level graduates. Bachelor's graduates have more limited options."
+  },
+  "official_sources": [
+    {
+      "name": "Guichet.lu (The Administrative Guide of Luxembourg)",
+      "url": "guichet.public.lu",
+      "description": "Official Luxembourg government citizen-services portal, including immigration section for residence permits."
+    },
+    {
+      "name": "Ministry of Home Affairs / Directorate General of Immigration",
+      "url": "gouvernement.lu",
+      "description": "Official authority for immigration procedures."
+    },
+    {
+      "name": "University of Luxembourg Immigration Portal",
+      "url": "uni.lu",
+      "description": "Information for international students at the University of Luxembourg."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Initial student residence authorization request",
+      "url": "guichet.public.lu",
+      "authority": "Directorate General of Immigration"
+    },
+    {
+      "name": "Student residence permit renewal request",
+      "url": "guichet.public.lu",
+      "authority": "Directorate General of Immigration"
+    },
+    {
+      "name": "Engagement de prise en charge (financial sponsorship declaration)",
+      "url": "guichet.public.lu",
+      "authority": "Directorate General of Immigration"
+    },
+    {
+      "name": "Post-studies jobseeking/business-creation residence permit request",
+      "url": "guichet.public.lu",
+      "authority": "Directorate General of Immigration"
+    }
+  ],
+  "tips": [],
+  "common_mistakes": [
+    {
+      "mistake": "Applying for Temporary Authorisation to Stay (AST) from inside Luxembourg",
+      "consequence": "Automatic rejection of the application.",
+      "how_to_avoid": "You must apply from your home country, before travel and before entering Luxembourg."
+    },
+    {
+      "mistake": "Missing the 90-day window after AST approval",
+      "consequence": "Potential issues with obtaining an entry visa or registering upon arrival.",
+      "how_to_avoid": "Once your temporary authorization is granted, you only have 90 days to either get your entry visa or enter and register at your commune, so do not delay."
+    },
+    {
+      "mistake": "Underestimating the financial proof threshold",
+      "consequence": "A shortfall in required funds, leading to application rejection.",
+      "how_to_avoid": "The threshold is tied to the REVIS rate and adjusts periodically. Always verify the current amount on guichet.public.lu directly."
+    },
+    {
+      "mistake": "Gaps in sponsor documentation",
+      "consequence": "Rejection of the application on technical grounds.",
+      "how_to_avoid": "If parents are financing your studies, the sponsorship declaration needs to cover a full academic year of costs (study, health, and return travel) and follow the specific legal format. Use the official template form."
+    },
+    {
+      "mistake": "Exceeding the 15-hour/60-hour work limit",
+      "consequence": "Legal issues related to your student status.",
+      "how_to_avoid": "The work limit is a monthly average (max 60 hours over a 4-week period), not a strict weekly cap. Track your total hours over the 4-week period."
+    },
+    {
+      "mistake": "Missing the 30-day pre-expiry deadline for the post-study jobseeking permit",
+      "consequence": "Inability to transition to a job-seeking permit.",
+      "how_to_avoid": "This is a hard cutoff before your student permit expires, so plan well ahead of your graduation date."
+    },
+    {
+      "mistake": "Forgetting to register at the local town hall (commune) within 3 working days of arrival",
+      "consequence": "Can jeopardize your final residence permit application.",
+      "how_to_avoid": "Keep your flight ticket and lease agreement handy and register promptly."
+    },
+    {
+      "mistake": "Ignoring translation rules for documents",
+      "consequence": "Significant delays in approval (months).",
+      "how_to_avoid": "If your documents are not in French, German, or English, they must be officially translated by a sworn translator."
+    }
+  ]
+}

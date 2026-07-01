@@ -91,16 +91,17 @@ def extract_text_from_pdf(pdf_path: Path) -> str:
     return "\n\n--- PAGE BREAK ---\n\n".join(pages)
 
 
-MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
+MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash-latest", "gemini-1.5-flash-8b"]
 
 
 def call_gemini(prompt: str, api_key: str) -> str:
     import time
-    from google.genai.errors import ServerError
+    from google.genai import errors as genai_errors
 
     client = genai.Client(api_key=api_key)
 
     for model in MODELS:
+        model_exhausted = False
         for attempt in range(1, 4):
             try:
                 print(f"      model={model} attempt={attempt}")
@@ -113,18 +114,25 @@ def call_gemini(prompt: str, api_key: str) -> str:
                     ),
                 )
                 return response.text
-            except ServerError as e:
-                if e.status_code == 503 and attempt < 3:
+            except Exception as e:
+                msg = str(e)
+                status = getattr(e, 'status_code', None) or (429 if '429' in msg else 503 if '503' in msg else None)
+                if status == 503 and attempt < 3:
                     wait = 30 * attempt
-                    print(f"      503 — waiting {wait}s before retry...")
+                    print(f"      503 overload — waiting {wait}s before retry...")
                     time.sleep(wait)
-                elif e.status_code == 503:
-                    print(f"      503 on {model} — trying next model...")
+                elif status in (503, 429):
+                    print(f"      {status} on {model} — switching to next model...")
+                    model_exhausted = True
                     break
                 else:
                     raise
+        if model_exhausted:
+            continue
+        # Should not reach here if response was returned
+        break
 
-    raise RuntimeError("All models returned 503. Try again later.")
+    raise RuntimeError("All models quota exhausted. Try again tomorrow or enable Gemini billing.")
 
 
 def validate_against_schema(data: dict, schema: dict) -> list[str]:

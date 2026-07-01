@@ -1,0 +1,408 @@
+{
+  "country": "Netherlands",
+  "country_code": "NL",
+  "last_updated": "2026-07-01",
+  "schengen_member": null,
+  "currency": "EUR",
+  "official_language": null,
+  "qualifying_courses": {
+    "long_stay": [
+      "Full-time Bachelor's degree programmes",
+      "Full-time Master's degree programmes",
+      "PhD / Doctoral programmes",
+      "Exchange programmes at recognised Dutch institutions",
+      "Preparatory / foundation courses linked to a recognised university",
+      "Specific, authorized preparatory vocational programs or short-term higher education courses"
+    ],
+    "short_stay": [],
+    "notes": "To qualify for a Dutch study residence permit, you must be enrolled as a full-time student in an accredited program at a recognized sponsor institution (universities and colleges officially approved by the IND)."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "MVV/VVR (TEV Procedure)",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "The MVV (Machtiging tot Voorlopig Verblijf) serves as a long-stay entry visa, and the VVR (Verblijfsvergunning Regulier) is the residence permit for the duration of studies. Your university applies for both together in a single procedure called the TEV procedure (Toelating en Verblijf — entry and residence)."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Dutch embassy or consulate",
+          "description": "For MVV sticker placement and biometrics after IND approval.",
+          "url": "https://netherlandsworldwide.nl"
+        },
+        {
+          "method": "VFS Global",
+          "description": "Partner centers for embassy appointments.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Receive Official University Admission Letter",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Submit Required Documents to University",
+          "description": "Submit all required documents to your university's international/immigration office. The university reviews your files and collects visa fees.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "University Submits Application to IND",
+          "description": "Your university, acting as your Recognised Sponsor, submits your application to the IND on your behalf via the TEV procedure.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "IND Approval",
+          "description": "The IND informs the university about the approval or rejection. This typically takes 2-4 weeks, though the legal decision period is 60 days.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Book Embassy Appointment and Collect MVV",
+          "description": "After approval, you must book an appointment at the Dutch embassy or consulate you selected within 3 months of the IND decision to have the MVV sticker placed in your passport and to provide biometrics. The chosen embassy cannot be changed.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Travel to the Netherlands",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 7,
+          "title": "Collect Residence Permit and Register with Municipality",
+          "description": "Collect your physical Residence Permit Card (VVR) from the designated IND desk (usually within two weeks of a positive decision), then register with the Municipal Personal Records Database (BRP) in your municipality within 5 days of arrival.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 60,
+        "typical_min_days": 14,
+        "typical_max_days": 28,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 254,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 18 months after arrival, with at least two blank pages.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport_photos",
+      "name": "Passport-sized Photos",
+      "details": "Must comply with strict Dutch photo requirements.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "Official Admission Letter",
+      "details": "Official offer from a recognized Dutch institution.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Financial Means",
+      "details": "Demonstrating sufficient funds for living expenses and tuition.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "antecedents_certificate",
+      "name": "Antecedents Certificate",
+      "details": "A declaration showing you do not have a criminal record, often provided by the university portal.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "birth_certificate",
+      "name": "Legalized and Translated Birth Certificate",
+      "details": "Often required for municipal registration upon arrival, not always for the visa itself.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Health Insurance",
+      "details": "Must cover the Netherlands; universities often arrange Aon insurance.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "academic_transcripts",
+      "name": "Academic Transcripts and Diplomas",
+      "details": "All documents should be translated and legalised if needed.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "language_test",
+      "name": "Language Test Results",
+      "details": "IELTS/TOEFL, if required by the university.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 1130.77,
+    "reference_basis": "Study Norm (studienorm)",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": 13569.24,
+    "acceptable_proof": [
+      "University Deposit Method (most common and preferred)",
+      "Personal Bank Account statements (not older than 3 months, funds must be immediately accessible)",
+      "Official Scholarship letter"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "IND",
+    "authority_full_name": "Immigration & Naturalisation Service",
+    "authority_url": "https://ind.nl/en",
+    "apply_within_days_of_arrival": null,
+    "validity_months": null,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [],
+    "notes": "The VVR Dutch student residence permit is a separate card collected from a designated IND desk or university collection day within the first two weeks of arrival. It serves as your official residence permit, valid for the duration of your studies plus an extra 3 months. You are also legally required to register with your local municipality (gemeente/BRP) within 5 days of arrival to obtain your Citizen Service Number (BSN)."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 16,
+    "full_time_during_breaks": true,
+    "requires_notification": true,
+    "notification_authority": "UWV (Employee Insurance Agency)",
+    "legal_basis": null,
+    "restrictions": [
+      "Employer must apply for a TWV (Tewerkstellingsvergunning) from the Dutch labor agency (UWV) before you can work.",
+      "You must strictly choose between working up to 16 hours per week during the academic year, OR working full-time (40 hours per week) only during the summer months (June, July, and August). You cannot do both.",
+      "Working without a TWV is illegal and can lead to permit revocation and fines for the employer.",
+      "The TWV is valid for one employer only; separate permits are needed for each job.",
+      "If you take a side job or a paid internship, you are legally required to switch from student insurance to Dutch public health insurance (basisverzekering)."
+    ],
+    "notes": "Non-EU students can also work unlimited hours as a freelancer (ZZP) if they register with the Chamber of Commerce (KVK) and maintain university grades."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": null,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "https://ind.nl",
+    "required_documents": [],
+    "notes": "Your university typically manages the renewal process as your recognised sponsor. You must complete at least 50% of required academic credits (30 ECTS out of 60) annually. Failure to meet this threshold, dropping out, or discontinuing studies must be reported to the IND by the university, which can lead to visa cancellation. The IND fee for renewal is €254."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": "Orientation Year Permit (Zoekjaar)",
+    "process_authority": "IND",
+    "requirements": [
+      "Must be a recent Bachelor's, Master's, or PhD graduate or scientific researcher from a non-EU country.",
+      "Apply within three years after your graduation date.",
+      "Must have received your degree certificate or have your faculty fill out the IND's completion of study form before applying."
+    ],
+    "notes": "The Orientation Year Permit grants 12 months of unrestricted access to the Dutch labor market. After finding a job, you can seamlessly transition into a Highly Skilled Migrant (Kennismigrant) visa, provided the job pays a specific lower income threshold reserved for recent Dutch graduates."
+  },
+  "official_sources": [
+    {
+      "name": "IND (Immigration & Naturalisation Service)",
+      "url": "https://ind.nl/en",
+      "description": null
+    },
+    {
+      "name": "Dutch Government Immigration Portal",
+      "url": "https://government.nl",
+      "description": null
+    },
+    {
+      "name": "Netherlands Worldwide (Embassy Info)",
+      "url": "https://netherlandsworldwide.nl",
+      "description": null
+    },
+    {
+      "name": "Study in NL (official portal)",
+      "url": "https://studyinnl.org",
+      "description": null
+    },
+    {
+      "name": "Nuffic (education recognition)",
+      "url": "https://nuffic.nl/en",
+      "description": null
+    },
+    {
+      "name": "IAmsterdam (expat guide)",
+      "url": "https://iamsterdam.com",
+      "description": null
+    },
+    {
+      "name": "UWV (Employee Insurance Agency)",
+      "url": null,
+      "description": null
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "MVV + VVR (TEV procedure)",
+      "url": null,
+      "authority": "University / IND"
+    },
+    {
+      "name": "Orientation Year Permit Application",
+      "url": "https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year",
+      "authority": "IND"
+    },
+    {
+      "name": "BRP Registration",
+      "url": null,
+      "authority": "Local Municipality (Gemeente)"
+    },
+    {
+      "name": "IND General Forms and Checklists",
+      "url": "https://ind.nl/en/forms",
+      "authority": "IND"
+    },
+    {
+      "name": "Antecedents Certificate",
+      "url": null,
+      "authority": "University / IND"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Contact Your University First",
+      "body": "Your university submits your visa application and is your first point of contact for all visa and permit matters, not the IND or embassy directly.",
+      "priority": "high"
+    },
+    {
+      "title": "Choose MVV Collection Embassy Carefully",
+      "body": "Once the application has been submitted, the chosen embassy cannot be changed. Ensure it's in your country of residence or a nearby country if no Dutch embassy is available.",
+      "priority": "high"
+    },
+    {
+      "title": "Register with the Municipality (BRP) Promptly",
+      "body": "You are legally required to register with your local municipality (gemeente/BRP) within 5 days of arrival to obtain your Citizen Service Number (BSN).",
+      "priority": "high"
+    },
+    {
+      "title": "Maintain Academic Progress",
+      "body": "You must complete at least 50% of required academic credits (30 ECTS out of 60) annually to keep your residence permit. Falling below this threshold without valid excuse will lead to permit revocation.",
+      "priority": "high"
+    },
+    {
+      "title": "Adhere to Orientation Year Deadline",
+      "body": "You must apply for the Orientation Year Permit within three years of your graduation date.",
+      "priority": "medium"
+    },
+    {
+      "title": "Understand MVV Exemption",
+      "body": "Citizens of some countries (e.g., USA, UK, Australia) only need a VVR and are exempt from the MVV entry visa. Check with your university.",
+      "priority": "medium"
+    },
+    {
+      "title": "Start Application Process Early",
+      "body": "Deadlines for September intake are typically June 15th, and for February intake November 15th. Start months in advance to allow for document collection and processing.",
+      "priority": "high"
+    },
+    {
+      "title": "Prepare for Financial Requirements",
+      "body": "You need to show €13,569.24 per year. Prepare clear, official bank statements or use the university deposit method.",
+      "priority": "high"
+    },
+    {
+      "title": "Do Not Work Without a TWV",
+      "body": "Do not start any paid work (even a single training shift) before your employer’s TWV application is formally approved by the UWV. Working without it is illegal and risks immediate deportation or permit cancellation for you, and a multi-thousand-euro fine for the employer.",
+      "priority": "high"
+    },
+    {
+      "title": "Ensure Funds are Accessible",
+      "body": "If proving funds via your personal bank account, the money cannot be in a fixed-term deposit or investment fund. The cash must be immediately accessible.",
+      "priority": "medium"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Contacting the IND directly instead of your university",
+      "consequence": "Delays or incorrect information, as your university is the primary contact for visa applications.",
+      "how_to_avoid": "Always go to your university's international office first for all visa and permit matters."
+    },
+    {
+      "mistake": "Choosing the wrong embassy for MVV collection",
+      "consequence": "The chosen embassy cannot be changed after the application is submitted, potentially causing travel difficulties.",
+      "how_to_avoid": "Choose carefully, ensuring it's in your country of residence or a suitable nearby country."
+    },
+    {
+      "mistake": "Failing to register with the municipality (BRP)",
+      "consequence": "It is mandatory and required within 5 days of arrival; failure can lead to legal issues and inability to obtain a BSN.",
+      "how_to_avoid": "Register at your local gemeente (city hall) within 5 days of arrival."
+    },
+    {
+      "mistake": "Poor academic progress (falling below 50% ECTS)",
+      "consequence": "The university is legally required to report you to the IND, leading to residence permit revocation.",
+      "how_to_avoid": "Treat your studies seriously and maintain at least 50% of required academic credits annually. Report mitigating circumstances to a student counselor early."
+    },
+    {
+      "mistake": "Missing the orientation year deadline",
+      "consequence": "You lose the opportunity to apply for the 12-month job-seeking permit.",
+      "how_to_avoid": "Apply within three years of your graduation date."
+    },
+    {
+      "mistake": "Not checking if you need an MVV or only a VVR",
+      "consequence": "Unnecessary application steps or confusion upon arrival.",
+      "how_to_avoid": "Citizens of some countries (e.g., USA, UK, Australia) only need a VVR; check with your university."
+    },
+    {
+      "mistake": "Waiting too long to start the visa application process",
+      "consequence": "Missing application deadlines (e.g., June 15th for September intake, November 15th for February intake) and delaying your studies.",
+      "how_to_avoid": "Start the process months in advance of your desired intake."
+    },
+    {
+      "mistake": "Underestimating financial requirements",
+      "consequence": "Inability to prove sufficient funds, leading to visa rejection.",
+      "how_to_avoid": "Be aware of the €13,569.24/year study norm and prepare clear, official bank statements or use the university deposit method."
+    },
+    {
+      "mistake": "Working without a TWV (Tewerkstellingsvergunning)",
+      "consequence": "Automatic multi-thousand-euro fine for the employer and risks immediate deportation or permit cancellation for the student.",
+      "how_to_avoid": "Do not start any paid work before your employer's TWV application is formally approved by the UWV."
+    },
+    {
+      "mistake": "Proving funds via a 'locked account'",
+      "consequence": "The funds will not be accepted as proof of financial means if they are not immediately accessible.",
+      "how_to_avoid": "Ensure funds in your personal bank account are in a completely un-locked, freely withdrawable account."
+    }
+  ]
+}

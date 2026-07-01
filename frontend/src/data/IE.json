@@ -1,0 +1,295 @@
+{
+  "country": "Ireland",
+  "country_code": "IE",
+  "last_updated": "2026-07-01",
+  "schengen_member": false,
+  "currency": "EUR",
+  "official_language": null,
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education programmes (Level 6 or above on the National Framework of Qualifications)",
+      "English language courses (minimum 25 weeks, 15 tuition hours/week)",
+      "Foundation programmes"
+    ],
+    "short_stay": [],
+    "notes": "Courses must be full-time and in-person, listed on the Interim List of Eligible Programmes (ILEP) or TrustEd Ireland Providers list. Part-time, online, or distance learning courses do not qualify."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "C",
+        "name": "Short-stay Study Visa",
+        "for_stays_over_days": null,
+        "notes": "For stays of less than 3 months."
+      },
+      {
+        "code": "D",
+        "name": "Long-stay Study Visa",
+        "for_stays_over_days": 90,
+        "notes": "For stays of 3 months or more."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "VFS Global",
+          "description": "For document submission and biometrics at a Visa Application Centre (VAC)."
+        },
+        {
+          "method": "Irish Embassy or Consulate",
+          "description": "For document submission and biometrics in countries without a VFS Global centre."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Get Accepted by an Eligible Institution",
+          "description": "Apply and get accepted by an eligible Irish educational institution listed on the ILEP or TrustEd Ireland Providers list."
+        },
+        {
+          "step": 2,
+          "title": "Pay Tuition Fees",
+          "description": "Pay your tuition fees (either in full or a minimum of €6,000 upfront)."
+        },
+        {
+          "step": 3,
+          "title": "Complete Online Application",
+          "description": "Complete the AVATS online application form, pay the visa fee, and print your summary sheet."
+        },
+        {
+          "step": 4,
+          "title": "Book and Attend Appointment",
+          "description": "Book an appointment via VFS Global or the Embassy to submit your physical documents and biometrics."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 28,
+        "typical_max_days": 84,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 60,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 6 months past your intended course completion date.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "avats_summary_form",
+      "name": "Printed and Signed AVATS Application Summary Form",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Official Letter of Acceptance",
+      "details": "From an ILEP-listed Irish educational institution.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_fee_proof",
+      "name": "Proof of Tuition Fees Paid",
+      "details": "Official receipt showing a minimum of €6,000 paid, or 100% of the fee if total tuition is under €6,000.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "english_proficiency",
+      "name": "Proof of English Language Proficiency",
+      "details": "e.g., IELTS, TOEFL, PTE, or a college statement on Irish-language ability if applicable.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "medical_insurance",
+      "name": "Private Medical Health Insurance",
+      "details": "Valid in Ireland.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Comprehensive Financial Documentation",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport_photos",
+      "name": "Passport Photos",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "statement_of_purpose",
+      "name": "Statement of Purpose (SOP)",
+      "details": "Detailing why you want to study in Ireland and explaining any academic history gaps.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 833,
+    "reference_basis": "Irish Immigration Service (ISD) policy",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": 10000,
+    "acceptable_proof": [
+      "6 months of consecutive bank statements on official bank paper"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "ISD",
+    "authority_full_name": "Immigration Service Delivery",
+    "authority_url": "irishimmigration.ie",
+    "apply_within_days_of_arrival": null,
+    "validity_months": null,
+    "renewable": true,
+    "booking_method": "Online via ISD Customer Service Portal (after arrival)",
+    "required_documents": [],
+    "notes": "First-time registrations for those living in Dublin are done at Burgh Quay. Those living outside Dublin register at their local immigration registration office (Garda station). A €300 registration fee is paid at the appointment. The IRP card (Stamp 2) is sent by post. Identity verification via a partner app (e.g., ID-Pal) may be required."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": "Stamp 2 permission",
+    "restrictions": [
+      "Not permitted to engage in any business or trade (cannot own a company or operate as a sole trader)",
+      "Students with Stamp 2A permission are not allowed to work",
+      "Expanded work rights during holidays generally apply to students on programmes at NFQ Level 7 or above; English-language-only students have more limited work rights."
+    ],
+    "notes": null
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": null,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "ISD Online Portal",
+    "required_documents": [
+      "Updated college attendance certificate",
+      "Proof of progression (passing grades)",
+      "Health insurance"
+    ],
+    "notes": "Renewals are processed online. Applicants must be present in Ireland. Stamp 2 applicants must wait until their course starts before applying to renew. A €300 annual renewal fee applies."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": null,
+    "legal_basis": "Third Level Graduate Scheme (Stamp 1G)",
+    "process_authority": "ISD (Immigration Service Delivery)",
+    "requirements": [
+      "Graduation with an award at Level 8 (12 months permission) or Level 9+ (24 months permission) on the National Framework of Qualifications",
+      "Apply after receiving official final results and within six months of results, before Stamp 2 permission expires",
+      "Cannot operate a business or be self-employed under Stamp 1G status",
+      "Requires current IRP card, original letter from college confirming course completion and final results, valid medical insurance, and an application fee (around €300)"
+    ],
+    "notes": "After Stamp 1G, an employment permit from the Department of Enterprise, Trade and Employment is required for long-term work."
+  },
+  "official_sources": [
+    {
+      "name": "Immigration Service Delivery (ISD)",
+      "url": "irishimmigration.ie",
+      "description": "Official Irish government immigration site covering visas, registration, renewals, and the Third Level Graduate Scheme."
+    },
+    {
+      "name": "Citizens Information Ireland",
+      "url": "citizensinformation.ie",
+      "description": "Official and reliable resource for general citizen-facing explainers."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "AVATS Online Facility",
+      "url": "irishimmigration.ie",
+      "authority": "Irish Immigration Service (ISD)"
+    },
+    {
+      "name": "ISD Customer Service Portal",
+      "url": "irishimmigration.ie",
+      "authority": "Irish Immigration Service (ISD)"
+    }
+  ],
+  "tips": [],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "Longer processing or refusal",
+      "how_to_avoid": "Apply as close to the 3-month window as possible, especially during peak season (June–August)."
+    },
+    {
+      "mistake": "Inconsistent personal details",
+      "consequence": "Delays or refusal",
+      "how_to_avoid": "Ensure all documents and passport details (name spelling, dates) match exactly."
+    },
+    {
+      "mistake": "Funds that aren't genuinely accessible",
+      "consequence": "Visa rejection",
+      "how_to_avoid": "Do not rely on money tied up in fixed deposits or investments; funds must be immediately accessible."
+    },
+    {
+      "mistake": "Not disclosing previous visa refusals",
+      "consequence": "Automatic refusal",
+      "how_to_avoid": "Always disclose any previous visa refusals truthfully."
+    },
+    {
+      "mistake": "Missing the registration deadline after arrival",
+      "consequence": "Legal issues",
+      "how_to_avoid": "Book your IRP appointment promptly after landing, even though slots are only available post-arrival."
+    },
+    {
+      "mistake": "Forgetting medical insurance",
+      "consequence": "Application issues or refusal",
+      "how_to_avoid": "Ensure private health insurance is secured as it is compulsory for non-EU/EEA students and checked at multiple stages."
+    },
+    {
+      "mistake": "Not enrolling on an ILEP-listed course",
+      "consequence": "No student permission granted",
+      "how_to_avoid": "Ensure your chosen course is on the official Interim List of Eligible Programmes (ILEP) or TrustEd Ireland Providers list."
+    },
+    {
+      "mistake": "Unexplained Large Deposits",
+      "consequence": "Visa rejection",
+      "how_to_avoid": "Keep funds stable for 6 months, or provide written proof of where the money came from (e.g., selling property, an official education loan sanction)."
+    },
+    {
+      "mistake": "Gap in Academic History",
+      "consequence": "Immigration officials may question genuine student intent",
+      "how_to_avoid": "Explain any time spent out of school or work clearly in your Statement of Purpose."
+    },
+    {
+      "mistake": "Incomplete Tuition Payment",
+      "consequence": "Application stall",
+      "how_to_avoid": "Ensure your university receipt clearly shows the required minimum €6,000 payment (or full amount if less than €6,000) and matches your paperwork."
+    }
+  ]
+}

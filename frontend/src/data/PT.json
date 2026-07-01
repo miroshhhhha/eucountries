@@ -1,0 +1,374 @@
+{
+  "country": "Portugal",
+  "country_code": "PT",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": null,
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education programs (Bachelor's, Master's, PhD)",
+      "Research projects/doctoral programs",
+      "Secondary education student exchange programs",
+      "Vocational/professional training courses",
+      "Unpaid internships/traineeships",
+      "Volunteer work programs",
+      "Language courses (for programs exceeding 90 days or part of broader study plan)"
+    ],
+    "short_stay": [
+      "Courses of 90 days or less"
+    ],
+    "notes": "Short-stay Schengen visa eligibility for courses of 90 days or less depends on nationality. Language courses typically qualify if exceeding 90 days or part of a broader study plan."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D4",
+        "name": "Long-stay Study Visa",
+        "validity_days": 120,
+        "entries": 2,
+        "for_stays_over_days": 90,
+        "notes": null
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Online Visa Portal",
+          "description": "Portuguese Ministry of Foreign Affairs (MNE) E-visa portal",
+          "url": null
+        },
+        {
+          "method": "VFS Global",
+          "description": "Outsourced partner for visa application collection in many countries; applicants must register on the VFS website specific to their country.",
+          "url": null
+        },
+        {
+          "method": "Direct Contact",
+          "description": "Via official email or telephone for consular sections where VFS is not available.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Secure Admission",
+          "description": "Obtain admission or acceptance from a recognized Portuguese educational institution.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Fill Online Application Form",
+          "description": "Register and complete the online application form on the E-visa portal.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Gather Documents",
+          "description": "Collect all required physical documents.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Book Visa Appointment",
+          "description": "Schedule an appointment at the Portuguese embassy/consulate or VFS center.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Submit Application and Attend Interview",
+          "description": "Submit the application in person with all original documents, provide biometric data (fingerprints), and attend an interview if requested.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Pay Visa Fee",
+          "description": "Pay the required visa processing fee.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 90,
+        "typical_min_days": 60,
+        "typical_max_days": 120,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": null,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "visa_application_form",
+      "name": "National Visa Application Form",
+      "details": "Filled and signed.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond the intended stay, with at least two blank pages.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photos",
+      "name": "Passport-sized Color Photographs",
+      "details": "Two recent passport-sized color photographs.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "regular_status_proof",
+      "name": "Proof of Regular Status",
+      "details": "Required if applying from a country other than the country of origin.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record",
+      "name": "Criminal Record Certificate",
+      "details": "From the country of origin or residence (if residing for over a year). Must be apostilled or legalized and issued within 3 months of application.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "aima_criminal_record_permission",
+      "name": "Permission for AIMA to Check Portuguese Criminal Records",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Valid Travel Medical Insurance",
+      "details": "Minimum coverage of €30,000, including repatriation. Must cover the entire academic period and the whole Schengen area.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "Lease agreement, university residence letter, or 'term of responsibility' from a host in Portugal.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_enrollment_letter",
+      "name": "Letter of Acceptance/Enrollment",
+      "details": "Formal enrollment confirmation from a Portuguese educational institution.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Financial Means",
+      "details": "Bank statements, scholarship grant, or 'term of responsibility' (sponsorship declaration).",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_fee_receipt",
+      "name": "Visa Fee Payment Receipt",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 920,
+    "reference_basis": "National Minimum Wage (Decreto-Lei n.º 139/2025)",
+    "year": 2026,
+    "calculation_rules": {
+      "first_adult_pct": 300,
+      "additional_adult_pct": 50,
+      "dependent_child_pct": 30
+    },
+    "example_12_months_eur": 33120,
+    "acceptable_proof": [
+      "Bank statements",
+      "Scholarship letter/grant",
+      "Sponsorship declaration ('termo de responsabilidade')"
+    ],
+    "exemptions": [
+      "Scholarship holders",
+      "Students with a 'term of responsibility' signed by a Portuguese citizen/resident"
+    ]
+  },
+  "residence_permit": {
+    "authority_name": "AIMA",
+    "authority_full_name": "Agency for Integration, Migration and Asylum",
+    "authority_url": "https://aima.gov.pt",
+    "apply_within_days_of_arrival": 120,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "AIMA contact center (phone) or online channels, or at a 'Loja AIMA' office.",
+    "required_documents": [
+      "Passport",
+      "Residence visa",
+      "Proof of enrollment/matriculation",
+      "Proof of accommodation",
+      "Proof of means of subsistence",
+      "Health insurance or proof of coverage by SNS",
+      "Portuguese bank account details",
+      "NIF number"
+    ],
+    "notes": "Students must enter with a residence visa issued before travel; entering as a tourist and applying after arrival is no longer permitted (new rule 2026). AIMA queues in Lisbon/Porto can extend 2–4 months. The temporary receipt (comprovativo) is legally equivalent to the residence card during processing."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": true,
+    "notification_authority": "AIMA",
+    "legal_basis": "Article 97 of the Foreign Nationals Law (REPSAE)",
+    "restrictions": [
+      "Work must not interfere with the student's study schedule or academic performance.",
+      "Secondary school students are generally not authorized to work."
+    ],
+    "notes": null
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 30,
+    "apply_before_expiry_max_days": 90,
+    "online_portal": "AIMA online portal (Automatic Renewal) or Portal das Renovações",
+    "required_documents": [
+      "Current residence permit",
+      "Valid passport",
+      "Proof of address",
+      "Proof of continued enrollment for new academic year",
+      "Academic transcript (proof of successful completion of previous year's subjects)",
+      "Updated proof of financial means",
+      "Updated proof of accommodation"
+    ],
+    "notes": null
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": "Article 122(1)(p) REPSAE",
+    "process_authority": "AIMA",
+    "requirements": [
+      "Proof of completed studies (academic degree or research project) obtained in Portugal",
+      "Valid job contract, job offer, service agreement, or proof of registering as self-employed",
+      "Proof of Social Security registration (NISS)"
+    ],
+    "notes": "After 2 years of residency, students can apply for Estatuto de Igualdade de Direitos e Deveres (equal rights to Portuguese citizens in employment and healthcare). After 5 years, can apply for permanent residence or citizenship."
+  },
+  "official_sources": [
+    {
+      "name": "Ministry of Foreign Affairs – Visa Portal",
+      "url": "https://vistos.mne.gov.pt",
+      "description": "Visa types, fees, processing times, required documentation, legislation."
+    },
+    {
+      "name": "AIMA (Agency for Integration, Migration and Asylum)",
+      "url": "https://aima.gov.pt",
+      "description": "Residence permits, renewals, work authorization, legal texts."
+    },
+    {
+      "name": "Study in Portugal (Official Higher Education Portal)",
+      "url": "https://www.studyinportugal.edu.pt",
+      "description": null
+    },
+    {
+      "name": "European Commission – EU Immigration Portal, Portugal section",
+      "url": "https://home-affairs.ec.europa.eu",
+      "description": "EU-level overview, conditions to study in Portugal as a non-EU citizen."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "National Visa Application Forms",
+      "url": "https://vistos.mne.gov.pt/en/visa-models",
+      "authority": "Ministry of Foreign Affairs"
+    },
+    {
+      "name": "AIMA Forms (e.g., Termo de Responsabilidade)",
+      "url": "https://aima.gov.pt",
+      "authority": "AIMA"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Apostille Documents",
+      "body": "Ensure criminal record and academic certificates are apostilled (Hague Convention) or legalized by the Portuguese consulate in your home country before leaving.",
+      "priority": "high"
+    },
+    {
+      "title": "Obtain NIF and Bank Account",
+      "body": "Apply for a Portuguese Tax Number (NIF) and open a Portuguese bank account as soon as possible, as these are often required for the residence permit.",
+      "priority": "high"
+    },
+    {
+      "title": "Health Insurance Validity",
+      "body": "Ensure your insurance is valid for the entire academic period, covers the whole Schengen area, and meets minimum coverage requirements.",
+      "priority": "high"
+    },
+    {
+      "title": "Application Timing",
+      "body": "Start the visa application at least 3-4 months before the course start date, as consulate slots fill up quickly and processing can take time.",
+      "priority": "high"
+    },
+    {
+      "title": "Consulate-Specific Requirements",
+      "body": "Always check the specific requirements of the consulate where you are applying, as small variations in document requirements or formats can occur between different regions.",
+      "priority": "medium"
+    },
+    {
+      "title": "Check for Exemptions",
+      "body": "Investigate whether your specific nationality or course type qualifies for fee exemptions or simplified procedures (e.g., government scholarship holders, CPLP nationals).",
+      "priority": "low"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Submitting incomplete or incorrect documents",
+      "consequence": "Can result in a rejection notice and a longer overall procedure.",
+      "how_to_avoid": "Carefully review all requirements and ensure all documents are correctly filled and complete before submission."
+    },
+    {
+      "mistake": "Applying too close to the intended travel or course start date",
+      "consequence": "Risk missing the course start date due to official decision periods (up to 90 days) plus appointment wait times.",
+      "how_to_avoid": "Apply well in advance, ideally 3-4 months before your intended travel date."
+    },
+    {
+      "mistake": "Underestimating the proof of means of subsistence",
+      "consequence": "Bank statements may not clearly show the required reference amount per month, leading to application issues.",
+      "how_to_avoid": "Ensure your financial proof clearly demonstrates the required amount, which is 3x the national minimum wage per month (effective September 2026)."
+    },
+    {
+      "mistake": "Not booking the AIMA residence permit appointment soon enough after arrival",
+      "consequence": "The residence visa's entry window is limited (120 days), requiring prompt application for the residence permit.",
+      "how_to_avoid": "Book your AIMA appointment immediately upon arrival in Portugal."
+    },
+    {
+      "mistake": "Starting paid work without first notifying AIMA",
+      "consequence": "Can create irregularities affecting future residence permit renewals.",
+      "how_to_avoid": "Always notify AIMA and provide necessary documentation (employment contract, Social Security registration) before commencing any professional activity."
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "country": "Czech Republic",
+  "country_code": "CZ",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "CZK",
+  "official_language": "Czech",
+  "qualifying_courses": {
+    "long_stay": [
+      "University accredited study programmes (Bachelor's, Master's, Doctoral)",
+      "Language and professional preparation for university accredited programmes (organised by a public university, as part of an EU programme, or based on an international agreement)",
+      "Secondary school or higher vocational studies as part of an exchange programme",
+      "Stipend programmes",
+      "Internships or expert training",
+      "European Voluntary Service",
+      "Exchange of experience studies as part of EU programmes or international agreements"
+    ],
+    "short_stay": [],
+    "notes": "Non-accredited courses or private language school courses usually require a 'Visa for Other Purposes'."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "Long-term Visa for Study Purpose",
+        "validity_days": 365,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Primarily for shorter study stays of several months, up to 1 year."
+      },
+      {
+        "code": null,
+        "name": "Long-term Residence Permit for Study Purpose",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 365,
+        "notes": "Primarily for stays of over one year, such as full university programmes."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Directly with Embassy/Consulate",
+          "description": "Appointments are scheduled by email, phone, or online booking system, depending on the specific diplomatic mission.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Get accepted to a qualifying Czech educational institution",
+          "description": "Receive an official acceptance letter.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Gather all required documents",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Fill in the official application form",
+          "description": "Fill online, print, and sign, or download and fill by hand legibly in block capitals and Latin characters.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Book an appointment",
+          "description": "Schedule at your nearest Czech embassy or consulate.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Attend in person, submit documents, pay fee, and provide fingerprints",
+          "description": "An interview will be held. Children younger than 12 do not submit fingerprints and do not need to visit the consulate.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Present proof of travel medical insurance and payment of premium",
+          "description": "Required upon request before the embassy affixes the visa sticker to your travel document.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 60,
+        "typical_min_days": 60,
+        "typical_max_days": 90,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 100,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "application_form",
+      "name": "Completed Official Application Form",
+      "details": "Filled out and signed, in Czech or officially translated. Can be filled online and printed, or by hand in block capitals and Latin characters.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": "Documents must be no older than 180 days."
+    },
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond the intended stay.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photos",
+      "name": "Passport-size Photos",
+      "details": "2 photos showing current appearance.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Letter of Acceptance / Proof of Enrolment",
+      "details": "Original document from the Czech educational institution.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "proof_of_accommodation",
+      "name": "Proof of Accommodation",
+      "details": "A lease agreement, dormitory reservation, or a 'Proof of Accommodation' form signed by the landlord with a notarized signature (legalized by a Czech notary or Czech Point).",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "proof_of_funds",
+      "name": "Proof of Financial Resources",
+      "details": "See financial requirements section.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record_check",
+      "name": "Criminal Record Background Check",
+      "details": "From your home country and any country where you lived for 6+ months in the last 3 years. Requires an Apostille or super-legalization. Must be translated into Czech by a certified translator with an official rubber stamp.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "travel_medical_insurance",
+      "name": "Travel Medical Insurance",
+      "details": "Comprehensive insurance required, often from Pojišťovna VZP (PVZP) since 2021. Must be valid from the day of entry. Submitted after visa approval, not at the time of application.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": null,
+    "reference_basis": "Existential Minimum (3,130 CZK/month, 2023 onward)",
+    "year": 2026,
+    "calculation_rules": {
+      "first_adult_pct": null,
+      "additional_adult_pct": null,
+      "dependent_child_pct": null
+    },
+    "example_12_months_eur": 4600,
+    "acceptable_proof": [
+      "Bank statement in your name with an internationally recognized debit card",
+      "Scholarship confirmation letter",
+      "Written undertaking from a sponsor"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Ministry of the Interior (OAMP)",
+    "authority_full_name": "Ministry of the Interior",
+    "authority_url": "https://www.mvcr.cz",
+    "apply_within_days_of_arrival": null,
+    "validity_months": null,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [],
+    "notes": "Upon arrival, registration is required: within 3 working days at the Foreign Police for long-term visa holders, or within 30 calendar days at a Ministry of the Interior office for D/VR visa holders (for collection of a residence permit). After registration, an appointment for biometric data (fingerprints/photo) will be scheduled, followed by a separate appointment to collect the biometric residence card within 60 days from biometric data scanning."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": null,
+    "full_time_during_breaks": true,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [
+      "Study must remain the primary purpose of the stay."
+    ],
+    "notes": "Non-EU students enrolled in an accredited degree program have free access to the labor market and do not need a work permit. While there is no legal limit on working hours, students typically work part-time (up to 20 hours per week) to balance academics."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 120,
+    "apply_before_expiry_max_days": 0,
+    "online_portal": null,
+    "required_documents": [
+      "Updated proof of study",
+      "Updated proof of accommodation",
+      "Updated proof of funds"
+    ],
+    "notes": "Long-term residence permits for university accredited programmes can be extended repeatedly for a maximum of 2 years each time. For language or professional preparation organised by a public university, the long-term residence permit can be extended only once."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": null,
+    "process_authority": "Ministry of the Interior",
+    "requirements": [
+      "Completion of a university-accredited study programme in the Czech Republic"
+    ],
+    "notes": "The 9-month job-seeking residence permit grants free access to the labour market and is not extendable. It also makes graduates eligible to apply for a long-term residence permit for doing business without needing 5 years of prior residence. The Employee Card, which acts as a combined work/residence permit, is valid for a maximum of 2 years and is renewable. For Czech graduates, the labor market test for the Employee Card is waived."
+  },
+  "official_sources": [
+    {
+      "name": "Ministry of the Interior",
+      "url": "https://www.mvcr.cz",
+      "description": "Detailed legal requirements."
+    },
+    {
+      "name": "Ministry of the Interior – Foreigners Portal",
+      "url": "https://www.ipc.gov.cz",
+      "description": null
+    },
+    {
+      "name": "Ministry of Foreign Affairs",
+      "url": "https://www.mzv.cz",
+      "description": "Visa application procedures."
+    },
+    {
+      "name": "Study in Czechia (Official National Portal)",
+      "url": "https://www.studyinczechia.cz",
+      "description": null
+    },
+    {
+      "name": "EU Immigration Portal",
+      "url": "https://home-affairs.ec.europa.eu",
+      "description": null
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Official Forms",
+      "url": "https://www.ipc.gov.cz/forms-and-documents",
+      "authority": "Ministry of the Interior"
+    },
+    {
+      "name": "Application for a long-term visa for a stay over 90 days",
+      "url": "https://www.ipc.gov.cz/forms-and-documents",
+      "authority": "Ministry of the Interior"
+    },
+    {
+      "name": "Application for a long-term residence permit",
+      "url": "https://www.ipc.gov.cz/forms-and-documents",
+      "authority": "Ministry of the Interior"
+    },
+    {
+      "name": "Application for issuing or extending an employee card",
+      "url": "https://www.ipc.gov.cz/forms-and-documents",
+      "authority": "Ministry of the Interior"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Legalization of Documents",
+      "body": "Ensure that documents like the Criminal Record check and Proof of Funds have an Apostille or 'Super-legalization' to be valid in the Czech Republic.",
+      "priority": "high"
+    },
+    {
+      "title": "Official Translations",
+      "body": "All documents (except passport) must be translated into Czech by a certified Czech court translator. Translations from foreign agencies are often rejected.",
+      "priority": "high"
+    },
+    {
+      "title": "Notarized Accommodation Signature",
+      "body": "The landlord's signature on the proof of accommodation must be notarized (legalized) by a Czech notary or at a Czech Point.",
+      "priority": "high"
+    },
+    {
+      "title": "Apply Early",
+      "body": "The legal processing time is 60 days, but it can extend to 90 days or more, especially during peak seasons (July/August). Apply as early as possible, ideally 3-4 months before your intended study start.",
+      "priority": "high"
+    },
+    {
+      "title": "Monitor Communication",
+      "body": "Regularly check your email/mail for 'Request to Supplement' from the Ministry. Failure to respond in time can lead to application rejection.",
+      "priority": "medium"
+    },
+    {
+      "title": "Register Upon Arrival",
+      "body": "Register with the Foreign Police within 3 working days of entry (for long-term visa holders) or with the Ministry of Interior within 30 days (for D/VR visa holders), unless your accommodation provider does it for you.",
+      "priority": "high"
+    },
+    {
+      "title": "Maintain Valid Health Insurance",
+      "body": "Ensure your travel medical insurance is valid from the day of entry. Without it, your visa sticker cannot be affixed even after approval.",
+      "priority": "high"
+    },
+    {
+      "title": "Choose Correct Visa Type",
+      "body": "If your studies last more than one year, apply directly for a long-term residence permit, not just a long-term visa.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "Delays in visa processing, potentially missing the start of your studies.",
+      "how_to_avoid": "Apply immediately after receiving your acceptance letter, allowing 60-90 days for processing."
+    },
+    {
+      "mistake": "Submitting untranslated documents",
+      "consequence": "Application deemed inadmissible or rejected.",
+      "how_to_avoid": "Ensure all documents (except passport) are translated into Czech by a certified translator with an official rubber stamp."
+    },
+    {
+      "mistake": "Not registering with the Foreign Police on arrival",
+      "consequence": "Violation of immigration laws, potential fines or issues with your stay.",
+      "how_to_avoid": "Register within 3 days of entry (for visa holders) or 30 days (for D/VR visa holders), unless your accommodation provider handles it."
+    },
+    {
+      "mistake": "Missing the renewal deadline",
+      "consequence": "Your permit expires, leading to illegal stay and potential deportation.",
+      "how_to_avoid": "Submit the renewal application at least 120 days before the current permit expires, and no later than the last day of its validity."
+    },
+    {
+      "mistake": "Applying for the wrong visa type",
+      "consequence": "Application rejection or needing to re-apply for the correct permit.",
+      "how_to_avoid": "If studies last more than one year, apply directly for a long-term residence permit, not a long-term visa."
+    },
+    {
+      "mistake": "Letting health insurance lapse",
+      "consequence": "Visa sticker cannot be affixed, or your stay becomes illegal.",
+      "how_to_avoid": "Ensure travel medical insurance is valid from the day of entry and maintained throughout your stay."
+    },
+    {
+      "mistake": "Not having landlord's signature notarized on accommodation proof",
+      "consequence": "Document rejection, delaying or rejecting the application.",
+      "how_to_avoid": "Ensure the landlord's signature on the proof of accommodation is legalized by a Czech notary or at a Czech Point."
+    },
+    {
+      "mistake": "Not responding to 'Request to Supplement' in time",
+      "consequence": "Application rejection.",
+      "how_to_avoid": "Regularly check email/mail for communication from the Ministry and respond promptly."
+    }
+  ]
+}

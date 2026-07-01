@@ -1,0 +1,416 @@
+{
+  "country": "Romania",
+  "country_code": "RO",
+  "last_updated": "2026-07-01",
+  "schengen_member": null,
+  "currency": "RON",
+  "official_language": "Romanian",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education (Bachelor’s, Master’s, PhD)",
+      "Pre-university education programs",
+      "Romanian language preparatory year",
+      "Student exchange programs (ages 13-19)",
+      "Unpaid vocational training/internship programs (as a trainee)",
+      "Educational projects"
+    ],
+    "short_stay": [],
+    "notes": "For higher education, exchange, and pre-university programs, the institution must be accredited or provisionally authorized by Romanian law, and the program must be full-time. For trainees, the official requirement is a training agreement with a host entity (plus a written commitment from that entity), not institutional accreditation."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D/SD",
+        "name": "Long-stay Study Visa",
+        "validity_days": 90,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": null
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "E-VISA portal",
+          "description": "Official electronic portal of the Romanian Ministry of Foreign Affairs",
+          "url": "https://evisa.mae.ro"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Apply to a Romanian university and receive an offer/admission letter",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Receive the official Letter of Acceptance issued by the Romanian Ministry of Education",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Pay at least one year’s tuition fee (unless exempted)",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Register and apply online via the E-VISA portal",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Upload supporting documents and wait for the file to be validated",
+          "description": null,
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Book and attend an appointment at the relevant Romanian embassy/consulate",
+          "description": "Submit original documents, provide biometric data, and pay the visa fee.",
+          "action_required": null
+        },
+        {
+          "step": 7,
+          "title": "Wait for the decision on the visa application",
+          "description": null,
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 60,
+        "typical_min_days": 30,
+        "typical_max_days": 60,
+        "recommended_apply_before_start_days": 60
+      },
+      "fee_eur": null,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months after the intended date of departure from Romania; original and copy",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Official Letter of Acceptance for Studies",
+      "details": "Issued by the Romanian Ministry of Education (not just university offer letter)",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_payment_proof",
+      "name": "Proof of Tuition Fee Payment",
+      "details": "For at least one academic year (unless exempted)",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_means_proof",
+      "name": "Proof of Financial Means",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record",
+      "name": "Criminal Record Certificate",
+      "details": "Issued by authorities in the country of origin, or equivalent legal document. Must be translated by a certified translator and legalized or apostilled.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "medical_insurance",
+      "name": "Medical Insurance",
+      "details": "Covering the entire period of visa validity, with a minimum coverage of 30,000 EUR",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "parental_consent",
+      "name": "Parental or Guardian Consent",
+      "details": "For applicants under 18 years of age",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "e.g., dormitory contract, lease agreement, or notarized statement from a host",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Online Visa Application Form",
+      "details": "Completed via e-Viza portal",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport_photos",
+      "name": "Recent Passport-style Photo(s)",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "language_proficiency",
+      "name": "Proof of Language Knowledge",
+      "details": "Not required for those taking the Romanian-language preparatory year",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 825,
+    "reference_basis": "Minimum gross basic salary per month (Government Decision (HG) no. 146/2026)",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": 9900,
+    "acceptable_proof": [
+      "Bank statements from a personal account"
+    ],
+    "exemptions": [
+      "Romanian state scholarship holders",
+      "Scholarship holders at accredited public universities",
+      "Applicants of Romanian origin"
+    ]
+  },
+  "residence_permit": {
+    "authority_name": "IGI",
+    "authority_full_name": "General Inspectorate for Immigration",
+    "authority_url": "https://igi.mai.gov.ro",
+    "apply_within_days_of_arrival": 60,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "In person at local IGI office or via online portal (portaligi.mai.gov.ro)",
+    "required_documents": [
+      "Application form",
+      "Travel document (passport, original and copy)",
+      "Letter of acceptance for studies (only needed for the first extension)",
+      "Certificate from the educational institution confirming full-time enrollment",
+      "Proof of means of support (at least 6 months’ worth)",
+      "Proof of legal right to accommodation/living space (original and copy)",
+      "Medical certificate",
+      "Payment of the applicable fee"
+    ],
+    "notes": "The IGI must resolve the application within 30 days of submission (extendable by up to 15 days if further checks are needed)."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 30,
+    "full_time_during_breaks": null,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [
+      "Work must be part-time under an individual employment contract.",
+      "Exceeding the permitted daily hours requires a separate full work permit."
+    ],
+    "notes": "The official limit for students working without a separate work authorization is up to 6 hours per day, according to current IGI guidance. Some third-party sources may cite an older limit of 4 hours per day (20 hours/week). It is recommended to confirm the current limit directly with the IGI or your local Immigration Bureau before starting work."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 30,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "https://portaligi.mai.gov.ro/portaligi/",
+    "required_documents": [
+      "Certificate from the university confirming enrollment in the next year of study",
+      "Proof of continued financial means",
+      "Proof of health insurance",
+      "Other documents as per initial application (except Ministry of Education acceptance letter)"
+    ],
+    "notes": "The right of residence can be extended for a period equal to the total duration of the study program through successive renewals. For exchange program participants, extensions are capped at one year at a time. If a student does not finish their studies within the originally granted period, a further extension to complete studies can be granted, not exceeding one additional year."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": null,
+    "process_authority": "IGI",
+    "requirements": [
+      "Proof of completion of studies",
+      "Find an employer willing to hire them",
+      "Employer must obtain a work authorization from the IGI",
+      "Apply for a change in residence permit purpose from 'studies' to 'work'"
+    ],
+    "notes": "The student-purpose residence permit itself is not directly convertible into a long-term residence permit; the change of purpose (study → work) is treated as a new residence permit application based on employment, even though it can build on the post-graduation extension period. Separately, the permit may be extended for up to 6 months after graduation purely for administrative reasons (e.g., to finish authentication of diplomas/transcripts)."
+  },
+  "official_sources": [
+    {
+      "name": "Ministry of Foreign Affairs (MAE)",
+      "url": "https://www.mae.ro",
+      "description": null
+    },
+    {
+      "name": "General Inspectorate for Immigration (IGI)",
+      "url": "https://igi.mai.gov.ro",
+      "description": null
+    },
+    {
+      "name": "E-VISA Portal",
+      "url": "https://evisa.mae.ro",
+      "description": null
+    },
+    {
+      "name": "Ministry of Education",
+      "url": "https://edu.ro",
+      "description": null
+    },
+    {
+      "name": "IGI Studies page",
+      "url": "https://igi.mai.gov.ro/en/studies/",
+      "description": "Primary source for study-related immigration information"
+    },
+    {
+      "name": "IGI online residence permit portal",
+      "url": "https://portaligi.mai.gov.ro/portaligi/",
+      "description": null
+    },
+    {
+      "name": "EU Immigration Portal – Romania",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal_en",
+      "description": "EU Commission overview in English"
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Online Visa Application Form",
+      "url": "https://evisa.mae.ro",
+      "authority": "E-VISA portal"
+    },
+    {
+      "name": "Residence Permit Forms",
+      "url": "https://igi.mai.gov.ro/en/studies/",
+      "authority": "General Inspectorate for Immigration (IGI)",
+      "description": "Includes application for extension of temporary right of residence, certificate from educational institution, proof of means of subsistence, proof of legal right to dwelling space, medical certificate, and fee schedule document."
+    }
+  ],
+  "tips": [
+    {
+      "title": "Ensure Official Acceptance Letter",
+      "body": "A university admission/offer letter is not sufficient; the official Letter of Acceptance from the Romanian Ministry of Education is mandatory for the visa process.",
+      "priority": "high"
+    },
+    {
+      "title": "Apply Early",
+      "body": "Submit your visa application well in advance, ideally at least two months before your intended travel date, to account for the 30-60 day processing time.",
+      "priority": "high"
+    },
+    {
+      "title": "Mind Passport Validity",
+      "body": "Ensure your passport is valid for at least three months beyond your intended date of departure from Romania.",
+      "priority": "high"
+    },
+    {
+      "title": "Prepare Financial Proof Carefully",
+      "body": "Provide clear bank statements showing your name and the required minimum gross salary amount for the entire period of your visa/permit. Incomplete or outdated proof can cause delays.",
+      "priority": "high"
+    },
+    {
+      "title": "Translate and Legalize Documents",
+      "body": "All official documents (e.g., criminal records, diplomas) must be translated by a certified translator and legalized or apostilled.",
+      "priority": "high"
+    },
+    {
+      "title": "Do Not Miss Residence Permit Deadlines",
+      "body": "Apply for your residence permit within 90 days of arrival and at least 30 days before your entry visa expires. For renewals, apply at least 30 days before the current permit expires. Missing these deadlines can lead to fines or legal complications.",
+      "priority": "high"
+    },
+    {
+      "title": "Budget for Tuition Payment Timing",
+      "body": "Visa approval typically requires proof that at least one year’s tuition has already been paid, not just an offer of admission.",
+      "priority": "medium"
+    },
+    {
+      "title": "Maintain Accommodation Paperwork",
+      "body": "Proof of legal right to housing is required at each residence permit renewal; ensure you have a proper rental contract or notarized statement for your accommodation.",
+      "priority": "medium"
+    },
+    {
+      "title": "Understand Work Limits",
+      "body": "Adhere strictly to the permitted part-time work hours (currently up to 6 hours per day) on a study residence permit. Exceeding this limit without a separate work authorization can jeopardize your legal status.",
+      "priority": "high"
+    },
+    {
+      "title": "Plan Post-Graduation Status Change",
+      "body": "If you wish to stay and work after graduation, actively pursue the employer-sponsored work authorization process within the post-graduation extension window, as the study residence permit does not automatically convert to a work permit.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Skipping the Ministry of Education acceptance letter",
+      "consequence": "A university admission/offer letter is not sufficient for the visa process, leading to rejection.",
+      "how_to_avoid": "Ensure this separate official document is issued before applying for the visa."
+    },
+    {
+      "mistake": "Applying for the visa too late",
+      "consequence": "Risk missing the start of the academic term due to the 30-60 day visa processing time.",
+      "how_to_avoid": "Submit your application at least two months before your intended travel date."
+    },
+    {
+      "mistake": "Missing the residence permit application deadline after arrival",
+      "consequence": "Can lead to fines, legal complications, or the obligation to leave the country.",
+      "how_to_avoid": "Apply for the residence permit within 90 days of arrival and at least 30 days before your entry visa expires."
+    },
+    {
+      "mistake": "Providing incomplete or inconsistent financial proof",
+      "consequence": "Common cause of delay or rejection, as the amount must meet the current minimum gross salary threshold for the entire period.",
+      "how_to_avoid": "Ensure bank statements clearly show your name and the required monthly minimum amount, and are up-to-date."
+    },
+    {
+      "mistake": "Not budgeting for tuition payment timing",
+      "consequence": "Visa approval typically requires proof that at least one year’s tuition has already been paid, not just an offer of admission.",
+      "how_to_avoid": "Arrange for tuition payment before submitting your visa application."
+    },
+    {
+      "mistake": "Letting accommodation paperwork lapse",
+      "consequence": "Proof of legal right to housing is required at each residence permit renewal, and informal arrangements can cause problems.",
+      "how_to_avoid": "Maintain a proper rental contract or notarized statement for your accommodation."
+    },
+    {
+      "mistake": "Exceeding the part-time work limit on a study permit",
+      "consequence": "Can jeopardize the resident’s legal status and lead to penalties.",
+      "how_to_avoid": "Adhere strictly to the permitted part-time hours (currently up to 6 hours per day) or obtain a separate full work permit if working more."
+    },
+    {
+      "mistake": "Forgetting the 30-day renewal window for the residence permit",
+      "consequence": "Renewing late, or after the permit has already expired, creates legal and administrative complications.",
+      "how_to_avoid": "Submit your renewal application to the IGI at least 30 days before your current permit expires."
+    },
+    {
+      "mistake": "Assuming the study residence permit automatically converts into a work permit",
+      "consequence": "Students wishing to stay and work after graduation need to actively pursue a new employer-sponsored work authorization process.",
+      "how_to_avoid": "Understand that a change of purpose is treated as a new residence permit application based on employment, and plan accordingly within the post-graduation extension window."
+    }
+  ]
+}

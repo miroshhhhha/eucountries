@@ -39,12 +39,11 @@ def add_country(code: str) -> None:
     if f"  {code}:" in text:
         print(f"[1/2] {code} already in countries.js — skipped")
     else:
-        text = re.sub(
-            r"(export const AVAILABLE_COUNTRIES = \{[^}]+?)(\})",
-            lambda m: m.group(1) + entry + "\n" + m.group(2),
-            text,
-            flags=re.DOTALL,
-        )
+        # Find the closing brace of AVAILABLE_COUNTRIES by locating "\n}" after the opening
+        marker = "export const AVAILABLE_COUNTRIES = {"
+        idx = text.index(marker) + len(marker)
+        close = text.index("\n}", idx)
+        text = text[:close] + "\n" + entry + text[close:]
         COUNTRIES_JS.write_text(text)
         print(f"[1/2] Added {code} to countries.js")
 

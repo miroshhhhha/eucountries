@@ -1,0 +1,358 @@
+{
+  "country": "Slovenia",
+  "country_code": "SI",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Slovenian",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education programs (undergraduate, master's, or doctoral studies)",
+      "Vocational and technical education programs",
+      "Secondary school education (within an international exchange program or other approved programs)",
+      "Language courses or other forms of education that are part of a recognized educational program",
+      "Researcher or scientist programs at recognized research organizations",
+      "Specialisation, professional training, or practical training",
+      "International study-exchange programmes, or other programmes not part of the formal education system"
+    ],
+    "short_stay": [],
+    "notes": "In all cases, the applicant must obtain a residence permit for the purpose of studying for stays longer than 90 days."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "Temporary Residence Permit for Study Purposes",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "For stays longer than 90 days. A Long-stay Visa (D) may be issued for entry to collect the permit card."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Online appointment system",
+          "description": "Check the official website of the specific Slovenian embassy or consulate in your country of residence.",
+          "url": null
+        },
+        {
+          "method": "Email or telephone",
+          "description": "If no online system exists, appointments must be requested via email or telephone as specified by the embassy/consulate.",
+          "url": null
+        },
+        {
+          "method": "UE Naročanje online scheduler",
+          "description": "For larger administrative units (Upravna enota) in Slovenia, if applying in-country.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Receive Enrollment Certificate",
+          "description": "Obtain the certificate of enrollment or acceptance from the Slovenian educational institution."
+        },
+        {
+          "step": 2,
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documents, including criminal record certificates, proof of funds, and health insurance."
+        },
+        {
+          "step": 3,
+          "title": "Book Appointment",
+          "description": "Schedule an appointment at the Slovenian embassy/consulate abroad or, if eligible, at an administrative unit in Slovenia."
+        },
+        {
+          "step": 4,
+          "title": "Submit Application",
+          "description": "Submit the completed application form (Form 8/1) in person at the diplomatic mission/consulate or administrative unit."
+        },
+        {
+          "step": 5,
+          "title": "Provide Biometric Data",
+          "description": "Provide fingerprints at the embassy or administrative unit."
+        },
+        {
+          "step": 6,
+          "title": "Pay Administrative Fee",
+          "description": "Pay the applicable administrative fee."
+        },
+        {
+          "step": 7,
+          "title": "Receive Certificate of Timely Application (if applying in-country)",
+          "description": "If applying inside Slovenia, a certificate of timely application will be issued, acting as a temporary permit until a final decision is made."
+        },
+        {
+          "step": 8,
+          "title": "Wait for Decision",
+          "description": "The embassy forwards the application to the relevant Administrative Unit (Upravna enota) in Slovenia for decision-making."
+        },
+        {
+          "step": 9,
+          "title": "Collect Permit",
+          "description": "Collect the biometric residence permit card at the embassy or administrative unit upon approval. In some cases, a Long-stay Visa (D) is issued to enter Slovenia and collect the card."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 60,
+        "typical_min_days": 60,
+        "typical_max_days": 120,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": null,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "application_form",
+      "name": "Completed and signed application form",
+      "details": "Official form no. 8/1 (Annex 1 of the Rules on issuing residence permits) for a first temporary residence permit.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport",
+      "name": "Valid Travel Document (Passport)",
+      "details": "Valid for at least 3 months beyond the intended stay, with at least two blank pages. A certified copy is also acceptable.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photo",
+      "name": "Passport-sized Photograph",
+      "details": "A compliant personal photograph.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "enrollment_proof",
+      "name": "Proof of Admission or Enrollment",
+      "details": "Certificate of admission or enrollment from a recognized Slovenian educational institution, or confirmation from the relevant state authority or grant-awarding body.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Sufficient Financial Means",
+      "details": "Evidence to cover living costs for the duration of the stay.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Health Insurance",
+      "details": "Covering at least emergency medical services in Slovenia, if not otherwise compulsorily insured.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "police_clearance",
+      "name": "Police Clearance Certificate (Criminal Record)",
+      "details": "From the home country, not older than three months, officially translated into Slovene by a certified court translator, and apostilled/legalised if required.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "fee_payment",
+      "name": "Proof of Payment of Administrative Fee",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "address_confirmation",
+      "name": "Confirmation of Address in Slovenia",
+      "details": "E.g., rental contract or owner's statement, if applying inside Slovenia.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 507.43,
+    "reference_basis": "Basic amount of minimum income in Slovenia, adjusted periodically for inflation.",
+    "year": 2026,
+    "calculation_rules": {
+      "first_adult_pct": null,
+      "additional_adult_pct": null,
+      "dependent_child_pct": null
+    },
+    "example_12_months_eur": 6089.16,
+    "acceptable_proof": [
+      "Bank statements or savings showing sufficient funds",
+      "Scholarship or grant confirmation",
+      "Written declaration from parents or legal guardians (if legally obliged to support you under the law of your home country), accompanied by their bank statements",
+      "Employment contract or job offer (if intending to work in Slovenia)"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Administrative Unit",
+    "authority_full_name": "Administrative Unit (Upravna enota)",
+    "authority_url": null,
+    "apply_within_days_of_arrival": null,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "UE Naročanje online scheduler (for larger units) or phone booking",
+    "required_documents": [],
+    "notes": "If the permit was granted before travel, the student collects the physical residence permit card. If the student entered with a Visa D, they must visit the local Administrative Unit to finalize the permit. Third-country nationals holding a valid temporary residence permit must register their place of temporary residence at the competent administrative unit within 8 days of taking up temporary residence at that address (or within 8 days of the permit being served). The 3-day rule applies only to those without a valid residence permit or visa, who must register at the nearest police station within 3 days of entry. If staying in a student dormitory or hotel, the landlord usually handles the registration of residence."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": null,
+    "full_time_during_breaks": null,
+    "requires_notification": true,
+    "notification_authority": "Student Service (Študentski servis)",
+    "legal_basis": "Laws governing employment relationships and student work, specifically the 'Student Work' (Študentsko delo) system.",
+    "restrictions": [
+      "Must maintain academic performance and valid student status",
+      "Non-resident foreign students are subject to a 25% income tax withholding on student work earnings."
+    ],
+    "notes": "Students must join a 'Student Service' which acts as a specialized employment agency. There is a legal minimum hourly rate for student work, adjusted annually. A reduced tax rate or exemption may apply if a double-taxation agreement (DTA) exists between Slovenia and the student's home country, requiring prior authorisation from the Slovenian tax authority."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 30,
+    "apply_before_expiry_max_days": null,
+    "online_portal": null,
+    "required_documents": [
+      "Proof of continued enrollment",
+      "Proof of academic progress (passed exams)",
+      "Updated health insurance",
+      "Updated proof of funds"
+    ],
+    "notes": "The application for renewal must be submitted to the Administrative Unit in Slovenia before the current permit expires. The renewal is granted under the same conditions that applied to the original issuance."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": null,
+    "process_authority": "Administrative Unit",
+    "requirements": [
+      "Secure a job offer in Slovenia",
+      "Employer must apply for a Single Work and Residence Permit"
+    ],
+    "notes": "Graduates can apply for a residence permit for 'Job Seeking or Entrepreneurship' for a period of up to 9 months after completing their studies. The student can change their status from a study permit or a job-seeking permit to a work permit without having to leave the country. In-country applications are possible for this change of purpose."
+  },
+  "official_sources": [
+    {
+      "name": "Infotujci.si",
+      "url": "https://www.infotujci.si/",
+      "description": "The official national portal for foreigners, providing information on residence permits, conditions, and document requirements."
+    },
+    {
+      "name": "GOV.si - Ministry of the Interior / Ministry of Foreign Affairs",
+      "url": "https://www.gov.si/",
+      "description": "Official website for residence permits, migration policy, and Slovenia's representations abroad."
+    },
+    {
+      "name": "E-uprava.gov.si",
+      "url": "https://e-uprava.gov.si/",
+      "description": "Slovenia's national e-government portal for administrative procedures and some online services."
+    },
+    {
+      "name": "EU Immigration Portal - Student in Slovenia",
+      "url": "https://home-affairs.ec.europa.eu/",
+      "description": "Official EU Commission summary page for studying in Slovenia."
+    },
+    {
+      "name": "PISRS.si",
+      "url": "https://www.pisrs.si/",
+      "description": "Register of legal acts, for the Foreigners Act and the Rules on issuing residence permits."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Application for issuing or renewing a temporary residence permit for study purposes (Form 8/1)",
+      "url": "https://www.pisrs.si/",
+      "authority": "Slovenian embassies and consular posts abroad, Administrative units (upravne enote) in Slovenia, e-uprava.gov.si"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Authenticating Documents",
+      "body": "Ensure the police clearance certificate has the correct Apostille or legalization; without this, the document is not legally valid in Slovenia.",
+      "priority": "high"
+    },
+    {
+      "title": "Translations",
+      "body": "All documents in foreign languages must be translated into Slovenian by a certified court translator.",
+      "priority": "high"
+    },
+    {
+      "title": "Bank Statements",
+      "body": "Ensure bank statements clearly show the account holder's name and sufficient closing balances; simple printouts without official stamps may be rejected.",
+      "priority": "high"
+    },
+    {
+      "title": "Timelines",
+      "body": "Start the process as soon as the enrollment certificate is received, as the administrative process can be slow.",
+      "priority": "high"
+    },
+    {
+      "title": "Health Insurance",
+      "body": "Verify that the insurance policy meets the specific coverage requirements; standard travel insurance is often insufficient for a residence permit.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "Delays or rejections, potentially missing the start of your course.",
+      "how_to_avoid": "Start well before your intended travel or course start date, as embassy appointments, document translations, and apostilles can take significant time."
+    },
+    {
+      "mistake": "Missing the residence registration deadline",
+      "consequence": "Legal issues or fines for non-compliance with local regulations.",
+      "how_to_avoid": "Register your address at the administrative unit within 8 days of taking up residence (for permit holders) or at the police station within 3 days of arrival (for those without a permit/visa)."
+    },
+    {
+      "mistake": "Letting the permit lapse",
+      "consequence": "Loss of legal status in Slovenia, requiring you to leave the country.",
+      "how_to_avoid": "Apply for renewal before the current permit expires, especially for multi-year courses."
+    },
+    {
+      "mistake": "Incomplete proof of funds",
+      "consequence": "Application rejection due to insufficient financial evidence.",
+      "how_to_avoid": "Provide bank statements that cover the full length of the planned stay and meet or exceed the official minimum subsistence amount."
+    },
+    {
+      "mistake": "Untranslated or unlegalised documents",
+      "consequence": "Application rejection as documents are not legally valid.",
+      "how_to_avoid": "Submit criminal record certificates and other foreign documents with the required Slovene translation by a certified court translator and apostille/legalisation."
+    },
+    {
+      "mistake": "Confusing a short-stay Schengen visa with a residence permit",
+      "consequence": "Inability to study long-term, as a Schengen visa only allows short-term entry.",
+      "how_to_avoid": "Understand that a Schengen visa does not replace the temporary residence permit needed for the full duration of studies."
+    },
+    {
+      "mistake": "Not checking embassy-specific procedures",
+      "consequence": "Delays or incorrect application submission due to varying requirements.",
+      "how_to_avoid": "Always check the specific appointment and document-submission procedures on the website of the Slovenian embassy or consulate where you intend to apply."
+    },
+    {
+      "mistake": "Overlooking the in-country application route",
+      "consequence": "Unnecessary travel or delays if you are already legally present in Slovenia.",
+      "how_to_avoid": "Realize that in some cases, the first permit can be requested from within Slovenia if you are already legally present, which can save time compared to applying from abroad."
+    }
+  ]
+}

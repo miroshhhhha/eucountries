@@ -1,0 +1,374 @@
+{
+  "country": "Denmark",
+  "country_code": "DK",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "DKK",
+  "official_language": "Danish",
+  "qualifying_courses": {
+    "long_stay": [
+      "University degrees (Bachelor's, Master's, PhD)",
+      "Professional bachelor's programs",
+      "Exchange programs (Erasmus+, guest students)",
+      "Preparatory courses linked to a higher education program (max 1 year)",
+      "Folk High Schools (Folkehøjskoler)",
+      "Basic/youth study programs"
+    ],
+    "short_stay": [],
+    "notes": "Must be full-time study at a publicly accredited institution. Distance learning, part-time studies, or courses at unaccredited private institutions do not qualify. From May 2, 2025, students in non-state-approved programs face restrictions on work permits, post-study stays, and family visas."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "ST1",
+        "name": "Student Residence Permit (ST1)",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Serves as both visa and residence permit for non-EU/EEA or Swiss citizens."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Danish Embassy/Consulate General",
+          "description": "For submitting biometric data and original documents."
+        },
+        {
+          "method": "VFS Global",
+          "description": "Partner external outsourcing hub for submitting biometric data and original documents."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Get Accepted",
+          "description": "Receive an unconditional letter of admission from a state-approved Danish higher education institution."
+        },
+        {
+          "step": 2,
+          "title": "Institution Initiates Application",
+          "description": "The educational institution completes its section (Part 2) of the online ST1 form and provides a unique reference ID (Case Order ID)."
+        },
+        {
+          "step": 3,
+          "title": "Pay Application Fee",
+          "description": "Pay the mandatory processing fee to the Danish Agency for International Recruitment and Integration (SIRI)."
+        },
+        {
+          "step": 4,
+          "title": "Complete Student's Section",
+          "description": "Fill out your section (Part 1) of the online ST1 application, linking it to your Case Order ID, and attach required documents."
+        },
+        {
+          "step": 5,
+          "title": "Submit Biometrics",
+          "description": "Visit a Danish Embassy, Consulate General, or VFS Global station within 14 days of submitting your online application to record biometric data (fingerprints and facial photograph) and present original physical documents.",
+          "action_required": "Book appointment immediately after online submission."
+        },
+        {
+          "step": 6,
+          "title": "Wait for Processing",
+          "description": "SIRI typically processes complete applications within 60 days, though it can take up to 3 months in practice."
+        },
+        {
+          "step": 7,
+          "title": "Collect Permit and Travel",
+          "description": "Collect your residence permit and travel to Denmark."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 60,
+        "typical_max_days": 90,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 290,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for the entire duration of studies; permit cannot extend beyond 3 months before passport expiry.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "st1_form",
+      "name": "Completed ST1 Application Form",
+      "details": "Completed online; educational institution completes the first part, student completes the second.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "Unconditional Letter of Admission",
+      "details": "From a Danish educational institution.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Financial Means",
+      "details": "Personal certified bank statement in applicant's name, less than 30 days old, showing the balance and currency. Statements under a parent's name or cryptocurrency are not accepted.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [
+        "Students who have paid tuition for their program",
+        "PhD students with a job contract"
+      ],
+      "notes": null
+    },
+    {
+      "id": "language_proficiency",
+      "name": "Proof of English or Danish Language Proficiency",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "fee_receipt",
+      "name": "Fee Payment Receipt",
+      "details": "Proof of payment for the SIRI application fee.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photos",
+      "name": "Biometric Passport-size Photos",
+      "details": "Meeting Danish biometric criteria.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_payment_proof",
+      "name": "Proof of Tuition Payment",
+      "details": "Documentation proving the first semester or year's tuition was paid (if applicable, for full-degree non-EU students). This can exempt from financial proof.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "application_receipt",
+      "name": "Application Confirmation Receipt",
+      "details": "Printout of the completed online ST1 application confirmation page.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "parental_consent",
+      "name": "Declaration of Consent (for minors)",
+      "details": "From both parents and documentation of custody holders (for applicants under 18).",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 992,
+    "reference_basis": "Official national grant rates (2026 level)",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": 11909,
+    "acceptable_proof": [
+      "Personal certified bank statements in applicant's name (less than 30 days old, showing balance and currency)",
+      "Official scholarship award letter specifying monthly stipends",
+      "Blocked account in applicant's name or Danish account (if sponsored by third-party)"
+    ],
+    "exemptions": [
+      "Students who have paid tuition for their program",
+      "PhD students with a job contract"
+    ]
+  },
+  "residence_permit": {
+    "authority_name": "SIRI",
+    "authority_full_name": "Danish Agency for International Recruitment and Integration",
+    "authority_url": "nyidanmark.dk",
+    "apply_within_days_of_arrival": 5,
+    "validity_months": null,
+    "renewable": true,
+    "booking_method": "Visit local Citizen Service center (Borgerservice) or International Citizen Service (ICS) hub",
+    "required_documents": [
+      "Passport",
+      "Lease contract",
+      "ST1 approval letter"
+    ],
+    "notes": "The student residence permit (ST1) is applied for before arrival and serves as both visa and residence permit. Upon arrival, students must register their address with the local municipality (Borgerservice/ICS) within 5 days to obtain a CPR number (Civil Registration Number) and access public services, including free medical care. The permit is valid for the nominal duration of the educational program."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": null,
+    "full_time_during_breaks": true,
+    "requires_notification": false,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [
+      "Work limit is 90 hours per month during the normal study period (September-May).",
+      "Full-time work is allowed during June, July, and August.",
+      "Applies to students in state-approved higher educational programs.",
+      "Students in non-state-approved programs (applied on/after May 2, 2025) are generally not granted work permits.",
+      "Basic/youth program students are generally not permitted to work.",
+      "Unpaid voluntary work is unlimited and does not count toward the limit."
+    ],
+    "notes": "Exceeding work limits can lead to warning, fine, or permit revocation and deportation."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 120,
+    "apply_before_expiry_max_days": 0,
+    "online_portal": "nyidanmark.dk",
+    "required_documents": [
+      "Statement from educational institution confirming active enrollment and student status",
+      "Updated bank records proving financial self-sufficiency for the remaining duration",
+      "Payment of the renewal fee",
+      "Proof of sufficient funds (DKK 7,426/month) for the remaining period (if permit granted for less than 1 year)",
+      "Proof of paid tuition (if applicable, exempts from financial documentation)"
+    ],
+    "notes": "Must not be delayed by more than 1 year in studies."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": null,
+    "legal_basis": null,
+    "process_authority": "SIRI",
+    "requirements": [
+      "Completion of a Danish professional bachelor, bachelor, master or PhD educational programme (state-approved)."
+    ],
+    "notes": "After completing a state-approved higher education program, students are generally granted a job-seeking permit of 6 months or 3 years, depending on the program type. PhD students typically receive a 3-year permit. During the job-seeking period, work rights are the same as during studies (90 hours/month Sept-May, full-time June-Aug) unless a full work permit is obtained. Non-state-approved programs (applied on/after May 2, 2025) are not eligible for a job-seeking permit. If a job is secured, students can start working while their work permit application is processed."
+  },
+  "official_sources": [
+    {
+      "name": "New to Denmark (SIRI – official portal)",
+      "url": "nyidanmark.dk",
+      "description": "The official joint portal of the Danish Immigration Service and SIRI, serving as the definitive legal source for all residence permit tracks."
+    },
+    {
+      "name": "Study in Denmark (official guide)",
+      "url": "studyindenmark.dk",
+      "description": "The state-run hub for academic structures, program accreditations, and student life information."
+    },
+    {
+      "name": "Danish Agency for International Recruitment (SIRI)",
+      "url": "siri.dk",
+      "description": null
+    },
+    {
+      "name": "EU Immigration Portal – Denmark",
+      "url": "home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-denmark_en",
+      "description": null
+    },
+    {
+      "name": "Ministry of Foreign Affairs of Denmark",
+      "url": "um.dk",
+      "description": "For consular fees, embassy processing locations, and diplomatic appointment requirements."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "ST1 application form",
+      "url": "nyidanmark.dk",
+      "authority": "SIRI"
+    },
+    {
+      "name": "Online application portal",
+      "url": "nyidanmark.dk",
+      "authority": "SIRI"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Apply in Advance",
+      "body": "It is highly recommended to apply for your student residence permit 3–4 months before your program start date, as processing can take up to 3 months.",
+      "priority": "high"
+    },
+    {
+      "title": "Verify Program Accreditation",
+      "body": "Always verify program accreditation status before applying, especially due to new 2025 rules affecting work and post-study rights for non-approved programs.",
+      "priority": "high"
+    },
+    {
+      "title": "Financial Documentation Validity",
+      "body": "Ensure bank statements for financial documentation are less than 30 days old at the time of submission, in your own name, and clearly state the currency. Parent statements or cryptocurrency are not accepted.",
+      "priority": "high"
+    },
+    {
+      "title": "Biometrics Submission",
+      "body": "After submitting your online application, book your embassy/VFS appointment immediately to submit biometrics (fingerprints and photo) within the mandatory 14-day window.",
+      "priority": "high"
+    },
+    {
+      "title": "Understand Work Limits",
+      "body": "Strictly track your working hours. The current rule is 90 hours per month during the normal study period (September-May) and full-time during June, July, and August. Exceeding these limits can lead to permit revocation and deportation.",
+      "priority": "high"
+    },
+    {
+      "title": "Timely Permit Renewal",
+      "body": "Apply for your residence permit extension no earlier than 4 months and no later than the day your current permit expires.",
+      "priority": "high"
+    },
+    {
+      "title": "Register CPR Address",
+      "body": "Upon arrival, register your address with the local municipality (Borgerservice/ICS) immediately to obtain your CPR number, which is essential for accessing healthcare, bank accounts, and other services.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too close to the program start date",
+      "consequence": "Potential delays or rejection of the application.",
+      "how_to_avoid": "Apply 3-4 months in advance, as processing can take up to 3 months."
+    },
+    {
+      "mistake": "Enrolling in a non-state-approved program without knowing the restrictions",
+      "consequence": "Loss of work and post-study rights (for applications on/after May 2, 2025).",
+      "how_to_avoid": "Always verify program accreditation status before applying."
+    },
+    {
+      "mistake": "Submitting bank statements older than 30 days",
+      "consequence": "Application rejection due to invalid financial proof.",
+      "how_to_avoid": "Ensure bank statements are less than 30 days old at the time of submission."
+    },
+    {
+      "mistake": "Forgetting to submit biometrics within 14 days of online application",
+      "consequence": "Application rejected as invalid, and loss of application fee.",
+      "how_to_avoid": "Book your embassy/VFS appointment immediately after submitting online."
+    },
+    {
+      "mistake": "Exceeding the monthly work limit for students",
+      "consequence": "Warning, fine, or immediate revocation of residence permit and deportation.",
+      "how_to_avoid": "Track your hours carefully, adhering to the 90 hours per month limit during term time (September-May) and full-time during summer breaks (June-August)."
+    },
+    {
+      "mistake": "Missing the permit renewal window",
+      "consequence": "Risk of overstaying and legal issues.",
+      "how_to_avoid": "Apply for extension no earlier than 4 months and no later than the day your permit expires."
+    },
+    {
+      "mistake": "Not registering CPR address upon arrival",
+      "consequence": "Inability to obtain a CPR number, access healthcare, bank accounts, and other essential services.",
+      "how_to_avoid": "Register with the local municipality immediately after moving in."
+    },
+    {
+      "mistake": "Renting without an address registration right",
+      "consequence": "Inability to obtain a CPR number, rendering your stay functionally non-compliant.",
+      "how_to_avoid": "Always verify that the landlord permits you to register your CPR address at the apartment."
+    }
+  ]
+}

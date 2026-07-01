@@ -1,0 +1,349 @@
+{
+  "country": "Bulgaria",
+  "country_code": "BG",
+  "last_updated": "2026-07-01",
+  "schengen_member": null,
+  "currency": "BGN",
+  "official_language": "Bulgarian",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education (Bachelor's, Master's, PhD programs)",
+      "Upper secondary education within an exchange programme",
+      "Full-time, year-long preparatory language courses organized by universities for international students",
+      "Academic student exchange programs",
+      "Institutional traineeships regulated by EU frameworks"
+    ],
+    "short_stay": [],
+    "notes": "Standalone language courses or part-time programs do not qualify for a study visa."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "Long-stay Study Visa (Type D)",
+        "validity_days": 180,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Allows multiple entries and is an essential requirement for a Bulgarian residence permit."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Bulgarian Embassy/Consulate",
+          "description": "Booking can be done online via the embassy's website, or via email/telephone.",
+          "url": "mfa.bg"
+        },
+        {
+          "method": "VFS Global",
+          "description": "In certain regions, appointments may be booked directly via outsourced visa handling agencies.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "University Admission",
+          "description": "Apply and get accepted into an accredited Bulgarian higher education institution for a full-time program.",
+          "action_required": "Secure a letter of acceptance."
+        },
+        {
+          "step": 2,
+          "title": "Ministry Approval",
+          "description": "The university submits your documents to the Bulgarian Ministry of Education and Science (MES), which issues an official Certificate of Admission/Eligibility.",
+          "action_required": "Obtain the original MES certificate."
+        },
+        {
+          "step": 3,
+          "title": "Book Embassy Appointment",
+          "description": "Book an appointment at the Bulgarian Embassy or Consulate in your country of citizenship or permanent residence.",
+          "action_required": "Book appointment after receiving the MES certificate."
+        },
+        {
+          "step": 4,
+          "title": "Submit Documents and Pay Fee",
+          "description": "Submit all required physical documents (translated into Bulgarian and legalized) and pay the D-visa application fee.",
+          "action_required": "Attend appointment, submit documents, pay fee, provide fingerprints if required."
+        },
+        {
+          "step": 5,
+          "title": "Visa Processing",
+          "description": "Allow time for the Ministry of Foreign Affairs to approve and issue the D-visa.",
+          "action_required": "Wait for visa issuance."
+        },
+        {
+          "step": 6,
+          "title": "Apply for Residence Permit",
+          "description": "After arriving in Bulgaria with your Type D visa, you must apply for a long-term residence permit.",
+          "action_required": "Apply at the Migration Directorate after arrival."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 90,
+        "typical_min_days": null,
+        "typical_max_days": null,
+        "recommended_apply_before_start_days": 60
+      },
+      "fee_eur": 100,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 12 months beyond your intended stay, with at least two blank pages.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Completed and Signed Visa Application Form",
+      "details": "In Bulgarian or English.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Letter of Acceptance from a Bulgarian University",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "mes_certificate",
+      "name": "Ministry of Education Certificate of Eligibility/Admission",
+      "details": "Original certificate issued by the Bulgarian Ministry of Education and Science (MES).",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_payment_proof",
+      "name": "Proof of Paid Tuition Fees",
+      "details": "Bank transfer document proving payment for at least the first semester or full year.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_means_proof",
+      "name": "Bank Statements Showing Financial Means",
+      "details": "Certified personal bank statements from an account in the student's name.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Travel Health Insurance",
+      "details": "Valid across the EU/Bulgaria, covering repatriation, urgent medical care, and emergency hospital treatment, with minimum coverage of €30,000 (or 60,000 BGN).",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "A notarized lease agreement or an official accommodation certificate from a university student dormitory.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "police_clearance",
+      "name": "Police Clearance Report (Criminal Record Certificate)",
+      "details": "Issued from your home country or country of residence, legalized or apostilled.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [
+        "Applicants under 18"
+      ],
+      "notes": "Must be original, legalized, and translated."
+    },
+    {
+      "id": "photos",
+      "name": "Passport-sized Photos",
+      "details": "Two recent color photographs.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "medical_certificate",
+      "name": "Medical Certificate",
+      "details": "A general medical check-up clearance issued by a doctor in your home country.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 770,
+    "reference_basis": "Official minimum requirement (1,500 BGN)",
+    "year": 2025,
+    "calculation_rules": null,
+    "example_12_months_eur": 9240,
+    "acceptable_proof": [
+      "Certified personal bank statements from a personal account in the student's name",
+      "Notarized sponsorship declaration accompanied by sponsor's bank records"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Migration Directorate",
+    "authority_full_name": null,
+    "authority_url": "mvr.bg/migration",
+    "apply_within_days_of_arrival": 5,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [
+      "Passport",
+      "Updated university enrollment certificates",
+      "Proof of address",
+      "Proof of funds",
+      "Original police clearance report"
+    ],
+    "notes": "The 5-day deadline is specifically for address registration upon arrival. The Long Term Residence Permit is issued for one year. A temporary residence certificate is issued, and the card within three weeks. Application fee is 11 BGN, plus administrative fees (e.g., 40 BGN for approval, 45 BGN for regular ID card service)."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": true,
+    "notification_authority": "National Revenue Agency",
+    "legal_basis": null,
+    "restrictions": [],
+    "notes": "No separate work permit is required for students."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 14,
+    "apply_before_expiry_max_days": null,
+    "online_portal": null,
+    "required_documents": [
+      "Fresh Certificate of Enrollment from university (proving successful advancement)",
+      "Updated rental declaration",
+      "Fresh local bank statement",
+      "Extended health insurance"
+    ],
+    "notes": "The renewal process is similar to the initial application. The residence permit must be renewed every academic year."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": null,
+    "process_authority": "Employment Agency",
+    "requirements": [
+      "Register with the Employment Agency to use brokerage employment services",
+      "Secure a job offer matching academic qualifications",
+      "Employer must prove no suitable Bulgarian or EU candidate is available for the job (labor market test)"
+    ],
+    "notes": "Students can apply to extend their residence permit for up to 9 months to seek employment or start a business. Conversion to a standard Single Work and Residence Permit requires the employer to apply to the Employment Agency."
+  },
+  "official_sources": [
+    {
+      "name": "Bulgarian Ministry of Foreign Affairs",
+      "url": "mfa.bg",
+      "description": "For visa types, specific diplomatic guidelines, and consular locations."
+    },
+    {
+      "name": "EU Immigration Portal – Student in Bulgaria",
+      "url": "home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-bulgaria_en",
+      "description": null
+    },
+    {
+      "name": "National Migration Directorate",
+      "url": "mvr.bg/migration",
+      "description": "For physical residence permit protocols inside the country."
+    },
+    {
+      "name": "Studies in Bulgaria (official guide)",
+      "url": "studiesinbulgaria.eu",
+      "description": null
+    },
+    {
+      "name": "Bulgarian Ministry of Education and Science (MES)",
+      "url": "mon.bg",
+      "description": "For educational institutional criteria and validation rules."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "D-Visa Application Form",
+      "url": null,
+      "authority": "Bulgarian Embassy/Consulate, MFA, VFS Global"
+    },
+    {
+      "name": "Residence Permit Application Form",
+      "url": null,
+      "authority": "National Migration Directorate, Regional Migration Directorates, local police station Immigration Department, regional university international offices"
+    },
+    {
+      "name": "Ministry of Education Eligibility Certificate",
+      "url": null,
+      "authority": "Bulgarian Ministry of Education (via university)"
+    }
+  ],
+  "tips": [],
+  "common_mistakes": [
+    {
+      "mistake": "Applying for a language course expecting a student visa",
+      "consequence": "Visa will not be granted.",
+      "how_to_avoid": "Only full-time university programs or preparatory courses organized by universities qualify for a student visa, not standalone language courses."
+    },
+    {
+      "mistake": "Submitting documents not translated into Bulgarian",
+      "consequence": "Documents will be rejected, leading to delays or visa refusal.",
+      "how_to_avoid": "All documents must be officially translated into Bulgarian and legalized/apostilled before submission."
+    },
+    {
+      "mistake": "Applying too late for the visa",
+      "consequence": "May miss your course start date.",
+      "how_to_avoid": "Apply at least 6–8 weeks before your course start date; visa processing can take up to 3 months."
+    },
+    {
+      "mistake": "Insufficient financial proof",
+      "consequence": "Visa rejection.",
+      "how_to_avoid": "Show at least 1,500 BGN (~€770) per month in your personal bank account."
+    },
+    {
+      "mistake": "Missing the address registration deadline upon arrival",
+      "consequence": "Heavy administrative fines.",
+      "how_to_avoid": "Register your address with the Migration Directorate within 5 days of arriving in Bulgaria."
+    },
+    {
+      "mistake": "Forgetting the criminal record certificate",
+      "consequence": "Visa rejection.",
+      "how_to_avoid": "Obtain the original, legalized, and translated criminal record certificate from your home country before leaving."
+    },
+    {
+      "mistake": "Health insurance with insufficient coverage",
+      "consequence": "Visa rejection.",
+      "how_to_avoid": "Ensure your policy covers at least €30,000 and is valid across the entire EU."
+    },
+    {
+      "mistake": "Missing legalization/apostille for documents",
+      "consequence": "Documents will be rejected.",
+      "how_to_avoid": "Documents like criminal record certificates and diplomas must be properly apostilled or legalized in your home country."
+    },
+    {
+      "mistake": "Insufficient funds history in bank statements",
+      "consequence": "Raises red flags for consular officers and may lead to visa rejection.",
+      "how_to_avoid": "Ensure the money in your bank account appears stable; avoid drastic, unverified deposits right before submitting the visa request."
+    }
+  ]
+}

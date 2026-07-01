@@ -1,0 +1,361 @@
+{
+  "country": "Estonia",
+  "country_code": "EE",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Estonian",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education (Bachelor's, Master's, PhD)",
+      "PhD/doctoral research programmes",
+      "Formal student exchange frameworks (exceeding 90 days)",
+      "Formal university-level language or foundational preparatory courses (tied directly to a subsequent full-time degree program confirmation)"
+    ],
+    "short_stay": [],
+    "notes": "Only full-time students are eligible. Part-time programs, distance/online learning, or standalone short-term language courses do not qualify non-EU nationals for a student visa or residence permit."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "Long-stay D-Visa",
+        "validity_days": 365,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Used to enter Estonia for study purposes. If studying longer than a year, a Temporary Residence Permit (TRP) for study is required after arrival."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Estonian Embassy/Consulate",
+          "description": "Directly contact the Estonian diplomatic representation in your home country or country of legal residence (online booking system, phone, or email). Applications must be submitted personally.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Locate Embassy/Consulate",
+          "description": "Find the nearest Estonian foreign representation handling visa applications via the Ministry of Foreign Affairs website (vm.ee).",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Book Appointment",
+          "description": "Book an appointment for a Long-stay (D) Visa application through the embassy's designated online calendar system or via email/phone. Book early, as slots fill up rapidly ahead of the autumn semester.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Submit D-Visa Application",
+          "description": "Submit your D-visa application in person at the Estonian embassy or consulate.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Travel to Estonia",
+          "description": "Once the D-visa is issued, you can travel to Estonia and begin your studies.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 10,
+        "typical_max_days": 30,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 120,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond your planned visa expiry date, with two blank pages.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "Official Admission Letter",
+      "details": "Unconditional acceptance letter from an accredited Estonian higher education institution.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "application_form",
+      "name": "Completed Application Form",
+      "details": "Printed from the online system, filled out, and signed.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Sufficient Financial Means",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Valid Health Insurance",
+      "details": "Private medical insurance valid in Estonia/Schengen with a minimum coverage threshold of €30,000, covering the entire stay (minimum one year).",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "Proof of accommodation in Estonia (e.g., rental lease agreement).",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport_photos",
+      "name": "Passport-style Photos",
+      "details": "Biometric color photo sized 35x45 mm against a light background.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "fee_receipt",
+      "name": "Application Fee Payment Receipt",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record",
+      "name": "Criminal Record Certificate",
+      "details": "Police clearance certificate from your home country, issued within the last 6 months (primarily required for TRP applications).",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 880,
+    "reference_basis": "Four times the subsistence level per month, as set annually by the State Budget Act.",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": 10560,
+    "acceptable_proof": [
+      "Official bank statement in your name showing regular income streams or a matured lump-sum balance over the preceding 6 months",
+      "Official scholarship confirmation letter indicating a recurring stipend",
+      "Formal financial guarantee statement alongside bank statements and tax records of a legal sponsor (e.g., parents)"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "PPA",
+    "authority_full_name": "Police and Border Guard Board",
+    "authority_url": "https://www.politsei.ee",
+    "apply_within_days_of_arrival": null,
+    "validity_months": 60,
+    "renewable": true,
+    "booking_method": "Online booking system for PPA service office appointment",
+    "required_documents": [
+      "Completed application form",
+      "Valid passport",
+      "Biometric passport photo",
+      "Official admission letter",
+      "Proof of sufficient financial means",
+      "Valid health insurance",
+      "Proof of accommodation",
+      "Criminal record certificate (issued within 6 months)",
+      "Receipt of state fee"
+    ],
+    "notes": "The processing time for the Temporary Residence Permit (TRP) is up to 90 days from application acceptance. If granted, the residence permit card is issued within an additional 30 days. Within 1 month of the permit being granted, you must register your place of residence at the local government authority and apply for your Estonian ID-card."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": null,
+    "full_time_during_breaks": true,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [
+      "Employment must not interfere with studies",
+      "Must retain full-time student status and maintain satisfactory academic progress"
+    ],
+    "notes": "No separate work permit is required; work rights are inherent to the study permit (D-visa or TRP)."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 60,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "PPA online portal (politsei.ee)",
+    "required_documents": [
+      "Proof of continued full-time enrollment",
+      "Proof of satisfactory academic progress (e.g., ECTS credits completed)",
+      "Valid passport",
+      "Proof of sufficient financial means",
+      "Valid health insurance"
+    ],
+    "notes": "If switching universities, notify the PPA and submit a new acceptance letter. Taking academic leave can revoke the TRP unless status is maintained with the university/PPA."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": null,
+    "process_authority": "PPA",
+    "requirements": [
+      "Proof of sufficient funds and accommodation (for job-seeking period)",
+      "Secure a job offer matching qualifications (to switch to employment permit)",
+      "Graduates are exempt from immigration quota limits and labor market test"
+    ],
+    "notes": "The 270-day period is a permitted stay after the study TRP expires, not a separate extension. Students do not need to leave the country while waiting for work permit processing."
+  },
+  "official_sources": [
+    {
+      "name": "Police and Border Guard Board (PPA)",
+      "url": "https://www.politsei.ee",
+      "description": "The official issuing authority for residence permits and visas."
+    },
+    {
+      "name": "Estonian Ministry of Foreign Affairs",
+      "url": "https://vm.ee",
+      "description": "For visa requirements by nationality and embassy locator."
+    },
+    {
+      "name": "Study in Estonia",
+      "url": "https://www.studyinestonia.ee",
+      "description": "A government-affiliated portal for international students with practical guidance."
+    },
+    {
+      "name": "Riigi Teataja",
+      "url": "https://www.riigiteataja.ee",
+      "description": "Estonia’s official legal gazette, where the Aliens Act and related legislation are published."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "D-Visa Application Form",
+      "url": "https://www.politsei.ee",
+      "authority": "PPA / Estonian Embassy/Consulate"
+    },
+    {
+      "name": "Temporary Residence Permit for Study Application Form",
+      "url": "https://www.politsei.ee",
+      "authority": "PPA"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Apply Early",
+      "body": "D-visa processing can take up to 30 days, and TRP decisions up to 90 days. Apply well in advance (recommended 90 days before program start) to avoid missing your program start date.",
+      "priority": "high"
+    },
+    {
+      "title": "Understand Financial Requirements",
+      "body": "Do not underestimate the funds required. Embassies may expect to see a more comfortable monthly amount than the bare legal minimum. Avoid sudden large deposits in bank statements; demonstrate stable balance history.",
+      "priority": "high"
+    },
+    {
+      "title": "Distinguish D-Visa and TRP",
+      "body": "The D-visa and Temporary Residence Permit (TRP) are distinct steps for students staying over a year. Do not assume the D-visa alone covers your entire stay if your course exceeds 12 months.",
+      "priority": "high"
+    },
+    {
+      "title": "Register Residence and Obtain ID-Card",
+      "body": "Do not miss post-arrival registration deadlines. Register your place of residence within 1 month of TRP approval and apply for your Estonian ID-card promptly. Neglecting this prevents obtaining an Isikukood, which is essential for banking and e-government services.",
+      "priority": "high"
+    },
+    {
+      "title": "Maintain Valid Health Insurance",
+      "body": "Your health insurance policy must remain valid for your entire study period, with a minimum coverage of €30,000. Generic travel insurance policies are often insufficient.",
+      "priority": "high"
+    },
+    {
+      "title": "Adhere to Renewal Deadlines",
+      "body": "Submit your TRP renewal request at least 2 months before your current permit expires, not after.",
+      "priority": "high"
+    },
+    {
+      "title": "Maintain Full-Time Student Status",
+      "body": "Going part-time without informing your university and the PPA can automatically revoke your TRP, as universities are required to report status changes.",
+      "priority": "high"
+    },
+    {
+      "title": "Verify Current Information",
+      "body": "Financial thresholds, fees, and quotas are reviewed periodically. Always check the live numbers and regulations directly on the PPA website (politsei.ee) rather than relying on older guides or blog posts.",
+      "priority": "high"
+    },
+    {
+      "title": "Account for Tuition Fees",
+      "body": "Non-EU students almost exclusively face standard tuition fees. Ensure your financial proof accounts for both living expenses and tuition fee obligations to prevent immediate application freezes.",
+      "priority": "medium"
+    },
+    {
+      "title": "Apostille and Translation",
+      "body": "All non-English or non-Estonian original documents must be accompanied by a certified translation into Estonian or English and appropriately legalized or authenticated with an Apostille stamp.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late for D-visa or TRP",
+      "consequence": "Missing program start date, potential withdrawal from university.",
+      "how_to_avoid": "Apply at least 3 months before your program starts to allow for processing times."
+    },
+    {
+      "mistake": "Underestimating financial requirements or submitting a 'snap-shot' bank statement",
+      "consequence": "Visa denial or application freeze; embassies expect more than the minimum and stable financial history.",
+      "how_to_avoid": "Verify current PPA requirements, demonstrate stable funds over 6 months, and account for living costs and tuition."
+    },
+    {
+      "mistake": "Confusing the D-visa with the Temporary Residence Permit (TRP)",
+      "consequence": "Assuming the D-visa covers stays longer than 12 months, leading to issues with legal residency.",
+      "how_to_avoid": "Understand that the D-visa is for entry and initial stay, and a TRP is required for studies exceeding one year."
+    },
+    {
+      "mistake": "Missing post-arrival registration deadlines (residence and ID-card)",
+      "consequence": "Administrative issues, inability to obtain an Isikukood, set up a bank account, or access e-government services.",
+      "how_to_avoid": "Register your place of residence within 1 month of TRP approval and apply for your Estonian ID-card promptly."
+    },
+    {
+      "mistake": "Letting health insurance lapse or buying inadequate travel insurance",
+      "consequence": "Lack of coverage for medical emergencies, potential TRP revocation, visa denial.",
+      "how_to_avoid": "Ensure your private health insurance is valid for your entire study period, covers at least €30,000, and is not a generic short-term travel policy."
+    },
+    {
+      "mistake": "Missing the TRP extension deadline",
+      "consequence": "Illegal overstay, complications with continued residency.",
+      "how_to_avoid": "Submit your renewal request at least 2 months before your current TRP expires."
+    },
+    {
+      "mistake": "Switching to part-time studies without informing authorities",
+      "consequence": "Revocation of your Temporary Residence Permit (TRP).",
+      "how_to_avoid": "Always inform your university and the PPA of any changes to your study status."
+    },
+    {
+      "mistake": "Relying on outdated information for financial thresholds, fees, or quotas",
+      "consequence": "Incorrect application, delays, or denial.",
+      "how_to_avoid": "Always verify the most current figures and regulations directly on the PPA website (politsei.ee)."
+    },
+    {
+      "mistake": "Assuming 'free tuition' for non-EU students",
+      "consequence": "Application freezes due to insufficient financial proof.",
+      "how_to_avoid": "Be aware that non-EU students typically pay tuition fees and ensure your financial proof covers these obligations."
+    }
+  ]
+}

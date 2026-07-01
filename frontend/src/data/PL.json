@@ -1,0 +1,295 @@
+{
+  "country": "Poland",
+  "country_code": "PL",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "PLN",
+  "official_language": "Polish",
+  "qualifying_courses": {
+    "long_stay": [
+      "Full-time higher education programs (Bachelor’s, Master’s, PhD)",
+      "Preparatory courses for studying in Polish or English (foundation years)",
+      "Student mobility pathway for existing EU students (up to 360 days, or 2 years for first permit if EU program)"
+    ],
+    "short_stay": [],
+    "notes": "Higher education institutions must be approved by the Minister of the Interior, unless they are public or recognized University-type/professional HEIs. Part-time, weekend, or online courses do not qualify for a national student visa."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "National Study Visa",
+        "for_stays_over_days": 90,
+        "notes": "Marked with D symbol and annotation '09', 'student'."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "e-Konsulat portal",
+          "description": "Online registration and appointment booking for consular offices. Slots are released systematically every first Wednesday of the month.",
+          "url": "https://secure.e-konsulat.gov.pl/"
+        },
+        {
+          "method": "External Service Provider (VFS Global)",
+          "description": "Available in some locations (Belarus, China, India, Philippines, Turkey, Ukraine) for application submission.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Secure Admission and Pay Tuition",
+          "description": "Obtain an official acceptance letter from a recognized Polish university and pay tuition fees (typically for the first semester or full first year).",
+          "action_required": "Receive acceptance letter and payment receipt."
+        },
+        {
+          "step": 2,
+          "title": "Register and Complete Online Application",
+          "description": "Register on the e-Konsulat website, complete the National Visa (Type D) form, and print it out.",
+          "action_required": "Register and fill form on e-Konsulat, print and sign application."
+        },
+        {
+          "step": 3,
+          "title": "Book and Attend Appointment",
+          "description": "Book a specific slot at the nearest Polish Embassy/Consulate or an authorized VFS Global visa application center. Submit your physical application file, documents, and enroll biometrics.",
+          "action_required": "Book appointment via e-Konsulat, attend in person with all documents and fee."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 30,
+        "typical_min_days": 15,
+        "typical_max_days": 30,
+        "recommended_apply_before_start_days": 60
+      },
+      "fee_eur": null,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond intended stay, with at least two blank pages, issued within the past 10 years.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Completed and Signed National Visa Application Form",
+      "details": "Printed from e-Konsulat.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Official Acceptance Certificate/Letter",
+      "details": "From a recognized Polish university or entity conducting studies.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_payment_proof",
+      "name": "Proof of Tuition Payment",
+      "details": "Bank transfer receipt or university confirmation, typically for the first semester or full first year.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Health Insurance",
+      "details": "Schengen-compliant travel medical insurance with a minimum coverage of €30,000, valid for the period of the intended stay, covering repatriation for medical reasons, urgent medical attention, emergency hospital treatment, or death. Verify against approved insurer list on gov.pl.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "Dormitory allocation or a signed rental lease agreement.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Financial Resources",
+      "details": "Documents demonstrating sufficient funds to cover living costs, housing, and return transit. Includes 3 to 6 months of consecutive bank statements bearing official bank stamps, student loan/scholarship documentation, or a parental sponsorship statement. Sudden lump-sum transfers without clear origin can lead to refusal.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "biometric_photo",
+      "name": "Up-to-date Biometric Photograph",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_fee_payment_proof",
+      "name": "Proof of Payment of the Visa Fee",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 229.54,
+    "reference_basis": "Monthly funds for single students (PLN 1,010), plus separate coverage for housing and return travel.",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": 2754.48,
+    "acceptable_proof": [
+      "Bank statements (3 to 6 months, stamped)",
+      "Student loan/scholarship documentation",
+      "Parental sponsorship statement"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Voivodeship Office",
+    "authority_full_name": "Voivodeship Office (Urząd Wojewódzki, Department for Foreigners)",
+    "authority_url": null,
+    "apply_within_days_of_arrival": null,
+    "validity_months": 15,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [
+      "Application form",
+      "Updated college enrollment documents",
+      "Proof of payment of processing fee (PLN 340)",
+      "Biometrics (fingerprints)"
+    ],
+    "notes": "Applications must be submitted in person before the current visa expires, no later than on the last day of lawful residence. Biometrics are collected during the process. A plastic 'Karta Pobytu' card is issued with 'Student with Access to the Labor Market' annotation. Processing time is typically within 60 days for a complete application. Fee for issuing a residence card is PLN 100 (approx. 23 euros)."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": null,
+    "full_time_during_breaks": true,
+    "requires_notification": false,
+    "notification_authority": null,
+    "legal_basis": "Residence card includes 'access to the labour market' annotation.",
+    "restrictions": [
+      "Must not interfere with class attendance.",
+      "Requires a Polish tax identification number (PESEL) for employment.",
+      "Holders of temporary residence permit for study can undertake and conduct business activity on the same terms as Polish citizens."
+    ],
+    "notes": "Poland places no specific legal hour cap on student work for full-time students enrolled in recognized higher education institutions holding a valid Type D student visa or Karta Pobytu. Students can work full-time (up to 40 hours per week)."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": null,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "mos.cudzoziemcy.gov.pl (Case Handling Module portal - MOS)",
+    "required_documents": [
+      "Proof of continuous health insurance",
+      "Updated bank files confirming sufficient remaining funds",
+      "Certificate from university confirming academic progression into the subsequent academic term"
+    ],
+    "notes": "Renewal conditions and documentation are generally the same as the original application. Subsequent temporary residence permits for studies are granted for the period necessary for achieving the goal of stay, up to 3 years. For EU mobility programs, the first permit can be 2 years."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": null,
+    "process_authority": null,
+    "requirements": [
+      "Must apply for a one-time temporary residence permit for job-searching or setting up a business after completion of studies, before student permit expires.",
+      "Graduates of full-time Polish university programs are permanently exempt from requiring a work permit.",
+      "Once a job is found, directly apply for a unified Temporary Residence and Work Permit (Zezwolenie na pobyt czasowy i pracę), skipping the labor market test."
+    ],
+    "notes": "Holders of a temporary residence permit for study cannot apply for a temporary residence permit for the purpose of performing work as part of an intra-corporate transfer."
+  },
+  "official_sources": [
+    {
+      "name": "Study in Poland (official government portal)",
+      "url": "study.gov.pl",
+      "description": "Official Polish government portal for international students, covering visas and applications."
+    },
+    {
+      "name": "Foreigners' Service portal (Office for Foreigners)",
+      "url": "mos.cudzoziemcy.gov.pl",
+      "description": "Detailed legal procedures, documents, and the temporary residence permit process, including the Case Handling Module (MOS)."
+    },
+    {
+      "name": "Ministry of Foreign Affairs",
+      "url": "gov.pl/web/diplomacy",
+      "description": "Includes visa fee schedule and list of approved health insurers."
+    },
+    {
+      "name": "The Republic of Poland Official Portal (Office for Foreigners)",
+      "url": "gov.pl/web/udsc-en",
+      "description": "General official information for foreigners."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "National Visa Application Form",
+      "url": "secure.e-konsulat.gov.pl",
+      "authority": "e-Konsulat portal / Ministry of Foreign Affairs"
+    },
+    {
+      "name": "Temporary Residence Permit Application Form",
+      "url": "mos.cudzoziemcy.gov.pl",
+      "authority": "Office for Foreigners"
+    }
+  ],
+  "tips": [],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too close to visa expiry for residence permit",
+      "consequence": "Risks falling out of legal status if Voivodship Office appointment is not available in time.",
+      "how_to_avoid": "Book your residence permit appointment early."
+    },
+    {
+      "mistake": "Incomplete documentation at submission",
+      "consequence": "Application rejected or returned, with only a short window (7 days) to supply missing documents.",
+      "how_to_avoid": "Double-check your file before submitting for both visa and residence permit applications."
+    },
+    {
+      "mistake": "Underestimating health insurance requirements",
+      "consequence": "Visa refusal if policy does not meet the €30,000 minimum coverage, repatriation, and emergency medical evacuation provisions.",
+      "how_to_avoid": "Verify against the approved insurer list on gov.pl and ensure explicit coverage details are printed on your policy."
+    },
+    {
+      "mistake": "Confusing the monthly financial threshold",
+      "consequence": "Applicants may only show one piece of financial proof and be asked for more documentation.",
+      "how_to_avoid": "Understand that the monthly living cost figure is separate from tuition and return-travel costs, and ensure all aspects are covered with appropriate proof."
+    },
+    {
+      "mistake": "Assuming all institutions are pre-approved",
+      "consequence": "Unapproved institutions cannot sponsor a valid student visa application.",
+      "how_to_avoid": "If enrolling outside standard public/recognized HEIs, check the Minister of Interior's approval list."
+    },
+    {
+      "mistake": "Missing the post-study transition deadline",
+      "consequence": "The jobseeker/business-creation residence permit needs to be applied for before your student permit expires.",
+      "how_to_avoid": "Plan your post-graduation timeline in advance rather than waiting to find a job first."
+    },
+    {
+      "mistake": "Ignoring the Local Registration (Zameldowanie)",
+      "consequence": "This registration document is frequently demanded when processing your Karta Pobytu.",
+      "how_to_avoid": "Register your address at the city hall (Urząd Miasta) after signing a private rental contract."
+    },
+    {
+      "mistake": "Failing University Classes",
+      "consequence": "Your university must submit a transcript verifying academic progress for permit renewal. Failing multiple courses can lead the Voivodeship office to cancel your residence permit.",
+      "how_to_avoid": "Maintain good academic standing and attend mandatory lectures."
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "country": "France",
+  "country_code": "FR",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "French",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education (Bachelor's, Master's, PhD)",
+      "Vocational/professional training",
+      "Language courses (if over 90 days and at least 15-20 hours/week)",
+      "Professional licences",
+      "Internships",
+      "Preparatory classes for higher education"
+    ],
+    "short_stay": [
+      "Courses or work experience lasting less than 3 months"
+    ],
+    "notes": "Doctoral students may apply for a Talent Passport visa 'chercheur' instead of a standard student visa."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "Court Séjour Étudiant",
+        "name": "Short-stay Student Visa",
+        "for_stays_over_days": 0
+      },
+      {
+        "code": "VLS-TS",
+        "name": "Long-stay Student Visa (VLS-TS)",
+        "validity_days": 365,
+        "for_stays_over_days": 90,
+        "notes": "Valid for 4 months to 1 year, doubles as a residence permit upon validation."
+      },
+      {
+        "code": "VLS-T",
+        "name": "Temporary Long-stay Visa (VLS-T)",
+        "validity_days": 365,
+        "for_stays_over_days": 90,
+        "notes": "For stays of 4 months to 1 year only; not renewable."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Etudes en France (EEF) platform",
+          "description": "Mandatory for eligible countries (e.g., UK, US, Canada, India) for academic verification before visa application."
+        },
+        {
+          "method": "France-Visas portal",
+          "description": "Official online application portal for all visa types. For countries not using EEF, applications start here."
+        },
+        {
+          "method": "VFS Global / TLScontact / BLS",
+          "description": "Authorized outsourced visa application centers for in-person appointments, document submission, and biometrics."
+        },
+        {
+          "method": "Démarches Simplifiées",
+          "description": "Mandatory online appointment system for all visa applications."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Get Accepted by a French Institution",
+          "description": "Obtain your official enrollment or pre-enrollment letter."
+        },
+        {
+          "step": 2,
+          "title": "Register on Etudes en France (Campus France)",
+          "description": "Complete the academic verification process if your country requires it.",
+          "action_required": "Online registration"
+        },
+        {
+          "step": 3,
+          "title": "Complete Online Visa Application",
+          "description": "Fill out the application form on france-visas.gouv.fr.",
+          "action_required": "Online application"
+        },
+        {
+          "step": 4,
+          "title": "Book In-Person Appointment",
+          "description": "Schedule an appointment at a visa application center or consulate.",
+          "action_required": "Online booking"
+        },
+        {
+          "step": 5,
+          "title": "Attend Appointment and Submit Documents",
+          "description": "Bring all required documents (originals and copies) and register your biometrics.",
+          "action_required": "In-person attendance"
+        },
+        {
+          "step": 6,
+          "title": "Pay Visa Fee",
+          "description": "Pay the application fee at the visa center.",
+          "action_required": "Payment"
+        },
+        {
+          "step": 7,
+          "title": "Wait for Processing and Passport Return",
+          "description": "Monitor your application status and await the return of your passport with the visa."
+        }
+      ],
+      "processing_time": {
+        "typical_min_days": 28,
+        "typical_max_days": 56,
+        "recommended_apply_before_start_days": 120
+      },
+      "fee_eur": 99,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond intended stay, issued within last 10 years, with at least 2 blank pages.",
+      "mandatory": true
+    },
+    {
+      "id": "photos",
+      "name": "Passport-sized Photos",
+      "details": "Two recent photos (35x45mm, white background, taken within last 6 months) matching Schengen standards.",
+      "mandatory": true
+    },
+    {
+      "id": "application_form",
+      "name": "France-Visas Application Form",
+      "details": "Printed form (Cerfa n°14571*05) with barcode and registration receipt, generated from the online portal.",
+      "mandatory": true
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Official Acceptance/Enrollment Letter",
+      "details": "From a recognized French educational institution (attestation d'inscription or pre-enrollment certificate).",
+      "mandatory": true
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Financial Means",
+      "details": "Demonstrating at least €615 per month for the duration of stay.",
+      "mandatory": true
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "For at least the first three months of stay (e.g., rental agreement, student housing confirmation, attestation d’hébergement).",
+      "mandatory": true
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Health Insurance",
+      "details": "Valid in France with minimum coverage of €30,000. Students can enroll in French social security upon arrival.",
+      "mandatory": true
+    },
+    {
+      "id": "language_proficiency",
+      "name": "Language Proficiency Certificates",
+      "details": "DELF/DALF for French-taught programs, IELTS/TOEFL for English-taught programs.",
+      "mandatory": false
+    },
+    {
+      "id": "academic_transcripts",
+      "name": "Academic Transcripts/Diplomas",
+      "details": "Copies of previous academic records.",
+      "mandatory": false
+    },
+    {
+      "id": "proof_of_residency",
+      "name": "Proof of Legal Residency",
+      "details": "If country of residency differs from citizenship.",
+      "mandatory": false
+    },
+    {
+      "id": "cvec_fee",
+      "name": "CVEC Fee Payment Certificate",
+      "details": "Proof of payment for the Student Campus Life Contribution (~€105), mandatory for enrollment.",
+      "mandatory": true
+    },
+    {
+      "id": "translated_documents",
+      "name": "Translated Documents",
+      "details": "All documents in a foreign language must be translated into French by an official translator and sometimes authenticated (apostille/notarization).",
+      "mandatory": true
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 615,
+    "reference_basis": "Official minimum requirement for student visa applicants.",
+    "year": 2026,
+    "example_12_months_eur": 7380,
+    "acceptable_proof": [
+      "Bank statements (showing regular, reliable balances over last 3-6 months)",
+      "Sponsorship letter/affidavit of support (with sponsor's bank statements and proof of income)",
+      "Scholarship award letter"
+    ],
+    "exemptions": [
+      "Students who have passed the entrance exam to a higher education institution that has signed an agreement with the State"
+    ]
+  },
+  "residence_permit": {
+    "authority_name": "ANEF",
+    "authority_full_name": "Administration Numérique des Étrangers en France",
+    "authority_url": "administration-etrangers-en-france.interieur.gouv.fr",
+    "apply_within_days_of_arrival": 90,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "Online via ANEF portal",
+    "notes": "Upon arrival with a VLS-TS visa, students must validate it online via the ANEF portal within 3 months. This validation costs €150 (tax and stamp duty combined) and functions as the legal residence permit for the first year. A separate Carte de Séjour is required from the second academic year, applied for at the local Préfecture before the VLS-TS expires."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "requires_notification": false,
+    "restrictions": [
+      "Algerian nationals are limited to 50% of normal working hours (approx. 482 hours/year) under the Franco-Algerian agreement."
+    ],
+    "notes": "Part-time work is a secondary source of income. The 2026 French minimum wage (SMIC) is €12.02 gross/hour (approx. €9.52 net/hour). Registering for social security is free and mandatory for non-EU students under 28, reimbursing ~60% of medical costs."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 60,
+    "apply_before_expiry_max_days": 120,
+    "online_portal": "ANEF portal",
+    "required_documents": [
+      "Updated proof of funds (€615/month)",
+      "Proof of address (dated within last 3 months)",
+      "Proof of health insurance",
+      "Academic transcripts, attendance records, exam results, or diplomas obtained (to demonstrate serious progress in studies)",
+      "Short birth certificate"
+    ],
+    "notes": "Applications must be submitted online via the ANEF portal between 4 and 2 months before your current permit expires. Late submission incurs a €180 penalty in addition to the residence permit fee. The first multi-annual residence permit will have a validity corresponding to the remaining years of your study program."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": "RECE (Recherche d'Emploi ou Création d'Entreprise) residence permit",
+    "process_authority": "Préfecture via ANEF portal",
+    "requirements": [
+      "Hold a Master's-level degree or equivalent (e.g., Engineering, IEP, higher accounting/management, veterinary, Licence Professionnelle)",
+      "Apply before the student residence permit expires",
+      "For direct change of status: secure a job (CDI or CDD of at least 12 months) related to studies, paying at least 1.5 times the SMIC (approx. €2,702 gross/month or €38,474.90 per year)."
+    ],
+    "notes": "The RECE permit is valid for one year and is non-renewable. If employment is secured or a company established during this year, a residence card in a professional capacity can be applied for before the RECE permit expires."
+  },
+  "official_sources": [
+    {
+      "name": "France Visas (official visa portal)",
+      "url": "france-visas.gouv.fr"
+    },
+    {
+      "name": "Campus France (study in France guide)",
+      "url": "campusfrance.org"
+    },
+    {
+      "name": "French Government Public Service",
+      "url": "service-public.fr"
+    },
+    {
+      "name": "OFII (immigration integration)",
+      "url": "ofii.fr"
+    },
+    {
+      "name": "ANEF (online residence permit portal)",
+      "url": "administration-etrangers-en-france.interieur.gouv.fr"
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Student visa application",
+      "url": "france-visas.gouv.fr",
+      "authority": "France-Visas"
+    },
+    {
+      "name": "Campus France registration (EEF)",
+      "url": "campusfrance.org",
+      "authority": "Campus France"
+    },
+    {
+      "name": "VLS-TS validation (OFII) after arrival",
+      "url": "administration-etrangers-en-france.interieur.gouv.fr",
+      "authority": "ANEF"
+    },
+    {
+      "name": "Residence permit renewal",
+      "url": "administration-etrangers-en-france.interieur.gouv.fr",
+      "authority": "ANEF"
+    },
+    {
+      "name": "Job search permit (RECE)",
+      "url": "administration-etrangers-en-france.interieur.gouv.fr",
+      "authority": "ANEF"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Apply Early",
+      "body": "Begin your visa application at least 4-5 months before your course start date, especially if the Etudes en France (EEF) procedure is required, to account for processing times and potential delays.",
+      "priority": "high"
+    },
+    {
+      "title": "Validate Your VLS-TS Visa",
+      "body": "Upon arrival in France, validate your Long-stay Student Visa (VLS-TS) online via the ANEF portal within three months of entry to legalize your stay.",
+      "priority": "high"
+    },
+    {
+      "title": "Adhere to Residence Permit Renewal Deadlines",
+      "body": "Apply for residence permit renewal online via the ANEF portal between 4 and 2 months before your current permit expires to avoid a €180 penalty.",
+      "priority": "high"
+    },
+    {
+      "title": "Ensure Sufficient Financial Proof",
+      "body": "Your bank statements must clearly demonstrate access to at least €615 per month for your entire stay. Vague or low balances are a common reason for visa refusal.",
+      "priority": "high"
+    },
+    {
+      "title": "Provide Clear Accommodation Proof",
+      "body": "Ensure your housing certificate or rental contract explicitly covers at least your initial 90 days in France.",
+      "priority": "medium"
+    },
+    {
+      "title": "Translate All Foreign Documents",
+      "body": "All documents not in French must be translated by an official translator and, in some cases, authenticated (e.g., with an apostille or notarization).",
+      "priority": "high"
+    },
+    {
+      "title": "Complete Campus France Registration",
+      "body": "If your country requires it, ensure you complete the pre-consular interview via the Etudes en France platform, as skipping this step invalidates your visa application.",
+      "priority": "high"
+    },
+    {
+      "title": "Timely RECE Permit Application",
+      "body": "Apply for the post-study 'Recherche d'Emploi ou Création d'Entreprise' (RECE) permit while you still hold, or have very recently held, valid French student residence status to avoid refusal.",
+      "priority": "high"
+    },
+    {
+      "title": "Avoid Unexplained Large Bank Deposits",
+      "body": "Consulates look for stable, regular funds. Large, unexplained lump sums deposited just before applying can raise red flags and lead to refusal.",
+      "priority": "medium"
+    },
+    {
+      "title": "Pay the CVEC Fee",
+      "body": "The Student Campus Life Contribution (CVEC, ~€105) is mandatory for enrollment in French higher education. Ensure you pay it and have proof.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late for the visa.",
+      "consequence": "Missing orientation, delays due to busy seasonal processing times, or visa refusal.",
+      "how_to_avoid": "Start your application at least 4-5 months before your course start date, especially if the EEF procedure is required."
+    },
+    {
+      "mistake": "Not validating the VLS-TS visa after arrival.",
+      "consequence": "Your stay in France becomes illegal.",
+      "how_to_avoid": "Validate your visa online via the ANEF portal within three months of entry."
+    },
+    {
+      "mistake": "Missing the residence permit renewal deadline.",
+      "consequence": "Incurs a €180 penalty fee on top of standard fees.",
+      "how_to_avoid": "Apply online via the ANEF portal between 4 and 2 months before your current permit expires."
+    },
+    {
+      "mistake": "Entering France on a tourist visa with the intention to study.",
+      "consequence": "Illegal stay, subject to deportation proceedings.",
+      "how_to_avoid": "Always apply for the appropriate long-stay student visa (VLS-TS) before traveling."
+    },
+    {
+      "mistake": "Providing insufficient or vague proof of financial means.",
+      "consequence": "Visa refusal.",
+      "how_to_avoid": "Ensure bank statements clearly show at least €615 per month available for your stay, with stable and regular funds."
+    },
+    {
+      "mistake": "Submitting incomplete or untranslated documents.",
+      "consequence": "Application delays or refusal.",
+      "how_to_avoid": "All documents in a foreign language must be translated into French by an official translator and sometimes authenticated (e.g., with an apostille)."
+    },
+    {
+      "mistake": "Missing Campus France registration (if required).",
+      "consequence": "The visa application becomes invalid.",
+      "how_to_avoid": "Complete the pre-consular interview via the Etudes en France platform if your country is part of the program."
+    },
+    {
+      "mistake": "Waiting too long to apply for the post-study RECE permit.",
+      "consequence": "Refusal if applied after a period of overstay.",
+      "how_to_avoid": "Apply for the RECE permit while you still hold, or have very recently held, valid French student residence status."
+    },
+    {
+      "mistake": "Unexplained large bank deposits in financial proof.",
+      "consequence": "Raises a red flag and often triggers a refusal.",
+      "how_to_avoid": "Consulates look for stable, regular funds over several months, not sudden lump sums."
+    },
+    {
+      "mistake": "Providing vague or insufficient proof of accommodation.",
+      "consequence": "Application delays.",
+      "how_to_avoid": "Ensure your housing certificate or rental contract clearly covers at least your initial 90 days in France."
+    },
+    {
+      "mistake": "Not paying the CVEC (Student Campus Life Contribution) fee.",
+      "consequence": "Mandatory for enrollment in French higher education, leading to issues with university registration.",
+      "how_to_avoid": "Pay the CVEC fee (~€105) and obtain proof of payment before your university enrollment."
+    }
+  ]
+}

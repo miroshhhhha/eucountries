@@ -1,0 +1,221 @@
+{
+  "country": "Sweden",
+  "country_code": "SE",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "SEK",
+  "official_language": "Swedish",
+  "qualifying_courses": {
+    "long_stay": [
+      "Full-time programs at universities and university colleges (Bachelor’s, Master’s, or PhD programs)",
+      "Preparatory courses leading to such higher education"
+    ],
+    "short_stay": [],
+    "notes": "Distance learning or part-time programs do not qualify for a residence permit."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "Residence Permit for Studies",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": null
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Swedish Migration Agency portal",
+          "description": "Online application for the Residence Permit for Studies.",
+          "url": "https://www.migrationsverket.se"
+        },
+        {
+          "method": "Swedish Embassy or Consulate-General",
+          "description": "In-person appointment required for passport verification and biometric enrollment (photo and fingerprints) after submitting the online application.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Secure admission",
+          "description": "Obtain admission via the national application portal (universityadmissions.se).",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Pay first tuition fee installment",
+          "description": "Pay the first tuition fee installment directly to your university.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Submit online application",
+          "description": "Submit an online application through the Swedish Migration Agency (Migrationsverket) portal.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Complete passport verification and biometrics",
+          "description": "Attend an appointment at a designated Swedish Embassy or Consulate-General to show your original passport and complete biometric enrollment.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 56,
+        "typical_max_days": 84,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": null,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "High-quality color scans of all pages containing stamps, text, or visual details, including blank pages and covers.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "Official Notification of Selection Results (Admission Letter)",
+      "details": "Proving full-time acceptance to an accredited higher education provider.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_payment",
+      "name": "Proof of Tuition Fee Payment",
+      "details": "Receipt or confirmation showing payment of the first tuition installment.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Comprehensive Health Insurance",
+      "details": "Required if your course lasts less than one year.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [
+        "Students with programs longer than one year (automatically integrated into the Swedish healthcare system)"
+      ],
+      "notes": null
+    },
+    {
+      "id": "financial_documentation",
+      "name": "Detailed Financial Documentation",
+      "details": "Showing sufficient funds for the entire requested duration of your permit.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": null,
+    "reference_basis": "Swedish Migration Agency requirement (SEK 10,656 per month)",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": null,
+    "acceptable_proof": [
+      "Bank statements in your own name from an open checking/savings account",
+      "Formal scholarship award document",
+      "Official student loan agreement"
+    ],
+    "exemptions": [],
+    "notes": "Sponsorship letters or bank statements belonging to third parties (like friends or extended relatives) are generally not accepted unless they are formal institutional funds or bank accounts under your absolute legal control."
+  },
+  "residence_permit": {
+    "authority_name": "Migrationsverket",
+    "authority_full_name": "Swedish Migration Agency",
+    "authority_url": "https://www.migrationsverket.se",
+    "apply_within_days_of_arrival": 30,
+    "validity_months": null,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [],
+    "notes": "The Residence Permit Card (UT-kort) is issued after approval. If a visa is required, the card is collected at the embassy before travel. For visa-exempt countries, the card is printed locally in Sweden after arrival. Address notification to Migrationsverket within 30 days of arrival is mandatory. Registration at the Swedish Tax Agency (Skatteverket) for a personal identity number (personnummer) is required if the course lasts more than one year."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 15,
+    "full_time_during_breaks": true,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [
+      "Must maintain acceptable academic progress regardless of work schedule",
+      "Working more than 15 hours per week during term time can lead to the revocation or non-renewal of your permit"
+    ],
+    "notes": null
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": null,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "Migrationsverket",
+    "required_documents": [
+      "Updated transcripts from the Ladok system (proving at least 37.5 credits in the first year and 45 credits per year for subsequent years)",
+      "New bank statement showing the maintenance fund for the upcoming year"
+    ],
+    "notes": "Renewal fee: SEK 1,500."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": null,
+    "process_authority": "Swedish Migration Agency (Migrationsverket)",
+    "requirements": [
+      "Successfully completed at least two semesters of higher education program (for transition to work permit)",
+      "Employment offer meets national collective agreement standards and minimum salary thresholds (for work permit)"
+    ],
+    "notes": "Graduates can apply for a specialized residence permit to look for work or start a business for 12 months. After securing a qualifying job offer, they can apply for a Work Permit from within Sweden."
+  },
+  "official_sources": [
+    {
+      "name": "Swedish Migration Agency",
+      "url": "https://www.migrationsverket.se",
+      "description": null
+    },
+    {
+      "name": "Study in Sweden",
+      "url": "https://studyinsweden.se",
+      "description": "Official Guide to Higher Education in Sweden"
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Online Application Portal (E-services)",
+      "url": "https://www.migrationsverket.se",
+      "authority": "Swedish Migration Agency"
+    }
+  ],
+  "tips": [],
+  "common_mistakes": [
+    {
+      "mistake": "Incomplete Passport Scans",
+      "consequence": "Application delay or refusal",
+      "how_to_avoid": "Upload high-quality color scans of every single page of your passport, including blank pages and covers."
+    },
+    {
+      "mistake": "Falling Behind on Credits",
+      "consequence": "Permit extension denied",
+      "how_to_avoid": "Achieve at least 37.5 credits during your first year of study, and at least 45 credits per year for any subsequent years; ensure you are passing your courses before applying for renewal."
+    },
+    {
+      "mistake": "Using Third-Party Bank Accounts for Financial Proof",
+      "consequence": "Immediate application rejection",
+      "how_to_avoid": "Funds must be in a bank account under your own name; sponsorship letters from private individuals are generally not accepted unless they are formal institutional funds or bank accounts under your absolute legal control."
+    }
+  ]
+}

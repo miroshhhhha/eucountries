@@ -1,0 +1,341 @@
+{
+  "country": "Austria",
+  "country_code": "AT",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "German",
+  "qualifying_courses": {
+    "long_stay": [
+      "Full degree programmes (Bachelor's, Master's, PhD) at a university, Fachhochschule, accredited private university, or teacher-training college",
+      "Non-degree certificate programmes with at least 40 ECTS credits (not purely language courses)",
+      "University Preparation Programmes for supplementary entrance exams (with conditional admission)",
+      "Programmes to get a foreign degree recognized in Austria (Nostrifizierung)"
+    ],
+    "short_stay": [
+      "Language courses",
+      "Summer schools (under 90 days)"
+    ],
+    "notes": "Non-degree programme studies involving only individual courses are generally not sufficient for a long-stay permit."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "Visa D",
+        "validity_days": 120,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Issued for 4 months to enter Austria and collect the residence permit after approval of the 'Residence Permit – Student'."
+      },
+      {
+        "code": null,
+        "name": "Residence Permit – Student (Aufenthaltsbewilligung – Student)",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 180,
+        "notes": "Required for studies lasting longer than 6 months. Application is typically submitted at the Austrian Embassy/Consulate in the home country."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Online booking portal",
+          "description": "Appointments are booked via the competent Austrian representative authority (embassy/consulate) in the student's country of residence. Booking well in advance (4-6 months before intended start date) is recommended, especially during peak periods.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Obtain University Admission Letter",
+          "description": "Secure your official university admission letter ('Zulassungsbescheid').",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Gather and Prepare Documents",
+          "description": "Collect all required documents, ensuring foreign documents are legalised/apostilled and translated into German by a certified translator.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Attend Embassy/Consulate Appointment",
+          "description": "Book and attend an appointment in person at the competent Austrian representative authority in your home country.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Wait for Decision",
+          "description": "The decision period for the 'Residence Permit-Student' is 90 days, extendable by a further 90 days if additional documents are required.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Apply for Visa D (after approval)",
+          "description": "Once the residence permit is approved, apply for a Visa D within three months to collect the residence title. The Visa D will be issued for a validity period of four months.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Travel to Austria and Collect Residence Permit",
+          "description": "Travel to Austria and collect your physical residence permit card, generally within 6 months of the approval notification.",
+          "action_required": null
+        },
+        {
+          "step": 7,
+          "title": "Register Address",
+          "description": "Register your address at the local Meldeamt within 3 working days of arrival in Austria.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 90,
+        "typical_min_days": null,
+        "typical_max_days": 180,
+        "recommended_apply_before_start_days": 180
+      },
+      "fee_eur": null,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "application_form",
+      "name": "Fully Completed and Signed Application Form",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond planned departure, with at least two blank pages. Copy of all pages required for first-time applications.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": "All documents must be submitted in the original alongside a photocopy."
+    },
+    {
+      "id": "passport_photo",
+      "name": "Recent Passport Photograph",
+      "details": "ICAO standard, color, 3.5 x 4.5 cm, not older than 6 months.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "birth_certificate",
+      "name": "Birth Certificate",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": "Documents not written in German or English must be translated by a certified translator and legally authenticated (Apostille or legalization) if required."
+    },
+    {
+      "id": "police_clearance",
+      "name": "Police Clearance Certificate / Certificate of Good Conduct",
+      "details": "From your home country, not older than 3 months, legally authenticated (Apostille or legalization) and translated into German.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "University Letter of Admission (Zulassungsbescheid)",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Secure Accommodation",
+      "details": "For at least 3 months (e.g., student dorm contract, rental lease, or accommodation agreement).",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Comprehensive Health Insurance",
+      "details": "Providing comprehensive coverage in Austria (minimum coverage of €30,000).",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_means",
+      "name": "Proof of Sufficient Financial Means",
+      "details": "For the first 12 months in advance, including proof of origin of funds (e.g., bank statements, scholarship letters, parental sponsorship declarations, employment contract/pay slips, inheritance/property sale proof) and declaration of regular expenses (loans, maintenance obligations).",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 1308.39,
+    "reference_basis": "Official legal thresholds for students in Austria (2026 figures)",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": 15700.68,
+    "acceptable_proof": [
+      "Bank account (Austrian or international) in the applicant's name, accessible from Austria, showing funds for 12 months in advance.",
+      "Proof of origin of funds (e.g., bank statements, scholarship letters, parental sponsorship declarations, employment contract/pay slips, inheritance/property sale proof).",
+      "Formal declaration of guarantee (Haftungserklärung) from a person residing legally in the EU.",
+      "Official scholarship award confirmation.",
+      "Traveller's cheques."
+    ],
+    "exemptions": [],
+    "notes": "If monthly accommodation costs exceed EUR 386.43, additional funds equivalent to the exceeding amount must be proven. Health insurance premium costs must also be accounted for. For students under 24 years of age, the minimum is EUR 722.58/month. For couples, it's EUR 2,064.12/month for both. For each child, an additional EUR 201.88/month is required."
+  },
+  "residence_permit": {
+    "authority_name": "MA35 (in Vienna) or local Bezirkshauptmannschaft",
+    "authority_full_name": "Magistrat or Bezirkshauptmannschaft (local immigration office)",
+    "authority_url": null,
+    "apply_within_days_of_arrival": 3,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [
+      "Residence registration (Meldezettel)",
+      "Final university admission confirmation",
+      "Confirmation from Austrian health insurer (if insurance taken after arrival)",
+      "Fingerprints"
+    ],
+    "notes": "The permit is issued in credit card format with photograph and serves as an ID document. The application and issuance fee is EUR 218 (as of 2026)."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": null,
+    "requires_notification": true,
+    "notification_authority": "Public Employment Service (AMS)",
+    "legal_basis": null,
+    "restrictions": [
+      "Employer must apply for a Work Permit (Beschäftigungsbewilligung) from the Austrian Public Employment Service (AMS) on the student's behalf before employment begins. No labor market test is required."
+    ],
+    "notes": "The AMS typically issues the work permit within 4 to 6 weeks. Current official guidance no longer distinguishes by degree level; all holders of a 'Residence Permit – Student' may get a work permit for up to 20 hours/week."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 90,
+    "apply_before_expiry_max_days": 0,
+    "online_portal": null,
+    "required_documents": [
+      "Confirmation of continuing university enrolment",
+      "Record of studies",
+      "Proof of academic success (at least 16 ECTS credits or 8 semester hours per academic year)"
+    ],
+    "notes": "Students are considered lawfully resident in Austria while a renewal decision is pending, provided they applied on time. A 'Notvignette' (valid for 3 months, once per renewal) can be requested for travel abroad if the old permit has expired. Application must be made at the competent residence authority in Austria."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": null,
+    "process_authority": "Local immigration authority (Magistrat or Bezirkshauptmannschaft)",
+    "requirements": [
+      "Students can extend their 'Residence Permit – Student' for up to 12 months post-graduation to seek employment or establish a business matching their qualification level.",
+      "After finding a concrete job offer matching the degree level, students can transition to a 'Red-White-Red Card' for Graduates.",
+      "For graduates of Austrian universities, the Red-White-Red Card does not require a point system evaluation or a labor market test; only a standard minimum salary and job-academic profile match are needed.",
+      "Other options include 'Settlement Permit – Researcher', 'Blue Card EU', 'Family member' residence title, or 'Settlement Permit – Special Cases of Gainful Employment' (if employment corresponds to degree level)."
+    ],
+    "notes": null
+  },
+  "official_sources": [
+    {
+      "name": "OeAD (Austrian Agency for Education and Internationalisation)",
+      "url": "oead.at",
+      "description": "The most exhaustive and up-to-date informational portal for incoming students, with detailed checklists in English."
+    },
+    {
+      "name": "Federal Ministry for European and International Affairs (BMEIA)",
+      "url": "bmeia.gv.at",
+      "description": "For embassy locations, booking portals, and visa application details."
+    },
+    {
+      "name": "Official Austrian Government Portal",
+      "url": "oesterreich.gv.at",
+      "description": "Provides legal structural overviews and links to downloadable PDF forms for visas and residence permits."
+    },
+    {
+      "name": "Austrian Federal Ministry / MA35 (in Vienna) or local Bezirkshauptmannschaft",
+      "url": null,
+      "description": "Handles actual residence permit decisions."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "OeAD Website",
+      "url": "oead.at",
+      "authority": "OeAD"
+    },
+    {
+      "name": "BMEIA Website",
+      "url": "bmeia.gv.at",
+      "authority": "Federal Ministry for European and International Affairs"
+    },
+    {
+      "name": "Official Austrian Government Portal",
+      "url": "oesterreich.gv.at",
+      "authority": "Austrian Government"
+    },
+    {
+      "name": "Specific Austrian Embassy/Consulate Website",
+      "url": null,
+      "authority": "Austrian Embassy/Consulate"
+    },
+    {
+      "name": "MA35 Website (for Vienna)",
+      "url": null,
+      "authority": "MA35"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Check current fees and thresholds",
+      "body": "Immigration fees and minimum income thresholds in Austria are adjusted periodically (often annually). Always double-check exact euro figures on the OeAD site or with your embassy close to your actual application date.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "Significant processing delays, potentially missing start date.",
+      "how_to_avoid": "Apply at least 4-5 months before your intended arrival date."
+    },
+    {
+      "mistake": "Underestimating document legalisation and translation",
+      "consequence": "Weeks of delays, documents rejected.",
+      "how_to_avoid": "Start the legalisation/apostille and certified translation process into German well in advance."
+    },
+    {
+      "mistake": "Submitting financial proof that doesn't meet requirements",
+      "consequence": "Application rejection or requirement to prove additional funds.",
+      "how_to_avoid": "Ensure funds are in an account in the applicant's name, accessible from Austria, and provide clear proof of origin. Account for accommodation costs exceeding EUR 386.43/month and health insurance premiums."
+    },
+    {
+      "mistake": "Assuming any course qualifies for a long-stay permit",
+      "consequence": "Permit denial.",
+      "how_to_avoid": "Verify that your chosen course meets OeAD's criteria for a 'Residence Permit – Student' (e.g., full degree, 40+ ECTS certificate, preparation programs, not individual courses)."
+    },
+    {
+      "mistake": "Missing the residence permit renewal deadline",
+      "consequence": "Application is treated as a 'first-time' request, potentially requiring the student to leave Austria and reapply from their home country.",
+      "how_to_avoid": "Submit renewal application at the local immigration authority within Austria between 90 days and the expiry date of the current permit."
+    },
+    {
+      "mistake": "Failing to meet the academic progress (ECTS) threshold for renewal",
+      "consequence": "Residence permit renewal denied.",
+      "how_to_avoid": "Ensure you complete at least 16 ECTS credits (or 8 semester hours) per academic year, or have severe, documented justification for not doing so."
+    }
+  ]
+}

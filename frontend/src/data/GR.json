@@ -1,0 +1,420 @@
+{
+  "country": "Greece",
+  "country_code": "GR",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Greek",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education (Bachelor's, Master's, PhD)",
+      "Vocational training programs at recognized institutions",
+      "Language preparation courses (prerequisite for higher education)",
+      "Research programs at recognized Greek research centers",
+      "Exchange programs (e.g., Erasmus+)"
+    ],
+    "short_stay": [],
+    "notes": "Institutions must be accredited/certified by the Greek Ministry of Education."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "National Long-stay Study Visa",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "For stays exceeding 90 days, for students enrolled in recognized higher education institutions, language schools, or vocational training programs."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Embassy/Consulate Online Portal",
+          "description": "Book directly through the official website of the competent Greek Embassy or Consulate in your country of residence.",
+          "url": "https://www.mfa.gr/en/contact/greek-missions-abroad/"
+        },
+        {
+          "method": "Global Visa Center World (GVCW)",
+          "description": "External service provider used by the Greek Ministry of Foreign Affairs in certain countries/cities for visa application appointments.",
+          "url": null
+        },
+        {
+          "method": "VFS Global",
+          "description": "Third-party service used in some countries for appointment booking.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Receive Letter of Acceptance",
+          "description": "Obtain an official Letter of Acceptance from a recognized Greek educational institution.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Gather Required Documents",
+          "description": "Collect all necessary documentation, including criminal record, health certificate, financial proof, and others.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Book Visa Appointment",
+          "description": "Schedule an appointment at the competent Greek Embassy or Consulate, or through an external service provider.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Attend Interview and Submit Application",
+          "description": "Attend the in-person interview, submit the completed application form and all supporting documents, and provide biometric data (fingerprints).",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Pay Visa Fee",
+          "description": "Pay the required visa application fee.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Await Visa Decision",
+          "description": "Wait for the processing of the application and the visa decision.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 60,
+        "typical_min_days": 28,
+        "typical_max_days": 84,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 90,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond intended stay, with at least two blank pages.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Completed National Visa Application Form",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photos",
+      "name": "Passport-sized Photographs",
+      "details": "Two recent (within 6 months) passport-sized color photographs meeting ICAO/Schengen specifications.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Official Letter of Acceptance/Enrolment",
+      "details": "From a Greek educational institution, specifying program, duration, and tuition fees.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "language_proficiency",
+      "name": "Proof of Language Proficiency",
+      "details": "Required for the specific course of study.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record",
+      "name": "Criminal Record Certificate",
+      "details": "From home country and any country of residence in the past 5 years, legalized (Apostille) and officially translated into Greek.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "medical_certificate",
+      "name": "Medical Certificate",
+      "details": "From a recognized state or private doctor, confirming freedom from contagious diseases as defined by the World Health Organization. Must be legalized (Apostille) and officially translated into Greek.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Health/Travel Insurance",
+      "details": "Comprehensive medical/travel insurance valid in the Schengen area, covering the duration of the visa, with minimum coverage of €30,000.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_fee_proof",
+      "name": "Proof of Visa Fee Payment",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Sufficient Financial Means",
+      "details": "Bank statements, scholarship certificates, or sponsorship declaration, demonstrating the required monthly amount.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "enrolment_fees_proof",
+      "name": "Proof of Paid Enrolment Fees",
+      "details": "Where applicable.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "Rental agreement, dormitory reservation, or host letter in Greece.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 400,
+    "reference_basis": "Joint Ministerial Decree No. 41712/2014 (Ministry of Foreign Affairs, Visa and Residence Permit Guide for Students)",
+    "year": null,
+    "calculation_rules": {
+      "first_adult_pct": 100,
+      "additional_adult_pct": null,
+      "dependent_child_pct": null
+    },
+    "example_12_months_eur": 4800,
+    "acceptable_proof": [
+      "Bank statements (last 6 months)",
+      "Scholarship certificates",
+      "Affidavit of support/Sponsorship declaration (with sponsor's financial documents)",
+      "Proof of a blocked account"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Ministry of Migration and Asylum",
+    "authority_full_name": "Ministry of Migration and Asylum",
+    "authority_url": "https://migration.gov.gr/en/",
+    "apply_within_days_of_arrival": 90,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": "Electronically through the Ministry of Migration and Asylum portal (applications.migration.gov.gr), followed by an in-person appointment at the Aliens and Immigration Department for biometrics.",
+    "required_documents": [
+      "Valid passport",
+      "D-type visa",
+      "Official acceptance/enrolment letter",
+      "Proof of sufficient financial means",
+      "Comprehensive health insurance",
+      "Proof of accommodation",
+      "Tax Identification Number (AFM)",
+      "Social Security Number (AMKA)",
+      "Translated and apostilled/legalized documents as required"
+    ],
+    "notes": "A fee of 150 EUR is required per year. Upon online submission, applicants receive a 'Blue Paper' (Vevaiosi) serving as a temporary residence permit until the electronic card is issued."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [
+      "Part-time work only during the academic semester."
+    ],
+    "notes": "Students must obtain a Tax Identification Number (AFM) and a Social Security Number (AMKA) to be legally employed."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 60,
+    "apply_before_expiry_max_days": 90,
+    "online_portal": "https://applications.migration.gov.gr/en/metanasteusi/",
+    "required_documents": [
+      "Proof of continued enrollment",
+      "Evidence of successful completion of exams/progress in studies",
+      "Updated proof of financial means",
+      "Updated health insurance for the new period"
+    ],
+    "notes": "Renewal fee is 150 EUR per year. Late renewal applications can be submitted up to 3 months after expiry, subject to an administrative fine of 100 EUR per month of delay (Law 5275/2026, Article 12). The permit duration cannot exceed the course duration plus four terms (or half for postgraduate/doctoral students), with an additional year for prerequisite language learning. Multi-annual permit holders must submit enrolment and exam certificates every two years."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": "Law 4251/2014 (Immigration and Social Integration Code), as amended by Law 5275/2026, Article 13",
+    "process_authority": "Ministry of Migration and Asylum",
+    "requirements": [
+      "Graduation from a Greek Higher Education institution",
+      "Application for a residence permit to seek employment or establish a business (Type H.11)",
+      "If employment is secured, transition to a 'Highly Qualified Employment' (EU Blue Card) or standard 'Employment' permit",
+      "Valid employment contract with a salary meeting the legal minimum for the specific permit type (for employment permits)"
+    ],
+    "notes": "Non-EU graduates may remain in Greece and apply for a Type H.11 residence permit for job-seeking or business establishment purposes from within Greece, without returning to their home country."
+  },
+  "official_sources": [
+    {
+      "name": "Ministry of Foreign Affairs of the Hellenic Republic",
+      "url": "https://www.mfa.gr/en/visas/",
+      "description": "Official information on visas, embassies, and application forms."
+    },
+    {
+      "name": "Greek Diplomatic Missions Abroad",
+      "url": "https://www.mfa.gr/en/contact/greek-missions-abroad/",
+      "description": "Locator for Greek Embassies and Consulates worldwide."
+    },
+    {
+      "name": "Ministry of Migration and Asylum",
+      "url": "https://migration.gov.gr/en/",
+      "description": "Official information on residence permits and immigration legislation."
+    },
+    {
+      "name": "Online Residence Permit Application Portal",
+      "url": "https://applications.migration.gov.gr/en/metanasteusi/",
+      "description": "Portal for electronic submission of residence permit applications."
+    },
+    {
+      "name": "Study in Greece",
+      "url": "https://studyingreece.edu.gr/before-arrival/",
+      "description": "Official national information portal for international students."
+    },
+    {
+      "name": "Governmental Portal for Electronic Services",
+      "url": "https://www.gov.gr/",
+      "description": "General governmental portal for electronic services."
+    },
+    {
+      "name": "Ministry of Education, Religious Affairs and Sport",
+      "url": "https://www.minedu.gov.gr/",
+      "description": "Official website for education-related matters."
+    },
+    {
+      "name": "European Commission – Student in Greece",
+      "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-greece_en",
+      "description": "EU-level overview of student immigration to Greece."
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "National (D-Type) Long-Stay Visa Application Form",
+      "url": "https://www.mfa.gr/en/visas/",
+      "authority": "Ministry of Foreign Affairs"
+    },
+    {
+      "name": "Medical Certificate Form",
+      "url": "https://studyingreece.edu.gr/before-arrival/",
+      "authority": "Study in Greece"
+    },
+    {
+      "name": "Residence Permit Application (Online Portal)",
+      "url": "https://applications.migration.gov.gr/en/metanasteusi/",
+      "authority": "Ministry of Migration and Asylum"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Document Legalization and Translation",
+      "body": "Ensure all foreign documents (e.g., criminal record, medical certificates) have the Apostille stamp or are legalized by the Greek Consulate, and are officially translated into Greek by the Translation Service of the Ministry of Foreign Affairs or a certified lawyer.",
+      "priority": "high"
+    },
+    {
+      "title": "Financial Proof Accuracy",
+      "body": "Provide recent bank statements that clearly show the required monthly amount for the full duration of your stay, or a scholarship certificate/sponsorship declaration.",
+      "priority": "high"
+    },
+    {
+      "title": "Timely Residence Permit Application",
+      "body": "Apply for your residence permit promptly after arrival in Greece, ideally within 90 days, to avoid legal complications.",
+      "priority": "high"
+    },
+    {
+      "title": "Visa Application Timing",
+      "body": "Apply for your study visa well in advance, ideally by early summer for an October start, to account for potential processing delays, especially during peak seasons.",
+      "priority": "medium"
+    },
+    {
+      "title": "Health Insurance Compliance",
+      "body": "Ensure your comprehensive medical insurance policy explicitly covers Greece and meets Schengen area requirements (minimum €30,000 coverage). Retain copies of health insurance certificates for each year of your residence permit.",
+      "priority": "high"
+    },
+    {
+      "title": "Monitor Email Notifications",
+      "body": "Regularly check your email, including spam folders, for notifications regarding your online residence permit application, especially for biometric data collection appointments.",
+      "priority": "medium"
+    },
+    {
+      "title": "Residence Permit Renewal",
+      "body": "Begin the residence permit renewal process at least 2 to 3 months before your current permit expires. Late applications are possible up to 3 months after expiry with a fine.",
+      "priority": "high"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Submitting insufficient proof of funds or only showing a short-term balance.",
+      "consequence": "Application rejection.",
+      "how_to_avoid": "Ensure bank statements are recent and clearly show the required monthly amount (€400) for the full intended duration of stay, or provide a comprehensive scholarship/sponsorship letter."
+    },
+    {
+      "mistake": "Submitting foreign documents without required Apostille stamps or certified Greek translations.",
+      "consequence": "Significant delays or application rejection.",
+      "how_to_avoid": "Start the legalization and translation process early. All documents must be translated into Greek by the Translation Service of the Ministry of Foreign Affairs or a certified lawyer, and foreign documents must be apostilled or legalized by the Greek Consulate."
+    },
+    {
+      "mistake": "Submitting the visa application too close to the intended study start date.",
+      "consequence": "Slower processing times, especially during peak seasons (July-September), potentially delaying your arrival.",
+      "how_to_avoid": "Apply several months in advance, ideally by early summer for an October start."
+    },
+    {
+      "mistake": "Delaying the application for the residence permit after arriving in Greece.",
+      "consequence": "Risk of illegal stay status and legal complications.",
+      "how_to_avoid": "Apply for the residence permit within 90 days of entry into Greece."
+    },
+    {
+      "mistake": "Submitting an inadequate health insurance policy.",
+      "consequence": "Application rejection.",
+      "how_to_avoid": "Ensure the policy is comprehensive, explicitly covers Greece and the Schengen area, and has a minimum coverage of €30,000. Retain copies of health insurance certificates for each year."
+    },
+    {
+      "mistake": "Not regularly checking email (including spam) for notifications from the online residence permit system.",
+      "consequence": "Missing crucial appointment notifications for biometric data collection, leading to delays.",
+      "how_to_avoid": "Check email frequently and monitor spam folders."
+    },
+    {
+      "mistake": "Failing to apply for residence permit renewal within the stipulated timeframe.",
+      "consequence": "Administrative fines (€100/month of delay) and potential loss of legal status if delayed beyond three months.",
+      "how_to_avoid": "Begin the renewal process at least 2 to 3 months before the permit expires."
+    },
+    {
+      "mistake": "Believing that one must return to their home country to apply for a work permit after graduation.",
+      "consequence": "Unnecessary travel and re-application from abroad (under previous law).",
+      "how_to_avoid": "Be aware that under Law 5275/2026, graduates can now apply for a Type H.11 residence permit for job-seeking or business establishment from within Greece."
+    }
+  ]
+}

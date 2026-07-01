@@ -1,0 +1,384 @@
+{
+  "country": "Finland",
+  "country_code": "FI",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": null,
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher Education (Bachelor's, Master's, PhD)",
+      "Vocational/professional training leading to a qualification",
+      "Exchange programs",
+      "Other studies with justified reason (e.g., further training, specialized professional studies)"
+    ],
+    "short_stay": [
+      "Short courses (≤90 days)",
+      "Seminars (≤90 days)",
+      "Language courses (≤90 days)",
+      "Single university modules (≤90 days)"
+    ],
+    "notes": "A residence permit cannot be granted if your studies mainly consist of online distance learning that does not require your physical presence in Finland."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "Residence Permit for Studies",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": null
+      },
+      {
+        "code": null,
+        "name": "Schengen (Short-Stay) Visa",
+        "validity_days": 90,
+        "entries": null,
+        "for_stays_over_days": null,
+        "notes": "For courses under 90 days, such as short courses, seminars, language courses, or single university modules."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Enter Finland portal",
+          "description": "Online application submission for residence permits.",
+          "url": "https://enterfinland.fi"
+        },
+        {
+          "method": "migri.vihta.com",
+          "description": "Appointment booking for identity verification and biometrics at Finnish missions abroad or service points in Finland.",
+          "url": "https://migri.vihta.com"
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Receive Acceptance Letter",
+          "description": "Obtain an official letter of acceptance from a Finnish educational institution.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Submit Online Application",
+          "description": "Create an account and apply via the Enter Finland portal.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Pay Application Fee",
+          "description": "Pay the processing fee online.",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Attend Identity Verification & Biometrics",
+          "description": "Visit a Finnish embassy, consulate, or service point to verify identity and provide fingerprints.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Await Decision",
+          "description": "Track the application status via Enter Finland.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Receive Residence Permit Card",
+          "description": "If approved, the residence permit card is mailed to the embassy or your home, or collected in Finland.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 14,
+        "typical_max_days": 30,
+        "recommended_apply_before_start_days": null
+      },
+      "fee_eur": 600,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Certificate of Acceptance",
+      "details": "Official letter of acceptance from a Finnish educational institution.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "proof_of_funds",
+      "name": "Proof of Sufficient Financial Means",
+      "details": null,
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Health Insurance",
+      "details": "Policy covering medical and pharmaceutical expenses, with a deductible of no more than €300, valid for the entire duration of stay.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_fee_proof",
+      "name": "Proof of Tuition Fee Payment or Scholarship",
+      "details": "Proof that you have paid the first-year fee or a scholarship letter.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport_photo",
+      "name": "Passport Photo",
+      "details": "One recent passport-sized photograph (no more than 6 months old) or digital photo retrieval code.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "academic_transcripts",
+      "name": "Academic Transcripts",
+      "details": "Transcripts from all previous educational institutions.",
+      "mandatory": true,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "previous_certificates",
+      "name": "Previous Educational Certificates",
+      "details": "Required if you are a minor or a vocational student.",
+      "mandatory": false,
+      "apostille_required": null,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 800,
+    "reference_basis": "To cover accommodation, food, and other needs",
+    "year": 2026,
+    "calculation_rules": null,
+    "example_12_months_eur": 9600,
+    "acceptable_proof": [
+      "Bank statements (in your own account)",
+      "Scholarship letters",
+      "Signed sponsor declaration"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Migri",
+    "authority_full_name": "Finnish Immigration Service",
+    "authority_url": "https://migri.fi",
+    "apply_within_days_of_arrival": null,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [],
+    "notes": "Finland issues the residence permit before you arrive. Post-arrival, you must visit the Digital and Population Data Services Agency (DVV) to register your place of residence and receive a Finnish personal identity code. Higher education degree students typically receive a continuous (A) permit, while other qualification students may receive a temporary (B) permit."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 30,
+    "full_time_during_breaks": true,
+    "requires_notification": null,
+    "notification_authority": null,
+    "legal_basis": null,
+    "restrictions": [
+      "Work for an annual average of 30 hours per week (equivalent to approximately 1,560 hours per year).",
+      "The 30-hour limit does not apply to diploma work or internships that are formally part of the degree program."
+    ],
+    "notes": null
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": null,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "Enter Finland",
+    "required_documents": [
+      "Proof of academic progress (at least 45 ECTS credits per academic year)",
+      "Statement explaining reasons if fewer than 45 ECTS credits completed"
+    ],
+    "notes": "Extended permits can only be applied for while you are inside Finland. You may be refused renewal if you do not make sufficient academic progress."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 24,
+    "legal_basis": null,
+    "process_authority": "Migri",
+    "requirements": [
+      "Graduation from a Finnish educational institution",
+      "Find a job, pursue a trade, or engage in business activities in Finland",
+      "Labor market testing is waived for those with a Finnish degree (for work-based permit)"
+    ],
+    "notes": "The job-seeking permit can be used in parts, with the last part ending within three years of when the first part started. Permanent residence is possible after four years on a continuous residence permit, including your study period, especially if you are employed post-graduation."
+  },
+  "official_sources": [
+    {
+      "name": "Finnish Immigration Service (Migri)",
+      "url": "https://migri.fi/en",
+      "description": "Official information on studying in Finland: migri.fi/en/studying-in-finland"
+    },
+    {
+      "name": "Online application portal (Enter Finland)",
+      "url": "https://enterfinland.fi",
+      "description": null
+    },
+    {
+      "name": "Study in Finland (official)",
+      "url": "https://studyinfinland.fi",
+      "description": null
+    },
+    {
+      "name": "Finnish Ministry for Foreign Affairs",
+      "url": "https://um.fi",
+      "description": "Information on visas and Finnish missions abroad."
+    },
+    {
+      "name": "Digital and Population Data Services Agency (DVV)",
+      "url": "https://dvv.fi",
+      "description": "For registering place of residence and obtaining a personal identity code."
+    },
+    {
+      "name": "Migri Appointment Booking",
+      "url": "https://migri.vihta.com",
+      "description": "Booking system for appointments at Finnish missions and service points."
+    },
+    {
+      "name": "Migri Processing Time Checker",
+      "url": "https://migri.fi/en/check-the-processing-time",
+      "description": null
+    },
+    {
+      "name": "InfoFinland",
+      "url": "https://infofinland.fi",
+      "description": null
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Enter Finland (Online Application)",
+      "url": "https://enterfinland.fi",
+      "authority": "Finnish Immigration Service (Migri)"
+    },
+    {
+      "name": "Residence Permit Application for Studies (Form OLE_OPI)",
+      "url": "https://migri.fi/en/residence-permit-application-for-studies",
+      "authority": "Finnish Immigration Service (Migri)"
+    },
+    {
+      "name": "Schengen Short-Stay Visa Forms",
+      "url": "https://um.fi",
+      "authority": "Finnish Ministry for Foreign Affairs"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Apply Early",
+      "body": "Apply for your residence permit as soon as you receive your acceptance letter to ensure you receive it before your studies begin. July is an extremely busy period.",
+      "priority": "high"
+    },
+    {
+      "title": "Ensure Sufficient Funds",
+      "body": "Make sure the full required amount (€9,600 for one year) is in your own bank account when you submit your application. A letter of support from a relative is usually not enough; the cash must be accessible to you.",
+      "priority": "high"
+    },
+    {
+      "title": "Check Passport Validity",
+      "body": "Ensure your passport is valid for the entire period you are applying for.",
+      "priority": "high"
+    },
+    {
+      "title": "Maintain Academic Progress",
+      "body": "You must complete at least 45 ECTS credits per academic year to qualify for permit renewal. Track your progress throughout your studies.",
+      "priority": "high"
+    },
+    {
+      "title": "Adequate Health Insurance",
+      "body": "Ensure your insurance has a deductible of no more than €300 and covers medical and pharmaceutical expenses for the entire duration of your stay.",
+      "priority": "high"
+    },
+    {
+      "title": "Apply from Outside Finland",
+      "body": "As of 1 September 2024, a first residence permit application must be submitted from outside Finland. Applying from inside Finland will generally result in a negative decision.",
+      "priority": "high"
+    },
+    {
+      "title": "Correct Visa Type for Course",
+      "body": "If your course is entirely online and requires no physical presence in Finland, a study residence permit will be refused.",
+      "priority": "medium"
+    },
+    {
+      "title": "Translate and Legalise Documents",
+      "body": "All attachments must be translated and legalised where necessary before submission; failing to do so causes delays or rejections.",
+      "priority": "high"
+    },
+    {
+      "title": "Avoid Unnecessary Consultancy",
+      "body": "You do not need to use fee-based consultancy services, as the Enter Finland portal guides you through the entire application process.",
+      "priority": "low"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "May not receive your permit before the start of your studies, especially during peak seasons.",
+      "how_to_avoid": "Start your residence permit application as soon as you receive your acceptance letter."
+    },
+    {
+      "mistake": "Insufficient funds at the time of application",
+      "consequence": "Your application may be rejected.",
+      "how_to_avoid": "Ensure the full required amount (€9,600 for one year) is in your bank account when you submit the application."
+    },
+    {
+      "mistake": "Submitting a first permit application from inside Finland",
+      "consequence": "Generally results in a negative decision (as of 1 September 2024).",
+      "how_to_avoid": "Always submit the first residence permit application from outside Finland."
+    },
+    {
+      "mistake": "Applying for the wrong visa type (e.g., for online-only courses)",
+      "consequence": "Your study residence permit will be refused.",
+      "how_to_avoid": "Ensure your course requires physical presence in Finland and qualifies for a study residence permit."
+    },
+    {
+      "mistake": "Missing or untranslated/unlegalised documents",
+      "consequence": "Causes delays or rejections of your application.",
+      "how_to_avoid": "Ensure all attachments are translated and legalised where necessary before submission."
+    },
+    {
+      "mistake": "Insufficient academic progress for renewal",
+      "consequence": "Your permit renewal may be refused.",
+      "how_to_avoid": "Complete at least 45 ECTS credits per academic year and track your progress throughout your studies."
+    },
+    {
+      "mistake": "Insufficient insurance coverage",
+      "consequence": "Your application may be rejected or you may face issues with medical expenses.",
+      "how_to_avoid": "Ensure your insurance has a deductible of no more than €300 and covers the entire duration of your stay."
+    },
+    {
+      "mistake": "Passport not valid for the entire study period",
+      "consequence": "Issues with permit validity or renewal.",
+      "how_to_avoid": "Ensure your passport is valid for the entire period you are applying for."
+    }
+  ]
+}

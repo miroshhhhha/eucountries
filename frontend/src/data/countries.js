@@ -1,18 +1,45 @@
 // Registry of countries that have data available.
 // Add a new entry here after running the extraction script for a new country.
 export const AVAILABLE_COUNTRIES = {
+    AT: {name: 'Austria'},
+    BE: {name: 'Belgium'},
+    BG: {name: 'Bulgaria'},
+    HR: {name: 'Croatia'},
+    CY: {name: 'Cyprus'},
+    CZ: {name: 'Czech Republic'},
+    DK: {name: 'Denmark'},
+    EE: {name: 'Estonia'},
+    FI: {name: 'Finland'},
+    FR: {name: 'France'},
+    DE: {name: 'Germany'},
+    GR: {name: 'Greece'},
+    HU: {name: 'Hungary'},
+    IE: {name: 'Ireland'},
+    IT: {name: 'Italy'},
+    LV: {name: 'Latvia'},
+    LT: {name: 'Lithuania'},
+    NL: {name: 'Netherlands'},
+    LU: {name: 'Luxembourg'},
+  MT: { name: 'Malta' },
+  PL: { name: 'Poland' },
+  PT: { name: 'Portugal' },
+  RO: { name: 'Romania' },
+  SK: { name: 'Slovakia' },
+  SI: { name: 'Slovenia' },
+  ES: { name: 'Spain' },
+  SE: { name: 'Sweden' },
 }
 
 export function isAvailable(code) {
-  return code in AVAILABLE_COUNTRIES
+    return code in AVAILABLE_COUNTRIES
 }
 
 // Returns Apple-style emoji flag image from emoji-datasource-apple CDN.
 export function appleFlagUrl(code) {
-  const codepoints = code
-    .toUpperCase()
-    .split('')
-    .map(c => (c.charCodeAt(0) + 127397).toString(16))
-    .join('-')
-  return `https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.0.1/img/apple/64/${codepoints}.png`
+    const codepoints = code
+        .toUpperCase()
+        .split('')
+        .map(c => (c.charCodeAt(0) + 127397).toString(16))
+        .join('-')
+    return `https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.0.1/img/apple/64/${codepoints}.png`
 }

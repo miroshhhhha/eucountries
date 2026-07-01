@@ -1,0 +1,458 @@
+{
+  "country": "Spain",
+  "country_code": "ES",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Spanish",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education (Bachelor's, Master's, PhD)",
+      "Higher Vocational Training (FP)",
+      "Official language courses (minimum 20 hours/week, Instituto Cervantes certified)",
+      "Primary or secondary school",
+      "Research projects",
+      "Training programmes",
+      "Unpaid internships",
+      "Volunteering programmes",
+      "Student exchange programs"
+    ],
+    "short_stay": [],
+    "notes": "Courses must be full-time and officially recognized by the Spanish Ministry of Education (e.g., listed in RUCT) or, for language courses, certified by Instituto Cervantes."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "Long-stay Study Visa (Visado de Estudios)",
+        "validity_days": 90,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Initial visa sticker is valid for 90 days for entry into Spain, after which a TIE must be obtained."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Directly via Consulate online system",
+          "description": "Schedule an in-person appointment directly through the online system of the specific Spanish Embassy or Consulate with jurisdiction over your region.",
+          "url": null
+        },
+        {
+          "method": "Outsourced Visa Centers (e.g., BLS International)",
+          "description": "In several regions (e.g., parts of the US, UK, and India), Spain outsources its visa intake processing to external networks like BLS International.",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Get accepted and obtain admission letter",
+          "description": "Obtain your official admission letter from a recognised Spanish educational institution.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Book consulate appointment",
+          "description": "Book your consulate appointment as early as possible.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Prepare documents",
+          "description": "Prepare and gather all required documents, including the National Visa Application Form (EX-00).",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Attend appointment and submit",
+          "description": "Attend your appointment in person, submit documents, and pay the visa fee.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Wait for decision",
+          "description": "Wait for a decision on your visa application.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Receive visa sticker",
+          "description": "Once approved, you receive a visa sticker in your passport, valid for 90 days for entry.",
+          "action_required": null
+        },
+        {
+          "step": 7,
+          "title": "Travel to Spain",
+          "description": "Travel to Spain before the visa expires.",
+          "action_required": null
+        },
+        {
+          "step": 8,
+          "title": "Apply for TIE",
+          "description": "Within 30 days of arrival, apply for your TIE (residence card) at the local police station/Oficina de Extranjería.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 30,
+        "typical_min_days": 35,
+        "typical_max_days": 56,
+        "recommended_apply_before_start_days": 60
+      },
+      "fee_eur": 80,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 1 year beyond intended stay, issued within last 10 years, with 2 blank pages (original and copy of photo page and visa page)",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "visa_application_form",
+      "name": "National Visa Application Form (EX-00)",
+      "details": "Two completed and signed copies, obtained from the Consulate's website",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photos",
+      "name": "Passport-sized Photographs",
+      "details": "Two recent colour passport-sized photos with white background",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "admission_letter",
+      "name": "Official Letter of Acceptance",
+      "details": "From a recognized Spanish educational institution, in Spanish, stating program details, start/end dates, and confirming full-time enrollment (at least 20 hours/week)",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "tuition_payment_proof",
+      "name": "Proof of Tuition Payment",
+      "details": "Proof of having paid registration/enrollment fees (new requirement under Royal Decree 1155/2024)",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "medical_insurance",
+      "name": "Comprehensive Health Insurance",
+      "details": "From a Spanish provider, with €0 deductibles/co-payments and full hospitalization coverage. Must be valid from 1 month before the program start until 15 days after its completion.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "medical_certificate",
+      "name": "Medical Certificate",
+      "details": "Signed statement from a doctor confirming no diseases that could seriously affect public health (required for stays >6 months)",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record",
+      "name": "Criminal Record Certificate",
+      "details": "Clean background check covering the last 5 years, Apostilled/Legalized and translated into Spanish by an official sworn translator (required for stays >6 months)",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "proof_of_accommodation",
+      "name": "Proof of Accommodation",
+      "details": "Rental agreement, student dorm certificate, hotel booking for initial weeks, or letter of invitation",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "proof_of_funds",
+      "name": "Proof of Sufficient Economic Funds",
+      "details": "Demonstrating 100% of IPREM (€600-€650/month, or €7,200 for 12 months)",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "academic_transcripts",
+      "name": "Academic Transcripts",
+      "details": "Previously completed academic transcripts (Apostille may be required for some countries)",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 600,
+    "reference_basis": "IPREM (Indicador Público de Renta de Efectos Múltiples)",
+    "year": 2025,
+    "calculation_rules": {
+      "first_adult_pct": 100,
+      "additional_adult_pct": null,
+      "dependent_child_pct": null
+    },
+    "example_12_months_eur": 7200,
+    "acceptable_proof": [
+      "Bank statements (showing regular transactions and stable balance over 3-6 months)",
+      "Scholarship letter (official document proving fully funded scholarship)",
+      "Notarized letter of sponsorship from a parent/guardian (with their income tax filings and bank certificates, duly notarised and apostilled if funds belong to family member)"
+    ],
+    "exemptions": [],
+    "notes": "The IPREM amount may change in 2026 (potentially €600-€650/month). The financial requirement can be reduced if accommodation is fully prepaid for the entire stay."
+  },
+  "residence_permit": {
+    "authority_name": "Oficina de Extranjería / Police Station",
+    "authority_full_name": "Foreigners Office / Police Station",
+    "authority_url": "https://icp.administracionelectronica.gob.es",
+    "apply_within_days_of_arrival": 30,
+    "validity_months": null,
+    "renewable": true,
+    "booking_method": "Online appointment system (e.g., via https://icp.administracionelectronica.gob.es)",
+    "required_documents": [
+      "Passport (original and photocopy)",
+      "Completed application form EX-17",
+      "Biometric photograph (white background)",
+      "Empadronamiento certificate (municipal address registration)",
+      "School/university enrolment letter",
+      "Tax receipt for payment of TASA 790-012"
+    ],
+    "notes": "The TIE card is valid for the entire duration of the academic program for higher education students (under 2025 reforms). It may take 1-3 months to receive the physical card, during which the 'Resguardo' serves as legal proof of residence. Empadronamiento (municipal registration) is a prerequisite."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 30,
+    "full_time_during_breaks": true,
+    "requires_notification": true,
+    "notification_authority": null,
+    "legal_basis": "Royal Decree 1155/2024",
+    "restrictions": [
+      "Work must not conflict with academic obligations/class timetable",
+      "Income cannot be declared as the main source of survival for visa application/renewal",
+      "The automatic 30-hour work right applies only to higher education students (university degrees, master's, vocational training); language school students require separate employer authorization."
+    ],
+    "notes": null
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 60,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "Sede Electrónica of the Ministry of the Interior / MERCURIO portal",
+    "required_documents": [
+      "Proof of passing previous courses (certificate of aprovechamiento or new enrollment)",
+      "Fresh bank statement meeting IPREM rule (€600/month)",
+      "Renewed health insurance"
+    ],
+    "notes": "Under the 2025 reforms, student residence permits for higher education are valid for the entire program duration, eliminating annual renewals. Renewal or modification is only needed if the course extends or the institution changes. Applications are made from within Spain, either online or in person. Applying after expiry can incur a fine. The renewal window extends up to 90 days after expiry, but it's recommended to apply before."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": null,
+    "process_authority": "Immigration portal / Oficina de Extranjería",
+    "requirements": [
+      "Apply during the 60 days before your student residence permit expires, or within 90 days after expiry",
+      "Secure an official job contract that relates directly to your studies (for conversion to work permit)"
+    ],
+    "notes": "The Job Search Authorisation is valid for a minimum of 12 months and a maximum of 24 months, with no possibility of extension."
+  },
+  "official_sources": [
+    {
+      "name": "Spanish Ministry of Foreign Affairs (MAEC)",
+      "url": "https://www.exteriores.gob.es",
+      "description": "Legal frameworks, visa instructions, and directories"
+    },
+    {
+      "name": "Sede Electrónica - Administraciones Públicas",
+      "url": "https://sede.administracionespublicas.gob.es",
+      "description": "Online procedures, digital residency applications, TIE appointments, and forms"
+    },
+    {
+      "name": "Spanish Ministry of Education, Vocational Training and Sports",
+      "url": "https://www.educacion.gob.es/ruct",
+      "description": "General student portal and educational directory (RUCT)"
+    },
+    {
+      "name": "Ministry of the Interior (Immigration)",
+      "url": "https://www.interior.gob.es",
+      "description": null
+    },
+    {
+      "name": "Study in Spain (official portal)",
+      "url": "https://www.studyinspain.info",
+      "description": null
+    },
+    {
+      "name": "TIE Appointment Booking",
+      "url": "https://icp.administracionelectronica.gob.es",
+      "description": null
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "National Visa Application Form (EX-00)",
+      "url": "Your local Spanish Consulate website",
+      "authority": "Spanish Consulate"
+    },
+    {
+      "name": "EX-17 (TIE Application Form)",
+      "url": "Oficina de Extranjería or online",
+      "authority": "Oficina de Extranjería"
+    },
+    {
+      "name": "TASA 790-012 (TIE Fee Payment)",
+      "url": "https://sede.administracionespublicas.gob.es",
+      "authority": "Administraciones Públicas"
+    },
+    {
+      "name": "Empadronamiento (Municipal Registration)",
+      "url": "Your local Ayuntamiento (town hall)",
+      "authority": "Ayuntamiento"
+    },
+    {
+      "name": "EX-01 (Work/Residence Authorisation Renewals)",
+      "url": "Oficina de Extranjería",
+      "authority": "Oficina de Extranjería"
+    },
+    {
+      "name": "TASA 790-052 (Other Fee Payment)",
+      "url": "https://sede.administracionespublicas.gob.es",
+      "authority": "Administraciones Públicas"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Apply for the correct visa",
+      "body": "Ensure you apply for a student visa (Visado de Estudios) and not a tourist/Schengen visa, as other types do not entitle you to a TIE.",
+      "priority": "high"
+    },
+    {
+      "title": "Apply from outside Spain",
+      "body": "All study visa applications must be made through the Spanish consulate in your home country; applications from within Spain are no longer accepted since May 20, 2025.",
+      "priority": "high"
+    },
+    {
+      "title": "Translate documents correctly",
+      "body": "All foreign documents must be officially translated into Spanish by a sworn translator (traductor jurado) or they will not be accepted.",
+      "priority": "high"
+    },
+    {
+      "title": "Apply early",
+      "body": "Submit your visa application at least two months before the start of your program; ideally, start 3-6 months early.",
+      "priority": "high"
+    },
+    {
+      "title": "Meet TIE deadline",
+      "body": "Apply for your TIE (residence card) within 30 days of arriving in Spain at the Oficina de Extranjería.",
+      "priority": "high"
+    },
+    {
+      "title": "Register with municipality (Empadronamiento)",
+      "body": "Register with your local municipality (Empadronamiento) immediately after arrival, as it is required for your TIE.",
+      "priority": "high"
+    },
+    {
+      "title": "Understand work rights",
+      "body": "The automatic 30-hour/week work rule applies only to higher education students; language school students do not have this right and require employer authorization.",
+      "priority": "medium"
+    },
+    {
+      "title": "Distinguish NIE and TIE",
+      "body": "Your NIE is an identification number, while your TIE is the physical residence card you must actively apply for after arrival.",
+      "priority": "medium"
+    },
+    {
+      "title": "Apply for job search permit on time",
+      "body": "Apply for the post-study job search permit during the 60 days before your student permit expires, or within 90 days after expiry.",
+      "priority": "high"
+    },
+    {
+      "title": "Avoid co-payment insurance trap",
+      "body": "Ensure your private health insurance has zero co-payments (copago) and deductibles, and full hospitalization coverage, as policies with any co-pay will be rejected.",
+      "priority": "high"
+    },
+    {
+      "title": "Book TIE appointments early",
+      "body": "Finding an open slot for your TIE card appointment can be difficult due to backlogs; start checking the government booking site the week you arrive.",
+      "priority": "medium"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Applying for a tourist/Schengen visa instead of a student visa",
+      "consequence": "Does not entitle you to the TIE, and you would have to leave Spain after three months.",
+      "how_to_avoid": "Ensure you apply for a student visa (Visado de Estudios) for long-term study."
+    },
+    {
+      "mistake": "Trying to apply for a study visa from within Spain",
+      "consequence": "Since May 20, 2025, all study visa applications must be made through the Spanish consulate in your home country.",
+      "how_to_avoid": "Always apply for your initial study visa at the Spanish consulate in your country of residence."
+    },
+    {
+      "mistake": "Submitting documents not in Spanish",
+      "consequence": "All documents must be in Spanish or they will not be accepted.",
+      "how_to_avoid": "Have all foreign documents officially translated by a sworn (jurado) translator."
+    },
+    {
+      "mistake": "Applying for the visa too late",
+      "consequence": "Applications must be submitted at least two months before the start of the programme.",
+      "how_to_avoid": "Start your application process 3–6 months before your program begins."
+    },
+    {
+      "mistake": "Missing the TIE application deadline",
+      "consequence": "Must apply for the TIE within 30 days of arriving in Spain.",
+      "how_to_avoid": "Apply for your TIE at the Oficina de Extranjería within 30 days of arrival."
+    },
+    {
+      "mistake": "Forgetting Empadronamiento (municipal registration)",
+      "consequence": "It is required for your TIE and for accessing local services.",
+      "how_to_avoid": "Register at your local Ayuntamiento immediately after arrival."
+    },
+    {
+      "mistake": "Assuming all students can work 30 hours/week",
+      "consequence": "The 30-hour rule applies to higher education students only; language school students do not have this right.",
+      "how_to_avoid": "Verify work rights based on your specific course type (higher education vs. language school)."
+    },
+    {
+      "mistake": "Confusing NIE and TIE",
+      "consequence": "Your NIE is an identification number; your TIE is the physical residence card you must actively apply for after arrival.",
+      "how_to_avoid": "Understand that the TIE is a physical card requiring a separate application after you arrive in Spain."
+    },
+    {
+      "mistake": "Delaying the job search permit application",
+      "consequence": "Must apply during the 60 days before your permit expires, or within 90 days after expiry.",
+      "how_to_avoid": "Apply for the job search permit well in advance of your student permit's expiration date."
+    },
+    {
+      "mistake": "Using health insurance with co-payments or deductibles",
+      "consequence": "Your visa will be rejected; Spanish student visas require policies with zero co-pays and full hospitalization.",
+      "how_to_avoid": "Always ask your broker for a dedicated policy designed specifically for the 'Spanish Student Visa' with zero co-pays."
+    },
+    {
+      "mistake": "Booking TIE appointments too late",
+      "consequence": "Finding an open slot for your TIE card in major cities can be incredibly difficult due to system backlogs.",
+      "how_to_avoid": "Start checking the government booking site for TIE appointments the week you arrive in the country."
+    }
+  ]
+}

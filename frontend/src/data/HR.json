@@ -1,0 +1,350 @@
+{
+  "country": "Croatia",
+  "country_code": "HR",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Croatian",
+  "qualifying_courses": {
+    "long_stay": [
+      "Higher education degrees (Bachelor's, Master's, PhD)",
+      "Student exchange programs (Erasmus+, CEEPUS, bilateral agreements)",
+      "Vocational/professional training",
+      "Secondary education programs",
+      "Internship programs exceeding 90 days",
+      "Research programs exceeding 90 days",
+      "Formal, full-time Croatian language programs organized by university-level centers that serve as a precursor to degree enrollment"
+    ],
+    "short_stay": [],
+    "notes": "Language programs at schools like Croaticum do not qualify for student residence unless they are part of a formal university degree program."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": "D",
+        "name": "Long-stay Study Visa",
+        "for_stays_over_days": 90,
+        "notes": "Often issued alongside or prior to a Temporary Residence Permit (Privremeni boravak)."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Croatian Embassy or Consulate",
+          "description": "Schedule an appointment at the Croatian diplomatic mission in your country of citizenship or legal permanent residence."
+        },
+        {
+          "method": "VFS Global",
+          "description": "In countries where Croatia has outsourced its visa collection services, appointments must be scheduled directly through the regional VFS Global portal."
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "University Admission",
+          "description": "Get accepted into an accredited Croatian university or institution and receive an official Acceptance Letter."
+        },
+        {
+          "step": 2,
+          "title": "Complete Online Visa Form",
+          "description": "Complete the visa request form online via the Ministry of Foreign Affairs electronic system."
+        },
+        {
+          "step": 3,
+          "title": "Book Appointment",
+          "description": "Schedule an appointment at your local Croatian embassy, consulate, or VFS Global."
+        },
+        {
+          "step": 4,
+          "title": "Prepare Documents",
+          "description": "Prepare all required physical, legalized, and translated supporting documents."
+        },
+        {
+          "step": 5,
+          "title": "Submit Application and Pay Fees",
+          "description": "Submit the printed visa application form and all physical supporting documents in person and pay the visa administrative application fee."
+        },
+        {
+          "step": 6,
+          "title": "Wait for Processing",
+          "description": "Wait for the visa application to be processed."
+        },
+        {
+          "step": 7,
+          "title": "Register Address After Arrival",
+          "description": "Within 48 hours (72 hours during weekends) of entering Croatia, register your actual physical living address at the local police administration (Policijska uprava) or station (Policijska postaja). Student dorms usually handle this."
+        },
+        {
+          "step": 8,
+          "title": "Obtain OIB Number",
+          "description": "Visit the local Tax Administration (Porezna uprava) to be assigned a Personal Identification Number (OIB) immediately upon arrival, crucial for contracts and student status validation."
+        },
+        {
+          "step": 9,
+          "title": "Apply for Biometric Residence Card",
+          "description": "Submit temporary residence paperwork (Form 1a) at the police station and apply for your biometric residence card within 30 days of receiving temporary stay approval."
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": null,
+        "typical_min_days": 42,
+        "typical_max_days": 90,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": 46.45,
+      "interview_required": null
+    }
+  },
+  "required_documents": [
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Issued within the last 10 years, containing at least two empty pages, and valid for at least 3 months beyond your intended departure date.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "visa_application_form",
+      "name": "Visa Application Form",
+      "details": "Printed and signed.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Official Acceptance Letter",
+      "details": "Issued by an accredited Croatian higher education institution.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "Student dormitory housing assignment or a notarized private rental lease agreement with proof of landlord's ownership.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Health Insurance",
+      "details": "A comprehensive travel medical policy valid across the Schengen area with a minimum coverage of €30,000.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "criminal_record",
+      "name": "Criminal Record Certificate",
+      "details": "Certificate of non-conviction from your home country, not older than 6 months. Must be apostilled/legalized and translated into Croatian by a certified court interpreter.",
+      "mandatory": true,
+      "apostille_required": true
+    },
+    {
+      "id": "financial_means",
+      "name": "Proof of Sufficient Financial Means",
+      "details": "Personal certified bank statements spanning 3 months, certified scholarship/grant award letters, or formal notarized letters of financial guarantee from a sponsor accompanied by their financial records.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "passport_photo",
+      "name": "Passport-size Color Photo",
+      "details": "One standard color photograph, 35x45 mm.",
+      "mandatory": true,
+      "apostille_required": false
+    },
+    {
+      "id": "travel_ticket_reservation",
+      "name": "Travel Ticket Reservation",
+      "details": "Return or round-trip flight or travel bookings.",
+      "mandatory": true,
+      "apostille_required": false
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 133,
+    "reference_basis": "Official legal minimum for residence permit: 1,000 HRK per month",
+    "year": null,
+    "calculation_rules": null,
+    "example_12_months_eur": 1596,
+    "acceptable_proof": [
+      "Personal certified bank statements spanning 3 months",
+      "Certified scholarship/grant award letters",
+      "Formal notarized letters of financial guarantee from a sponsor accompanied by their financial records"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Police Administration / Station",
+    "authority_full_name": "Policijska uprava / Policijska postaja",
+    "authority_url": null,
+    "apply_within_days_of_arrival": 2,
+    "validity_months": 12,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [
+      "Temporary stay application form (Form 1a)",
+      "OIB (Personal Identification Number)"
+    ],
+    "notes": "International students are not allowed to attend classes at a Croatian university until they have procured a temporary residence permit. An OIB (Personal Identification Number) must be obtained from the Tax Administration within 48 hours of arrival. The administrative processing fee for granting the stay card is €46.45, plus a layout production fee of €31.85 for regular processing or €59.73 for accelerated tracking, and an additional state tax of €9.29."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": null,
+    "requires_notification": true,
+    "notification_authority": "Studentski centar (Student Service agency)",
+    "legal_basis": "Student Contract (Studentski ugovor)",
+    "restrictions": [
+      "Work hours cannot clash with compulsory lecture workloads",
+      "Only temporary residence permit holders may work part-time; Type C (short-stay) visa holders are not granted any work rights"
+    ],
+    "notes": "The 20-hour figure is likely a university recommendation, not a legal mandate, as no statutory limit exists in the regulatory framework. Minimum wage 2026: €6.56/hour net. Night work, Sundays, and holidays: +50% pay."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": null,
+    "apply_before_expiry_max_days": 60,
+    "online_portal": null,
+    "required_documents": [
+      "Fresh enrollment certificate showing progression into the next academic semester/year",
+      "Renewed comprehensive health insurance",
+      "Updated bank statements demonstrating required funds for the incoming term",
+      "Current housing lease renewals"
+    ],
+    "notes": "A third-country national who has applied for the extension of a temporary stay permit before the expiry of the valid temporary stay permit may remain in the Republic of Croatia until the decision on their application becomes enforceable."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 12,
+    "legal_basis": null,
+    "process_authority": "Ministry of Interior (MUP)",
+    "requirements": [
+      "Obtain a valid job offer or employment contract from a Croatian employer",
+      "Apply for the new residence purpose before the student permit expires",
+      "Prospective employer applies online via the Ministry of the Interior's system for a Work and Residence Permit (Dozvola za boravak i rad), utilizing the formal labor market test framework"
+    ],
+    "notes": "For third-country nationals who have been granted temporary stay for the purpose of university studies, only half of their temporary stay period for university studies is included when calculating the time required for granting long-term residence."
+  },
+  "official_sources": [
+    {
+      "name": "Study in Croatia (official portal)",
+      "url": "studyincroatia.hr"
+    },
+    {
+      "name": "Ministry of Foreign Affairs",
+      "url": "mvep.gov.hr"
+    },
+    {
+      "name": "Ministry of Interior (MUP) – Residence",
+      "url": "mup.gov.hr"
+    },
+    {
+      "name": "EU Immigration Portal – Croatia",
+      "url": "home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/student-croatia_en"
+    },
+    {
+      "name": "Croatian Agency for Science and Higher Education",
+      "url": "azvo.hr"
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Temporary stay application (Form 1a)",
+      "url": null,
+      "authority": "Croatian consulates abroad or local police station/police administration; MUP application database"
+    },
+    {
+      "name": "Temporary stay registration (Form 1b)",
+      "url": null,
+      "authority": "Police station (for EEA nationals)"
+    },
+    {
+      "name": "Online visa form",
+      "url": "crovisa.mvep.hr",
+      "authority": "Croatian Ministry of Foreign Affairs"
+    }
+  ],
+  "tips": [
+    {
+      "title": "Avoid enrolling in language courses expecting a student residence permit",
+      "body": "Only accredited university and secondary school programs qualify for a student residence permit; language schools alone do not.",
+      "priority": "high"
+    },
+    {
+      "title": "Register address immediately upon arrival",
+      "body": "Register your address at the local police station within 48 hours (72 hours during weekends) of moving into private accommodation to avoid delays or penalties.",
+      "priority": "high"
+    },
+    {
+      "title": "Obtain OIB number promptly",
+      "body": "Visit the Tax Office to obtain your Personal Identification Number (OIB) immediately upon arrival, ideally within 48 hours, as it is crucial for contracts and student status validation.",
+      "priority": "high"
+    },
+    {
+      "title": "Ensure all documents are translated and apostilled/legalized",
+      "body": "Consulates and police stations will refuse documents, especially criminal record certificates, unless they are properly certified (Apostille or legalization track depending on the origin country) and translated into Croatian by a certified court interpreter.",
+      "priority": "high"
+    },
+    {
+      "title": "Apply for permit renewal in advance",
+      "body": "Submit your renewal application at the local police station no later than 60 days before your current permit expires.",
+      "priority": "medium"
+    },
+    {
+      "title": "Understand work rights based on permit type",
+      "body": "Only temporary residence permit holders may work part-time through the Student Service; Type C (short-stay) visa holders are not granted any work rights.",
+      "priority": "medium"
+    },
+    {
+      "title": "Switch permit status before student permit expires",
+      "body": "If planning to stay post-graduation, apply for a work residence permit or job-seeker extension before your student permit runs out.",
+      "priority": "medium"
+    },
+    {
+      "title": "Apply for biometric card within deadline",
+      "body": "Apply for the biometric residence card as soon as you receive temporary stay approval, typically within 30 days.",
+      "priority": "medium"
+    }
+  ],
+  "common_mistakes": [
+    {
+      "mistake": "Enrolling in a language course expecting a student residence permit",
+      "consequence": "Will not qualify for a student residence permit, requiring application under 'other purposes' instead.",
+      "how_to_avoid": "Ensure enrollment is in accredited university, secondary school, or formal university-preparatory language programs."
+    },
+    {
+      "mistake": "Not registering address within 48 hours (72 hours during weekends) of arrival",
+      "consequence": "Can lead to processing delays or financial penalties.",
+      "how_to_avoid": "Register at the local police station immediately after moving in, or ensure your dormitory/hotel handles it."
+    },
+    {
+      "mistake": "Missing the 30-day biometric card deadline after entering on a D visa or receiving temporary stay approval",
+      "consequence": "May invalidate the permit or lead to complications.",
+      "how_to_avoid": "Apply for the biometric residence card as soon as you arrive or receive approval."
+    },
+    {
+      "mistake": "Submitting untranslated or non-apostilled documents",
+      "consequence": "Consulates and police stations will outright refuse the application.",
+      "how_to_avoid": "All documents must be translated into Croatian by a certified court interpreter and legalized (apostilled) before submission."
+    },
+    {
+      "mistake": "Waiting too long to renew the permit",
+      "consequence": "Risk of permit expiry and illegal stay.",
+      "how_to_avoid": "Submit renewal application at least 60 days before expiration."
+    },
+    {
+      "mistake": "Expecting to work freely on a Type C (short-stay) visa",
+      "consequence": "Type C visa holders are not granted any work rights.",
+      "how_to_avoid": "Only temporary residence permit holders may work part-time through the Student Service."
+    },
+    {
+      "mistake": "Not switching status before student permit expires",
+      "consequence": "Risk of illegal stay if planning to remain in Croatia after graduation.",
+      "how_to_avoid": "Apply for a work residence permit or job-seeker extension before your student permit runs out if planning to stay post-graduation."
+    },
+    {
+      "mistake": "Ignoring the OIB (Personal Identification Number)",
+      "consequence": "Will stall onboarding processes, including opening bank accounts or signing rental agreements.",
+      "how_to_avoid": "Visit the Tax Office to obtain your OIB immediately upon arrival, ideally within 48 hours."
+    }
+  ]
+}

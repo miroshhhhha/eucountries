@@ -1,0 +1,370 @@
+{
+  "country": "Slovakia",
+  "country_code": "SK",
+  "last_updated": "2026-07-01",
+  "schengen_member": true,
+  "currency": "EUR",
+  "official_language": "Slovak",
+  "qualifying_courses": {
+    "long_stay": [
+      "Full-time higher education programs at accredited universities (Bachelor’s, Master’s, and Doctoral levels)",
+      "Language and preparatory courses for university studies organized by an accredited higher education institution/Slovak university",
+      "Full-time secondary school study (applicant must be under 20 at time of application)",
+      "Post-secondary, graduate, specialisation, or higher vocational study (applicant must be under 23)",
+      "Specialized training and educational activities at state-recognized institutions"
+    ],
+    "short_stay": [],
+    "notes": "Part-time study generally does not qualify for a temporary residence permit for study."
+  },
+  "visa": {
+    "types": [
+      {
+        "code": null,
+        "name": "Temporary Residence Permit for Study",
+        "validity_days": null,
+        "entries": null,
+        "for_stays_over_days": 90,
+        "notes": "Non-EU/EEA students staying in Slovakia longer than 90 days must apply for this long-term residence permit. A National Visa (D) may be issued for entry to Slovakia to apply for residence."
+      }
+    ],
+    "application_process": {
+      "booking_methods": [
+        {
+          "method": "Electronic Appointment System (EZOV)",
+          "description": "Used for Schengen visas; students should check the specific embassy's website for its booking method for National (Type D) visas and residence applications.",
+          "url": "ezov.mzv.sk"
+        },
+        {
+          "method": "Slovak Embassy or Consulate",
+          "description": "Appointments are usually booked directly through the Slovak embassy or consulate responsible for the student's country of residence, normally by email or through the embassy's online booking system (where available).",
+          "url": null
+        },
+        {
+          "method": "External Service Provider",
+          "description": "In some jurisdictions, applicants may need to use a designated external service provider if the embassy has an agreement with one (e.g., BLS International).",
+          "url": null
+        }
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "title": "Secure Admission",
+          "description": "Secure admission to a Slovak educational institution.",
+          "action_required": null
+        },
+        {
+          "step": 2,
+          "title": "Gather and Translate Documents",
+          "description": "Gather all required original documents and their official translations into Slovak.",
+          "action_required": null
+        },
+        {
+          "step": 3,
+          "title": "Book Appointment and Submit Application",
+          "description": "Book an appointment and submit the application in person at the Slovak Embassy or Consulate in your country of residence (or at a Foreign Police Department in Slovakia if already legally present).",
+          "action_required": null
+        },
+        {
+          "step": 4,
+          "title": "Attend Interview",
+          "description": "Attend an interview at the embassy/consulate, if applicable.",
+          "action_required": null
+        },
+        {
+          "step": 5,
+          "title": "Wait for Decision",
+          "description": "Wait for the decision on the application.",
+          "action_required": null
+        },
+        {
+          "step": 6,
+          "title": "Travel to Slovakia",
+          "description": "Travel to Slovakia within 180 days of the decision.",
+          "action_required": null
+        },
+        {
+          "step": 7,
+          "title": "Report Residence",
+          "description": "Report residence to the Foreign Police within 3 working days of arrival.",
+          "action_required": null
+        },
+        {
+          "step": 8,
+          "title": "Collect Residence Card and Submit Certificates",
+          "description": "Collect the residence card and submit a medical certificate confirming no public-health risk and proof of health insurance within 30 days of collecting the card.",
+          "action_required": null
+        }
+      ],
+      "processing_time": {
+        "legal_deadline_days": 30,
+        "typical_min_days": 30,
+        "typical_max_days": null,
+        "recommended_apply_before_start_days": 90
+      },
+      "fee_eur": null,
+      "interview_required": true
+    }
+  },
+  "required_documents": [
+    {
+      "id": "application_form",
+      "name": "Completed Application Form",
+      "details": "Official application form for the National Visa or Temporary Residence.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "passport",
+      "name": "Valid Passport",
+      "details": "Valid for at least 3 months beyond the intended stay or 90 days beyond the intended departure date, with at least 2 blank pages.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "photographs",
+      "name": "Color Photographs",
+      "details": "Two recent color photographs (3 x 3.5 cm, ICAO standard).",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "acceptance_letter",
+      "name": "Official Letter of Acceptance/Confirmation of Studies",
+      "details": "From the university or school in Slovakia, translated into Slovak.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "financial_proof",
+      "name": "Proof of Financial Means",
+      "details": "Personal bank statement showing sufficient balance, not older than 90 days at submission. Acceptable proof includes a bank account statement, a scholarship award letter, a financial coverage confirmation, or an affidavit from another person agreeing to cover costs, accompanied by that person's bank statement.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "criminal_record",
+      "name": "Criminal Record Certificate",
+      "details": "An extract from the criminal record from the country of origin and any country where the applicant lived for more than 90 days in the last 3 years. Must be apostilled/legalized/superlegalised and not older than 90 days at submission.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [
+        "High school students"
+      ],
+      "notes": null
+    },
+    {
+      "id": "accommodation_proof",
+      "name": "Proof of Accommodation",
+      "details": "A lease agreement, a deed of ownership, or a confirmation from a student dormitory.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [
+        "Students enrolled at a Slovak higher education institution"
+      ],
+      "notes": null
+    },
+    {
+      "id": "health_insurance",
+      "name": "Proof of Health Insurance",
+      "details": "Travel medical insurance (minimum €30,000 coverage) or proof of health insurance in Slovakia. Required after arrival, within 30 days of collecting the residence card.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "translations",
+      "name": "Official Translations",
+      "details": "All foreign documents (except Czech) must be translated into Slovak by an officially certified Slovak translator.",
+      "mandatory": true,
+      "apostille_required": false,
+      "exemptions": [],
+      "notes": null
+    },
+    {
+      "id": "apostille_legalization_general",
+      "name": "Apostille or Legalization",
+      "details": "All foreign documents must be apostilled or legalized/superlegalised from the issuing country's authorities.",
+      "mandatory": true,
+      "apostille_required": true,
+      "exemptions": [],
+      "notes": null
+    }
+  ],
+  "financial_requirements": {
+    "reference_value_monthly_eur": 273.99,
+    "reference_basis": "Subsistence minimum in Slovakia (2024/2025 period)",
+    "year": 2024,
+    "calculation_rules": null,
+    "example_12_months_eur": 3288,
+    "acceptable_proof": [
+      "Personal bank statement",
+      "Scholarship award letter",
+      "Financial coverage confirmation",
+      "Notarized affidavit of support from a parent/sponsor accompanied by their bank statement"
+    ],
+    "exemptions": []
+  },
+  "residence_permit": {
+    "authority_name": "Foreign Police",
+    "authority_full_name": "Foreign Police Department (Cudzinecká polícia)",
+    "authority_url": "minv.sk",
+    "apply_within_days_of_arrival": 3,
+    "validity_months": 72,
+    "renewable": true,
+    "booking_method": null,
+    "required_documents": [
+      "Medical certificate confirming no public-health risk (from a specialized clinic in Slovakia, not older than 30 days at submission)",
+      "Proof of health insurance"
+    ],
+    "notes": "Students must report their residence to the Foreign Police within 3 working days of arrival. A medical examination and submission of health insurance proof are required within 30 days of receiving the residence permit card. The permit can be granted for the expected duration of the course, up to a maximum of 6 years."
+  },
+  "work_while_studying": {
+    "allowed": true,
+    "max_hours_per_week_during_term": 20,
+    "full_time_during_breaks": true,
+    "requires_notification": false,
+    "notification_authority": null,
+    "legal_basis": "Employment contract or agreements performed outside an employment relationship (e.g., Contract on student part-time work - Dohoda o brigádnickej práci študentov)",
+    "restrictions": [
+      "Secondary school students can work up to 10 hours per week."
+    ],
+    "notes": "International students can also start a business without changing the purpose of their residence permit."
+  },
+  "permit_renewal": {
+    "apply_before_expiry_min_days": 0,
+    "apply_before_expiry_max_days": null,
+    "online_portal": "Foreign Police's online Booking system (for electronic submission)",
+    "required_documents": [
+      "Completed renewal application form",
+      "Valid passport",
+      "Confirmation of continued enrollment from the institution",
+      "Proof of accommodation",
+      "Proof of sufficient financial resources",
+      "Proof of continued insurance"
+    ],
+    "notes": "The application for renewal must be submitted in person at the competent Foreign Police Department, or electronically, no later than the last day of validity of the current temporary residence."
+  },
+  "post_study_work": {
+    "available": true,
+    "job_seeking_permit_months": 9,
+    "legal_basis": "Graduates of Slovak universities have simplified access to the labor market, with employers not needing to perform a labor market test to hire them.",
+    "process_authority": "Foreign Police",
+    "requirements": [
+      "University diploma or confirmation of completed studies"
+    ],
+    "notes": "A temporary residence permit for study also remains valid for up to 30 days after completing studies for the purpose of job-searching. For the 9-month job-seeking permit, a new medical certificate, health insurance, or criminal record extract are not required."
+  },
+  "official_sources": [
+    {
+      "name": "Ministry of Foreign and European Affairs of the Slovak Republic",
+      "url": "mzv.sk",
+      "description": null
+    },
+    {
+      "name": "Ministry of Interior of the Slovak Republic (Foreign Police information)",
+      "url": "minv.sk",
+      "description": null
+    },
+    {
+      "name": "IOM Migration Information Centre Slovakia",
+      "url": "mic.iom.sk",
+      "description": "Official partner for foreigners, providing practical guidance, supported by the Slovak government."
+    },
+    {
+      "name": "Slovak Academic Information Agency (SAIA) - Study in Slovakia",
+      "url": "studyinslovakia.saia.sk",
+      "description": "Funded by the Ministry of Education."
+    },
+    {
+      "name": "Slovak Academic Information Agency (SAIA) - Research in Slovakia",
+      "url": "researchinslovakia.saia.sk",
+      "description": "Funded by the Ministry of Education."
+    },
+    {
+      "name": "Ministry of Labour, Social Affairs and Family",
+      "url": "employment.gov.sk",
+      "description": "Employment information for foreigners."
+    },
+    {
+      "name": "European Commission EU Immigration Portal, Slovakia section",
+      "url": "home-affairs.ec.europa.eu",
+      "description": null
+    }
+  ],
+  "application_forms": [
+    {
+      "name": "Application for National Visa",
+      "url": "mzv.sk",
+      "authority": "Ministry of Foreign Affairs"
+    },
+    {
+      "name": "Application for Temporary Residence",
+      "url": "mic.iom.sk",
+      "authority": "Ministry of Interior / IOM Migration Information Centre"
+    },
+    {
+      "name": "Official Electronic Application Form (Temporary Residence)",
+      "url": null,
+      "authority": "Foreign Police"
+    }
+  ],
+  "tips": [],
+  "common_mistakes": [
+    {
+      "mistake": "Applying too late",
+      "consequence": "Embassy appointments and the 30-day decision period mean the process should start several months before the intended start of studies.",
+      "how_to_avoid": "Book appointments well in advance, especially during peak periods (July and August)."
+    },
+    {
+      "mistake": "Submitting outdated documents",
+      "consequence": "Financial proof, criminal record extracts, and confirmation of studies must not be older than 90 days at submission.",
+      "how_to_avoid": "Time document collection accordingly."
+    },
+    {
+      "mistake": "Invalid Translations",
+      "consequence": "Translations from home countries not performed by a Slovak-registered translator are often rejected.",
+      "how_to_avoid": "All documents must be translated by a certified Slovak translator (except Czech documents)."
+    },
+    {
+      "mistake": "Missing Legalization",
+      "consequence": "Applications may be rejected if documents lack proper apostille or super-legalization.",
+      "how_to_avoid": "Ensure criminal record checks and diplomas have the correct Apostille or Super-legalization from the issuing country's authorities."
+    },
+    {
+      "mistake": "Inadequate Bank Statements",
+      "consequence": "Vague or insufficient bank statements are a frequent cause of delay.",
+      "how_to_avoid": "The bank statement must be in the student's name (or a parent's name with a notarized affidavit of support) and must show a sufficient balance that meets the latest subsistence minimum. Check the specific sum and document format requested by your embassy."
+    },
+    {
+      "mistake": "Incorrect Photos",
+      "consequence": "Standard passport sizes from other countries may differ.",
+      "how_to_avoid": "Use the exact dimensions (3 x 3.5 cm) required by Slovak regulations (ICAO standard)."
+    },
+    {
+      "mistake": "Missing post-arrival deadlines",
+      "consequence": "Failure to comply with deadlines can lead to issues with residence status.",
+      "how_to_avoid": "Report to the Foreign Police within 3 working days of arrival, and submit the medical certificate and health insurance proof within 30 days of receiving the residence card."
+    },
+    {
+      "mistake": "Assuming all courses qualify",
+      "consequence": "Part-time or unrecognised programmes may not qualify for a study-purpose residence permit.",
+      "how_to_avoid": "Only full-time study at a recognised institution, within the relevant age categories, qualifies."
+    },
+    {
+      "mistake": "Not planning the renewal or purpose-change application early",
+      "consequence": "Applications to renew residence, or to switch to a job-seeking/work purpose after graduation, should be filed before the current permit expires.",
+      "how_to_avoid": "File applications before the current permit expires."
+    }
+  ]
+}
