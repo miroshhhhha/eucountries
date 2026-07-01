@@ -3,14 +3,14 @@ import { isAvailable } from '../data/countries'
 
 // Static imports — add new countries here after running the extractor
 import PT from '../data/PT.json'
-import IT from '../data/IT.json'
 import AT from '../data/AT.json'
 import ES from '../data/ES.json'
 import HU from '../data/HU.json'
+import IT from '../data/IT.json'
 
 import CountryPageLayout from '../components/CountryPage'
 
-const DATA = { PT, IT, AT, ES, HU }
+const DATA = { PT, AT, ES, HU, IT }
 
 export default function CountryPage() {
   const { code } = useParams()

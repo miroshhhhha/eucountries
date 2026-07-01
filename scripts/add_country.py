@@ -23,10 +23,6 @@ COUNTRIES_JS = FRONTEND_DATA / "countries.js"
 COUNTRY_PAGE = ROOT / "frontend" / "src" / "pages" / "CountryPage.jsx"
 
 
-def code_to_flag(code: str) -> str:
-    return "".join(chr(ord(c) + 127397) for c in code.upper())
-
-
 def add_country(code: str) -> None:
     code = code.upper()
     src = DATA_DIR / f"{code}.json"
@@ -36,7 +32,6 @@ def add_country(code: str) -> None:
 
     data = json.loads(src.read_text())
     name = data.get("country", code)
-    flag = code_to_flag(code)
 
     # 1. Copy JSON into frontend
     FRONTEND_DATA.mkdir(parents=True, exist_ok=True)
@@ -45,7 +40,7 @@ def add_country(code: str) -> None:
 
     # 2. Update countries.js
     text = COUNTRIES_JS.read_text()
-    entry = f"  {code}: {{ name: '{name}', flag: '{flag}' }},"
+    entry = f"  {code}: {{ name: '{name}' }},"
 
     if f"  {code}:" in text:
         print(f"[2/3] {code} already in countries.js — skipped")
@@ -81,7 +76,7 @@ def add_country(code: str) -> None:
         COUNTRY_PAGE.write_text(text)
         print(f"[3/3] Added {code} import and DATA entry to CountryPage.jsx")
 
-    print(f"\nDone. {flag} {name} is now available at /country/{code}")
+    print(f"\nDone. {name} ({code}) is now available at /country/{code}")
 
 
 if __name__ == "__main__":

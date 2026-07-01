@@ -48,22 +48,27 @@ EU_CURRENCIES = {
 EXTRACTION_PROMPT = """
 You are a structured data extractor for an EU student immigration platform.
 
-Below is raw text extracted from a PDF guide about studying in {country} as a non-EU student.
+The PDF below contains answers from TWO AI assistants — Gemini (first section) and Claude (second section) —
+both responding to the same questions about studying in {country} as a non-EU student.
 
-Your task: extract all relevant data and return a SINGLE valid JSON object that strictly
-follows the schema provided. Do not include any explanation, markdown fences, or extra text —
-only the raw JSON object.
+Your task has two parts:
+1. CROSS-VALIDATE: Compare what Gemini and Claude say for each data point.
+2. EXTRACT: Build a single JSON object using only verified, accurate data.
 
-Rules:
-- If a value is not mentioned in the document, use null (not an empty string).
-- For arrays that have no data, use [].
-- All EUR amounts should be numbers (not strings).
-- Dates should be "YYYY-MM-DD" strings.
-- country_code must be the ISO 3166-1 alpha-2 code (e.g. "PT" for Portugal).
-- last_updated should be today's date: {today}.
-- Keep descriptions concise and factual — no marketing language.
-- The "tips" array should contain the practical advice section.
-- The "common_mistakes" array should list errors students commonly make.
+Cross-validation rules:
+- Both agree on a value → use it (high confidence).
+- They disagree → prefer the more specific answer (e.g. exact number over "varies", named authority over generic description). If one is vague or absent, use the concrete value from the other.
+- One source has info the other lacks → include it.
+- Both are vague or contradictory on a point → use null, do not guess.
+- Never blend conflicting numbers into an average — pick the more trustworthy one or use null.
+
+Output rules:
+- Return a SINGLE valid JSON object matching the schema. No explanation, no markdown fences.
+- Missing values → null. Empty arrays → [].
+- EUR amounts → numbers, not strings.
+- country_code → ISO 3166-1 alpha-2 (e.g. "PT").
+- last_updated → today: {today}.
+- Descriptions: concise and factual, no marketing language.
 
 === JSON SCHEMA ===
 {schema}

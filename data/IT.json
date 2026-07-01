@@ -1,44 +1,43 @@
 {
   "country": "Italy",
   "country_code": "IT",
-  "last_updated": "2026-06-30",
+  "last_updated": "2026-07-01",
   "schengen_member": true,
   "currency": "EUR",
   "official_language": "Italian",
   "qualifying_courses": {
     "long_stay": [
       "University programs (Bachelor's, Master's, PhD)",
-      "High-level language courses lasting more than 90 days",
-      "Nationally recognized vocational/professional training courses (corsi di formazione professionale), including socio-health training",
-      "Higher Education Degree Programs",
-      "Single University Courses",
-      "AFAM Courses (Art, Music, and Dance)",
-      "Technical specialization courses (ITS) or advanced vocational training courses"
+      "High-level Italian language courses lasting more than 90 days",
+      "Nationally recognized vocational/professional training courses (corsi di formazione professionale), including socio-health training"
     ],
     "short_stay": [
       "Short-term programs under 90 days (Type C visa)"
     ],
-    "notes": "The student must prove they will follow a course in an educational institution or professional training on a full-time basis, in line with their previous studies in their home country. Part-time courses do not qualify for an Italian study visa."
+    "notes": "The student must prove they will follow a course in an educational institution or professional training on a full-time basis, in line with their previous studies in their home country."
   },
   "visa": {
     "types": [
       {
-        "code": "D",
+        "code": "Type D",
         "name": "National Long-Stay Study Visa",
+        "validity_days": null,
+        "entries": null,
         "for_stays_over_days": 90,
-        "notes": "For non-EU nationals planning to study in Italy for more than 90 days."
+        "notes": null
       }
     ],
     "application_process": {
       "booking_methods": [
         {
           "method": "Prenot@mi",
-          "description": "Primary and official platform, centrally managed by the Italian Ministry of Foreign Affairs and International Cooperation; used for visas, passports, citizenship, and other consular services; adopted by most consulates worldwide since June 2021. Requires individual account registration, appointments released daily at midnight Rome time, OTP verification, waiting list available, confirmation required 3-10 days before.",
+          "description": "Primary and official platform, centrally managed by the Italian Ministry of Foreign Affairs and International Cooperation; used for visas, passports, citizenship, and other consular services; adopted by most consulates worldwide since June 2021. Requires individual account registration, OTP verification, and appointment confirmation 3-10 days before the scheduled date. Waiting list available.",
           "url": "prenotami.esteri.it"
         },
         {
           "method": "VFS Global",
-          "description": "Used by certain consulates as an alternative or supplementary channel, particularly for visa applications in specific countries (e.g., India, Turkey, Russia). Book appointments directly through their localized websites."
+          "description": "Used by certain consulates as an alternative or supplementary channel, particularly for visa applications in specific countries.",
+          "url": null
         }
       ],
       "steps": [
@@ -51,13 +50,13 @@
         {
           "step": 2,
           "title": "Pre-enroll via the Universitaly portal",
-          "description": "Mandatory for university programs. The university approves pre-enrollment and forwards it to the relevant Italian Embassy.",
+          "description": "Required for university programs.",
           "action_required": null
         },
         {
           "step": 3,
           "title": "Book an appointment at your local Italian consulate/embassy",
-          "description": "Appointments fill up fast, book as soon as you receive your acceptance letter.",
+          "description": null,
           "action_required": null
         },
         {
@@ -75,8 +74,8 @@
         {
           "step": 6,
           "title": "Wait for processing",
-          "description": null,
-          "action_required": null
+          "description": "Processing can take up to 90 days.",
+          "action_required": "Applicants are strongly advised to apply at least 3 months before their planned departure."
         },
         {
           "step": 7,
@@ -87,18 +86,18 @@
       ],
       "processing_time": {
         "legal_deadline_days": 90,
-        "typical_min_days": 15,
-        "typical_max_days": 90,
+        "typical_min_days": null,
+        "typical_max_days": null,
         "recommended_apply_before_start_days": 90
       },
-      "fee_eur": 50,
-      "interview_required": true
+      "fee_eur": null,
+      "interview_required": null
     }
   },
   "required_documents": [
     {
       "id": "passport",
-      "name": "Valid Passport",
+      "name": "Valid passport",
       "details": "Must be valid for at least three months beyond your intended stay and contain at least two blank pages.",
       "mandatory": true,
       "apostille_required": null,
@@ -107,8 +106,8 @@
     },
     {
       "id": "acceptance_letter",
-      "name": "Official Letter of Acceptance",
-      "details": "From an accredited Italian educational institution (on letterhead, stamped, stating course name, duration, and schedule).",
+      "name": "Official letter of acceptance from an accredited Italian educational institution",
+      "details": null,
       "mandatory": true,
       "apostille_required": null,
       "exemptions": [],
@@ -116,8 +115,8 @@
     },
     {
       "id": "accommodation_proof",
-      "name": "Proof of Accommodation in Italy",
-      "details": "E.g., university housing confirmation, rental agreement, or host declaration (Dichiarazione di ospitalità).",
+      "name": "Proof of accommodation in Italy",
+      "details": "E.g., university housing confirmation, rental agreement, or host declaration.",
       "mandatory": true,
       "apostille_required": null,
       "exemptions": [],
@@ -125,8 +124,7 @@
     },
     {
       "id": "travel_itinerary",
-      "name": "Round-trip Flight Reservation or Proof of Travel Itinerary",
-      "details": null,
+      "name": "Round-trip flight reservation or proof of travel itinerary",
       "mandatory": true,
       "apostille_required": null,
       "exemptions": [],
@@ -134,8 +132,7 @@
     },
     {
       "id": "visa_fee_receipt",
-      "name": "Visa Application Fee Payment Receipt",
-      "details": null,
+      "name": "Visa application fee payment receipt",
       "mandatory": true,
       "apostille_required": null,
       "exemptions": [],
@@ -143,7 +140,7 @@
     },
     {
       "id": "cover_letter",
-      "name": "Cover Letter or Statement of Purpose",
+      "name": "A cover letter or statement of purpose",
       "details": "Explaining your study plans in Italy.",
       "mandatory": true,
       "apostille_required": null,
@@ -152,8 +149,8 @@
     },
     {
       "id": "financial_means_proof",
-      "name": "Proof of Financial Means",
-      "details": "Bank statements or other acceptable proof.",
+      "name": "Proof of financial means",
+      "details": "Bank statements.",
       "mandatory": true,
       "apostille_required": null,
       "exemptions": [],
@@ -161,8 +158,8 @@
     },
     {
       "id": "health_insurance",
-      "name": "Health Insurance",
-      "details": "Valid for the entire stay, providing at least €30,000 in medical coverage, including emergency repatriation.",
+      "name": "Health insurance",
+      "details": "Valid for the entire stay.",
       "mandatory": true,
       "apostille_required": null,
       "exemptions": [],
@@ -170,37 +167,31 @@
     },
     {
       "id": "passport_photos",
-      "name": "Passport-size Photos",
-      "details": "Usually 2 to 4 photos matching Schengen standards.",
+      "name": "Passport-size photos",
       "mandatory": true,
       "apostille_required": null,
       "exemptions": [],
       "notes": null
     },
     {
-      "id": "pre_enrollment_summary",
-      "name": "Pre-enrollment Summary from Universitaly Portal",
+      "id": "universitaly_summary",
+      "name": "Pre-enrollment summary from the Universitaly portal",
       "details": "For university courses.",
       "mandatory": true,
       "apostille_required": null,
       "exemptions": [],
       "notes": null
-    },
-    {
-      "id": "qualifications_proof",
-      "name": "Proof of Qualifications",
-      "details": "High school diploma or university degree, often requiring a Dichiarazione di Valore (Declaration of Value) issued by the embassy or a CIMEA statement of comparability.",
-      "mandatory": true,
-      "apostille_required": true,
-      "exemptions": [],
-      "notes": "All documents must be translated into Italian or English and may need to be legalized or apostilled depending on the country."
     }
   ],
   "financial_requirements": {
     "reference_value_monthly_eur": 534.41,
-    "reference_basis": "Italian Ministry of University and Research (MUR)",
+    "reference_basis": "Italian Ministry of University and Research (MUR) for academic years 2025/2026 and 2026/2027",
     "year": 2026,
-    "calculation_rules": null,
+    "calculation_rules": {
+      "first_adult_pct": null,
+      "additional_adult_pct": null,
+      "dependent_child_pct": null
+    },
     "example_12_months_eur": 6947.33,
     "acceptable_proof": [
       "Personal bank statements (covering the last 3–6 months, signed and stamped by the bank, not older than 30 days at time of submission)",
@@ -216,22 +207,22 @@
   },
   "residence_permit": {
     "authority_name": "Questura",
-    "authority_full_name": "Police Headquarters – Immigration Office",
+    "authority_full_name": "Police Headquarters — Immigration Office",
     "authority_url": "poliziadistato.it",
     "apply_within_days_of_arrival": 8,
-    "validity_months": 12,
+    "validity_months": null,
     "renewable": true,
-    "booking_method": "Poste Italiane post office with a Sportello Amico counter (using Kit Giallo)",
+    "booking_method": "Poste Italiane post office with a Sportello Amico counter",
     "required_documents": [
-      "Mod. 209 Modulo 1 filled out",
+      "Mod. 209 Modulo 1 filled out (for study purposes, only Modulo 1 is required)",
       "Revenue stamp (marca da bollo) of €16.00",
       "Photocopy of valid passport (data pages and study visa page)",
       "Copy of the study programme, admission letter, or enrollment certificate, stamped by the Italian diplomatic/consular representation at the time the visa was issued",
       "Proof of sufficient financial means (bank/post statement or certificate from institution confirming scholarship amount); minimum threshold is the annual Italian social allowance (€7,101.12 for 2026)",
       "Copy of health/accident insurance policy valid in Italy for the entire duration of the permit (travel and tourist insurance policies are not accepted)",
-      "Copy of codice fiscale (Italian tax identification number) — not mandatory for first issue"
+      "Copy of codice fiscale (Italian tax identification number) - not mandatory for first issue"
     ],
-    "notes": "The permit is issued by the local Questura (Police Headquarters – Immigration Office) of the applicant's place of residence. The postal receipt serves as proof of legal status until the permit is issued. Travel to other Schengen countries during this period is not permitted with the receipt alone; direct travel to the country of citizenship is allowed."
+    "notes": "Fees payable at the post office: €16.00 (marca da bollo), €30.46 (electronic permit issuance fee), €30.00 (postal service fee), €40.00 (administrative contribution for permits of up to 1 year) or €50.00 (administrative contribution for permits of 1–2 years). Legal basis: Art. 39, Legislative Decree No. 286/1998 and Arts. 44-bis, 45, and 46, DPR No. 394/1999."
   },
   "work_while_studying": {
     "allowed": true,
@@ -239,52 +230,50 @@
     "full_time_during_breaks": null,
     "requires_notification": null,
     "notification_authority": null,
-    "legal_basis": "Valid Italy Student Visa and residence permit (Permesso di Soggiorno per studio)",
+    "legal_basis": null,
     "restrictions": [
-      "Hours exceeding 20 hours per week or 1,040 hours per year are not permitted under the student residence status.",
-      "Must have a formalized, legal employment contract.",
-      "Cannot be registered as a full-time freelancer unless the permit is converted."
+      "Hours exceeding 20 hours per week or 1,040 hours per year are not permitted under the student residence status."
     ],
-    "notes": null
+    "notes": "Applies to both employed and self-employed work."
   },
   "permit_renewal": {
     "apply_before_expiry_min_days": 60,
     "apply_before_expiry_max_days": null,
     "online_portal": null,
     "required_documents": [
-      "For university students: certificate proving the passing of at least 1 exam for the 1st renewal, and at least 2 exams for each subsequent renewal",
-      "For professional training students: documentation of continued enrollment from the accredited training institution",
+      "Mod. 209 Modulo 1 (Modulo 2 only if the student also has income from work)",
+      "Certificate proving the passing of at least 1 exam for the 1st renewal, and at least 2 exams for each subsequent renewal (for university students)",
+      "Documentation of continued enrollment from the accredited training institution (for professional training students)",
       "Updated proof of financial means for the duration of the renewed permit",
       "Updated health/accident insurance policy valid in Italy for the renewed period",
       "Updated university enrollment certificate (certificato di iscrizione)",
       "Copy of the current (expiring) permit"
     ],
-    "notes": "The renewal application must be submitted to the Questore of the province of residence. The permit must be issued or renewed within 60 days of the application; in practice, processing takes 90–180 days or more. The postal receipt serves as proof of legal status until the new permit is issued and must always be carried with the expired permit. Travel to other Schengen countries during this period is not permitted with the receipt alone; direct travel to the country of citizenship is allowed."
+    "notes": "Renewal application must be submitted to the Questore of the province of residence. Same fees apply as for the first issue. Processing typically takes 90–180 days or more. The postal receipt (ricevuta) serves as proof of legal status. Travel to other Schengen countries during processing is not permitted with the receipt alone; direct travel to the country of citizenship is allowed."
   },
   "post_study_work": {
     "available": true,
     "job_seeking_permit_months": 12,
-    "legal_basis": "Cutro Decree (for conversion), Permesso per Attesa Occupazione (Job Seeker Residence Permit)",
-    "process_authority": "Prefecture (for conversion), Ministry of the Interior's portal (for Subordinate Work Permit)",
+    "legal_basis": null,
+    "process_authority": null,
     "requirements": [
-      "For Subordinate Work Permit: Employer must provide a formalized contract offering at least 20 hours a week and an income above the social minimum (approx. €8,500/year).",
-      "For Job Seeker Permit: Must graduate with an Italian Bachelor's, Master's, or PhD."
+      "Completed studies in Italy"
     ],
-    "notes": "A study residence permit can be converted into either a work permit or a self-employment permit. Applications for conversion can be submitted at any time of the year, with no limit on the number."
+    "notes": "A study residence permit can be converted into either a work permit or a self-employment permit. Applications for conversion can be submitted at any time of the year, with no limit on the number, following the Cutro Decree."
   },
   "official_sources": [
     {
       "name": "Visa for Italy (MFA)",
       "url": "vistoperitalia.esteri.it",
-      "description": "An interactive tool to check exact visa types and requirements based on your nationality."
+      "description": null
     },
     {
       "name": "Universitaly (pre-enrollment portal)",
       "url": "universitaly.it",
-      "description": "The mandatory portal for higher education pre-enrollment."
+      "description": null
     },
     {
-      "name": "EU Immigration Portal – Italy",
+      "name": "EU Immigration Portal — Italy",
       "url": "home-affairs.ec.europa.eu",
       "description": null
     },
@@ -297,18 +286,13 @@
       "name": "Police HQ (Questura) for residence permits",
       "url": "poliziadistato.it",
       "description": null
-    },
-    {
-      "name": "The Immigration Portal",
-      "url": "portaleimmigrazione.it",
-      "description": "The official system to track residence permit kits and post office processing."
     }
   ],
   "application_forms": [
     {
       "name": "Visa application form",
       "url": "vistoperitalia.esteri.it",
-      "authority": "Italian Embassy or Consulate"
+      "authority": "Italian consulate/MFA"
     },
     {
       "name": "Universitaly pre-enrollment",
@@ -318,55 +302,40 @@
     {
       "name": "Permesso di Soggiorno kit (Mod. 209)",
       "url": "poliziadistato.it",
-      "authority": "Poste Italiane"
+      "authority": "Poste Italiane / Questura"
     }
   ],
   "tips": [],
   "common_mistakes": [
     {
       "mistake": "Booking the embassy appointment too late",
-      "consequence": "Slots fill fast.",
-      "how_to_avoid": "Book immediately after receiving your acceptance letter."
+      "consequence": null,
+      "how_to_avoid": "Book immediately after receiving your acceptance letter — slots fill fast"
     },
     {
       "mistake": "Incomplete or untranslated documents",
       "consequence": null,
-      "how_to_avoid": "Prepare everything in Italian or English; apostille where required."
+      "how_to_avoid": "Prepare everything in Italian or English; apostille where required"
     },
     {
       "mistake": "Insufficient funds in bank account",
       "consequence": null,
-      "how_to_avoid": "Ensure at least €6,947.33 is clearly visible in bank statements."
+      "how_to_avoid": "Ensure at least €6,947.33 is clearly visible in bank statements (€534.41 × 13 months)"
     },
     {
       "mistake": "Missing the 8-day deadline for residence permit",
       "consequence": null,
-      "how_to_avoid": "Apply for the Permesso di Soggiorno at a post office within 8 working days of arriving in Italy."
+      "how_to_avoid": "Apply for the Permesso di Soggiorno at a post office within 8 working days of arriving in Italy"
     },
     {
       "mistake": "Not pre-enrolling on Universitaly",
       "consequence": null,
-      "how_to_avoid": "Complete the Universitaly pre-enrollment before visiting the consulate."
+      "how_to_avoid": "Complete the Universitaly pre-enrollment before visiting the consulate"
     },
     {
       "mistake": "Letting the permit expire without renewal",
       "consequence": null,
-      "how_to_avoid": "Start the renewal process at least 60 days before expiration."
-    },
-    {
-      "mistake": "Vague Bank Statements",
-      "consequence": "Consulates frequently reject applications if the bank statements show large, unexplained lump-sum deposits right before the visa interview.",
-      "how_to_avoid": "The money should show a stable, verifiable history."
-    },
-    {
-      "mistake": "Forgetting the Codice Fiscale",
-      "consequence": "You cannot finalize university enrollment or rent an apartment without it.",
-      "how_to_avoid": "Get your Italian Tax Code (Codice Fiscale) from the Italian Embassy before you travel or from the local Agenzia delle Entrate immediately upon arrival."
-    },
-    {
-      "mistake": "Traveling without the Postal Receipt (Cedolino) during permit renewal",
-      "consequence": "You must carry the original Post Office receipt along with your expired permit to pass through border control when traveling back home. Travel to other Schengen countries is not permitted with the receipt alone.",
-      "how_to_avoid": "Always carry the original Post Office receipt (cedolino) along with your expired permit when traveling, especially when returning to your country of citizenship."
+      "how_to_avoid": "Start the renewal process at least 60 days before expiration"
     }
   ]
 }
