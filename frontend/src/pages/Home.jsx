@@ -1,5 +1,5 @@
 import EUMap from '../components/EUMap'
-import { AVAILABLE_COUNTRIES } from '../data/countries'
+import { AVAILABLE_COUNTRIES, appleFlagUrl } from '../data/countries'
 import { useNavigate } from 'react-router-dom'
 
 export default function Home() {
@@ -29,14 +29,14 @@ export default function Home() {
             Guides available now
           </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
-            {available.map(([code, { name, flag }]) => (
+            {available.map(([code, { name }]) => (
               <button
                 key={code}
                 onClick={() => navigate(`/country/${code}`)}
                 className="flex items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-3
                            hover:border-indigo-400 hover:bg-indigo-50 transition-colors text-left group"
               >
-                <span className="text-2xl">{flag}</span>
+                <img src={appleFlagUrl(code)} alt={name} className="h-6 w-auto flex-shrink-0" />
                 <span className="font-medium text-gray-800 group-hover:text-indigo-700">{name}</span>
               </button>
             ))}

@@ -1,3 +1,12 @@
+function appleFlagUrl(code) {
+  const codepoints = code
+    .toUpperCase()
+    .split('')
+    .map(c => (c.charCodeAt(0) + 127397).toString(16))
+    .join('-')
+  return `https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.0.1/img/apple/64/${codepoints}.png`
+}
+
 export default function CountryHero({ country, countryCode, currency, lastUpdated }) {
   return (
     <div className="bg-white rounded-2xl border border-gray-200 shadow-sm px-6 py-6 flex items-center justify-between">
@@ -5,7 +14,8 @@ export default function CountryHero({ country, countryCode, currency, lastUpdate
         <img
           src={appleFlagUrl(countryCode)}
           alt={country}
-          className="h-16 w-auto"
+          className="h-10 w-auto"
+          style={{ imageRendering: 'auto' }}
         />
         <div>
           <h1 className="text-3xl font-bold text-gray-900">{country}</h1>
@@ -23,11 +33,3 @@ export default function CountryHero({ country, countryCode, currency, lastUpdate
   );
 }
 
-function appleFlagUrl(code) {
-  const codepoints = code
-    .toUpperCase()
-    .split("")
-    .map((c) => (c.charCodeAt(0) + 127397).toString(16))
-    .join("-");
-  return `https://cdn.jsdelivr.net/npm/emoji-datasource-apple@15.0.1/img/apple/64/${codepoints}.png`;
-}

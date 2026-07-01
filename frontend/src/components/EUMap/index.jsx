@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ComposableMap, Geographies, Geography } from 'react-simple-maps'
+import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps'
 import { EU_ALPHA3, ALPHA3_TO_2 } from './euCountries'
 import { isAvailable, AVAILABLE_COUNTRIES } from '../../data/countries'
 import Tooltip from './Tooltip'
@@ -84,6 +84,9 @@ export default function EUMap() {
             })
           }
         </Geographies>
+
+        {/* Malta — too small for 110m GeoJSON, rendered as a dot marker */}
+        <MaltaMarker navigate={navigate} setTooltip={setTooltip} />
       </ComposableMap>
 
       {tooltip && <Tooltip {...tooltip} />}
@@ -93,6 +96,29 @@ export default function EUMap() {
         <LegendItem color={COLORS.eu}        label="EU member — coming soon" />
       </div>
     </div>
+  )
+}
+
+function MaltaMarker({ navigate, setTooltip }) {
+  const hasData = isAvailable('MT')
+  const fill = hasData ? COLORS.available : COLORS.eu
+  const fillHover = hasData ? COLORS.availableHover : COLORS.euHover
+
+  return (
+    <Marker coordinates={[14.5147, 35.8997]}>
+      <circle
+        r={8}
+        fill={fill}
+        stroke="#fff"
+        strokeWidth={1.5}
+        style={{ cursor: hasData ? 'pointer' : 'default', transition: 'fill 0.15s' }}
+        onMouseOver={(e) => { e.target.setAttribute('fill', fillHover) }}
+        onMouseOut={(e) => { e.target.setAttribute('fill', fill) }}
+        onMouseMove={(evt) => setTooltip({ name: 'Malta', code: 'MT', hasData, x: evt.clientX, y: evt.clientY })}
+        onMouseLeave={() => setTooltip(null)}
+        onClick={() => hasData && navigate('/country/MT')}
+      />
+    </Marker>
   )
 }
 
