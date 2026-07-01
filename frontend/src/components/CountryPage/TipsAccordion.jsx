@@ -50,7 +50,7 @@ function AccordionItem({ title, body, extra, priority, isMistake }) {
   return (
     <div className={`border rounded-lg overflow-hidden ${baseClass}`}>
       <button
-        className="w-full text-left px-4 py-3 flex items-center justify-between gap-3"
+        className="w-full text-left px-4 py-4 flex items-center justify-between gap-3"
         onClick={() => setOpen((o) => !o)}
       >
         <span className="text-sm font-medium">{title}</span>

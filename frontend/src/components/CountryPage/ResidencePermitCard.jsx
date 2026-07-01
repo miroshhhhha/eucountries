@@ -3,7 +3,7 @@ export default function ResidencePermitCard({ permit }) {
 
   return (
     <div className="space-y-4">
-      <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
         <StatCard
           label="Authority"
           value={permit.authority_name}
@@ -27,7 +27,7 @@ export default function ResidencePermitCard({ permit }) {
       </div>
 
       {permit.booking_method && (
-        <div className="text-sm text-gray-600 bg-gray-50 rounded-lg p-3 border border-gray-100">
+        <div className="text-sm text-gray-600 bg-gray-50 rounded-xl p-4 border border-gray-100">
           <span className="font-medium">How to book: </span>{permit.booking_method}
         </div>
       )}
@@ -65,7 +65,7 @@ export default function ResidencePermitCard({ permit }) {
 
 function StatCard({ label, value, sub, accent }) {
   return (
-    <div className={`rounded-lg border p-3 ${accent ? "bg-indigo-50 border-indigo-100" : "bg-white border-gray-100"}`}>
+    <div className={`rounded-xl border p-4 ${accent ? "bg-indigo-50 border-indigo-100" : "bg-gray-50 border-gray-100"}`}>
       <p className="text-xs text-gray-500 uppercase tracking-wide">{label}</p>
       <p className={`text-lg font-bold mt-0.5 ${accent ? "text-indigo-700" : "text-gray-900"}`}>{value}</p>
       {sub && <p className="text-xs text-gray-400">{sub}</p>}

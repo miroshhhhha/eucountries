@@ -21,12 +21,12 @@ export default function DocumentChecklist({ documents }) {
       </div>
 
       {/* Document items */}
-      <ul className="space-y-2">
+      <ul className="space-y-2.5">
         {documents.map((doc) => (
           <li
             key={doc.id}
             onClick={() => toggle(doc.id)}
-            className={`flex items-start gap-3 p-3 rounded-lg border cursor-pointer transition-colors select-none
+            className={`flex items-start gap-3 p-4 rounded-xl border cursor-pointer transition-colors select-none
               ${checked[doc.id] ? "bg-green-50 border-green-200" : "bg-white border-gray-200 hover:bg-gray-50"}`}
           >
             <Checkbox checked={!!checked[doc.id]} />

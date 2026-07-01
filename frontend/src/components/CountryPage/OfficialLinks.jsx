@@ -11,7 +11,7 @@ export default function OfficialLinks({ sources, forms }) {
                 href={s.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-start gap-3 p-3 border border-gray-200 rounded-lg hover:border-indigo-300 hover:bg-indigo-50 transition-colors group"
+                className="flex items-start gap-3 p-4 border border-gray-200 rounded-xl hover:border-indigo-300 hover:bg-indigo-50 transition-colors group"
               >
                 <span className="text-gray-400 group-hover:text-indigo-500 mt-0.5">🔗</span>
                 <div>
@@ -39,7 +39,7 @@ export default function OfficialLinks({ sources, forms }) {
                 href={f.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 p-3 border border-gray-200 rounded-lg hover:border-green-300 hover:bg-green-50 transition-colors group"
+                className="flex items-center gap-3 p-4 border border-gray-200 rounded-xl hover:border-green-300 hover:bg-green-50 transition-colors group"
               >
                 <span className="text-lg">📄</span>
                 <div>

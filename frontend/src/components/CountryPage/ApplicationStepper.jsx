@@ -16,18 +16,18 @@ export default function ApplicationStepper({ steps, processingTime, visaTypes })
       </div>
 
       {/* Ordered steps */}
-      <ol className="relative border-l border-gray-200 space-y-6 ml-3">
+      <ol className="relative border-l border-gray-200 space-y-8 ml-3">
         {steps.map((s) => (
-          <li key={s.step} className="ml-6">
+          <li key={s.step} className="ml-7">
             <span className="absolute -left-3.5 flex h-7 w-7 items-center justify-center rounded-full bg-indigo-100 ring-4 ring-white text-indigo-700 text-xs font-bold">
               {s.step}
             </span>
-            <p className="font-semibold text-sm">{s.title}</p>
+            <p className="font-semibold text-sm text-gray-900">{s.title}</p>
             {s.description && (
-              <p className="text-sm text-gray-600 mt-0.5">{s.description}</p>
+              <p className="text-sm text-gray-600 mt-1">{s.description}</p>
             )}
             {s.action_required && (
-              <p className="text-xs text-indigo-600 mt-1">→ {s.action_required}</p>
+              <p className="text-xs text-indigo-600 mt-1.5">→ {s.action_required}</p>
             )}
           </li>
         ))}

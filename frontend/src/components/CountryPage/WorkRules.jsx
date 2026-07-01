@@ -31,8 +31,8 @@ export default function WorkRules({ rules }) {
       {items.map((item, i) => (
         <div
           key={i}
-          className={`flex items-start gap-3 p-3 rounded-lg border
-            ${item.highlight ? "bg-green-50 border-green-200" : "bg-white border-gray-100"}`}
+          className={`flex items-start gap-3.5 p-4 rounded-xl border
+            ${item.highlight ? "bg-green-50 border-green-200" : "bg-gray-50 border-gray-100"}`}
         >
           <span className="text-lg leading-none">{item.icon}</span>
           <span className={`text-sm ${item.muted ? "text-gray-400" : "text-gray-700"} ${item.highlight ? "font-semibold" : ""}`}>
@@ -42,7 +42,7 @@ export default function WorkRules({ rules }) {
       ))}
 
       {rules.restrictions?.map((r, i) => (
-        <div key={i} className="flex items-start gap-3 p-3 rounded-lg border border-orange-100 bg-orange-50">
+        <div key={i} className="flex items-start gap-3.5 p-4 rounded-xl border border-orange-100 bg-orange-50">
           <span className="text-lg">⚠️</span>
           <span className="text-sm text-orange-800">{r}</span>
         </div>
