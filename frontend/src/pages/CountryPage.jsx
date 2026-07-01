@@ -1,16 +1,9 @@
 import { useParams, useNavigate, Navigate } from 'react-router-dom'
 import { isAvailable } from '../data/countries'
 
-// Static imports — add new countries here after running the extractor
-import PT from '../data/PT.json'
-import AT from '../data/AT.json'
-import ES from '../data/ES.json'
-import HU from '../data/HU.json'
-import IT from '../data/IT.json'
-
 import CountryPageLayout from '../components/CountryPage'
 
-const DATA = { PT, AT, ES, HU, IT }
+const DATA = {}
 
 export default function CountryPage() {
   const { code } = useParams()

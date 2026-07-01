@@ -1,11 +1,6 @@
 // Registry of countries that have data available.
 // Add a new entry here after running the extraction script for a new country.
 export const AVAILABLE_COUNTRIES = {
-  PT: { name: 'Portugal'},
-  IT: { name: 'Italy' },
-  HU: { name: 'Hungary'  },
-  ES: { name: 'Spain'    },
-  AT: { name: 'Austria'  },
 }
 
 export function isAvailable(code) {

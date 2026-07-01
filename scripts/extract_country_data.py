@@ -25,7 +25,7 @@ from google.genai import types
 load_dotenv()  # loads .env from current directory automatically
 
 SCHEMA_PATH = Path(__file__).parent.parent / "schema" / "country_schema.json"
-OUTPUT_DIR = Path(__file__).parent.parent / "data"
+OUTPUT_DIR = Path(__file__).parent.parent / "frontend" / "src" / "data"
 
 # Static currency map — not in PDFs, maintained here.
 # Most EU countries use EUR; exceptions listed explicitly.
@@ -91,17 +91,40 @@ def extract_text_from_pdf(pdf_path: Path) -> str:
     return "\n\n--- PAGE BREAK ---\n\n".join(pages)
 
 
+MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash"]
+
+
 def call_gemini(prompt: str, api_key: str) -> str:
+    import time
+    from google.genai.errors import ServerError
+
     client = genai.Client(api_key=api_key)
-    response = client.models.generate_content(
-        model="gemini-2.5-flash",
-        contents=prompt,
-        config=types.GenerateContentConfig(
-            temperature=0.1,
-            response_mime_type="application/json",
-        ),
-    )
-    return response.text
+
+    for model in MODELS:
+        for attempt in range(1, 4):
+            try:
+                print(f"      model={model} attempt={attempt}")
+                response = client.models.generate_content(
+                    model=model,
+                    contents=prompt,
+                    config=types.GenerateContentConfig(
+                        temperature=0.1,
+                        response_mime_type="application/json",
+                    ),
+                )
+                return response.text
+            except ServerError as e:
+                if e.status_code == 503 and attempt < 3:
+                    wait = 30 * attempt
+                    print(f"      503 — waiting {wait}s before retry...")
+                    time.sleep(wait)
+                elif e.status_code == 503:
+                    print(f"      503 on {model} — trying next model...")
+                    break
+                else:
+                    raise
+
+    raise RuntimeError("All models returned 503. Try again later.")
 
 
 def validate_against_schema(data: dict, schema: dict) -> list[str]:

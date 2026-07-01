@@ -9,8 +9,8 @@ EU Study Guide — a web platform for non-EU students planning to study in Europ
 ## Tech Stack
 
 - **Data extraction**: Python 3.13 + [Gemini API](https://ai.google.dev/) + PyMuPDF (`fitz`)
-- **Data storage**: JSON files per country in `data/` (e.g. `data/PT.json`, `data/IT.json`)
-- **Frontend**: React (planned — no framework scaffolded yet)
+- **Data storage**: JSON files per country in `frontend/src/data/` (e.g. `PT.json`, `IT.json`) — single source of truth, no duplication
+- **Frontend**: React + Vite + Tailwind CSS
 - **Python venv**: `.venv/` — always activate before running scripts
 
 ## Common Commands
@@ -20,20 +20,23 @@ EU Study Guide — a web platform for non-EU students planning to study in Europ
 source .venv/bin/activate
 
 # Install Python dependencies
-pip install google-generativeai pymupdf jsonschema
+pip install google-genai pymupdf jsonschema python-dotenv
 
-# Extract data from a PDF
+# Process ALL PDFs in pdfs/ at once (recommended)
+GEMINI_API_KEY=your_key python scripts/process_all.py
+
+# Re-process a country even if already done
+python scripts/process_all.py --force
+
+# Process a single country manually
 GEMINI_API_KEY=your_key python scripts/extract_country_data.py \
-  --pdf Portugal.pdf --country Portugal --code PT
+  --pdf pdfs/Portugal.pdf --country Portugal --code PT
 
-# Extract and skip schema validation (useful when iterating on the schema)
-python scripts/extract_country_data.py --pdf Italy.pdf --country Italy --code IT --skip-validation
-
-# Validate an existing JSON file against the schema manually
+# Validate an existing JSON against the schema
 python -c "
 import json, jsonschema
 schema = json.load(open('schema/country_schema.json'))
-data = json.load(open('data/PT.json'))
+data = json.load(open('frontend/src/data/PT.json'))
 jsonschema.validate(data, schema)
 print('Valid')
 "
@@ -43,32 +46,59 @@ print('Valid')
 
 ```
 eucountries/
+├── pdfs/                        # Drop PDF guides here — one per country, named by country
+│   ├── Portugal.pdf
+│   ├── Italy.pdf
+│   └── ...
 ├── schema/
 │   └── country_schema.json      # Single source of truth for all country data shapes
 ├── scripts/
-│   └── extract_country_data.py  # PDF → Gemini API → validated JSON
-├── data/
-│   └── PT.json                  # Extracted country data (ISO 3166-1 alpha-2 filenames)
-├── frontend/
-│   └── src/components/CountryPage/
-│       ├── index.jsx             # Page root — composes all section components
-│       ├── CountryHero.jsx       # Flag, country name, Schengen badge
-│       ├── ApplicationStepper.jsx # Ordered visa steps + processing time warning
-│       ├── DocumentChecklist.jsx  # Interactive checkbox checklist with progress bar
-│       ├── FinancialCalculator.jsx # Live calculator: months × ref value × household size
-│       ├── WorkRules.jsx          # Work-while-studying rules and restrictions
-│       ├── ResidencePermitCard.jsx # Post-arrival permit stats and documents
-│       ├── PostStudyWork.jsx      # Job-seeking permit and work transition
-│       ├── TipsAccordion.jsx      # Tabbed accordion: Tips vs Common Mistakes
-│       └── OfficialLinks.jsx      # Clickable official source and form links
-└── *.pdf                         # Source PDF guides (one per country)
+│   ├── process_all.py           # Process every PDF in pdfs/ in one command
+│   ├── extract_country_data.py  # PDF → Gemini API → validated JSON (single country)
+│   └── add_country.py           # Registers extracted JSON into the React frontend
+└── frontend/
+    └── src/
+        ├── data/                # Country JSON files live here — no separate data/ directory
+        │   ├── PT.json
+        │   ├── IT.json
+        │   └── countries.js     # Registry: { PT: { name: 'Portugal' }, ... }
+        ├── pages/
+        │   ├── Home.jsx
+        │   └── CountryPage.jsx
+        └── components/CountryPage/
+            ├── index.jsx
+            ├── CountryHero.jsx
+            ├── ApplicationStepper.jsx
+            ├── DocumentChecklist.jsx
+            ├── FinancialCalculator.jsx
+            ├── WorkRules.jsx
+            ├── ResidencePermitCard.jsx
+            ├── PostStudyWork.jsx
+            ├── TipsAccordion.jsx
+            └── OfficialLinks.jsx
 ```
+
+## Adding a New Country
+
+1. Name the PDF after the country in English: `Malta.pdf`, `Greece.pdf`, etc.
+2. Drop it into `pdfs/`
+3. Run `python scripts/process_all.py` — it finds new PDFs, extracts and validates data, registers the country in the frontend automatically
+4. Review `frontend/src/data/<CODE>.json` — fix any `null` fields Gemini missed
+
+That's it. The script handles everything else.
+
+## How the Extraction Works
+
+Each PDF contains answers from **two AI assistants** (Gemini and Claude) covering the same questions. The extraction prompt instructs Gemini to cross-validate both sections:
+- Where both agree → use the value
+- Where they disagree → prefer the more specific/concrete answer
+- Where both are vague → use `null`, never guess
+
+Output goes directly to `frontend/src/data/<CODE>.json`. The `add_country.py` step then registers the country in `countries.js` and `CountryPage.jsx`.
 
 ## Data Architecture
 
 ### JSON Schema (`schema/country_schema.json`)
-
-The schema is the contract between the extractor and the frontend. Every new country PDF must produce a JSON file that validates against it. Key top-level fields:
 
 | Field | Type | Notes |
 |---|---|---|
@@ -82,27 +112,8 @@ The schema is the contract between the extractor and the frontend. Every new cou
 | `work_while_studying` | object | Hours limit, notification requirement |
 | `post_study_work` | object | Job-seeking period in months, legal basis |
 | `official_sources` / `application_forms` | arrays | `name` + `url` pairs |
-| `tips` / `common_mistakes` | arrays | Structured with `title`/`body` and `mistake`/`consequence`/`how_to_avoid` |
-
-### Extraction Script (`scripts/extract_country_data.py`)
-
-- Reads PDF text with PyMuPDF, passes it + the full JSON schema to Gemini 1.5 Pro
-- Gemini is prompted with `response_mime_type="application/json"` and `temperature=0.1` for deterministic output
-- Validates the returned object with `jsonschema.Draft7Validator`
-- On JSON parse failure, saves raw response to `debug_response.txt` for inspection
-- Output: `data/<CODE>.json`
-
-### Frontend Data Flow
-
-`CountryPage` receives the full country JSON as a `data` prop and passes slices to each section component. No global state — each component is self-contained. The `FinancialCalculator` and `DocumentChecklist` are the only stateful components (local `useState`).
-
-## Adding a New Country
-
-1. Obtain the PDF guide and place it in the project root.
-2. Run the extraction script with the correct `--country` and `--code`.
-3. Review `data/<CODE>.json` — fix any `null` fields that Gemini missed by editing the JSON directly.
-4. Add the country to the frontend country list (once that routing layer exists).
+| `tips` / `common_mistakes` | arrays | Structured advice and pitfalls |
 
 ## Schema Evolution
 
-When adding a new field to `country_schema.json`, do not mark it `required` until all existing country JSON files have been backfilled. Run the manual validation command above against each existing file before adding the `required` constraint.
+When adding a new field to `country_schema.json`, do not mark it `required` until all existing JSON files have been backfilled. Validate each file manually before adding the constraint.
