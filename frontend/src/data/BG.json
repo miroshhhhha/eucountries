@@ -2,7 +2,7 @@
   "country": "Bulgaria",
   "country_code": "BG",
   "last_updated": "2026-07-01",
-  "schengen_member": null,
+  "schengen_member": true,
   "currency": "BGN",
   "official_language": "Bulgarian",
   "qualifying_courses": {

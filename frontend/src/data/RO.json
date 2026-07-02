@@ -2,7 +2,7 @@
   "country": "Romania",
   "country_code": "RO",
   "last_updated": "2026-07-01",
-  "schengen_member": null,
+  "schengen_member": true,
   "currency": "RON",
   "official_language": "Romanian",
   "qualifying_courses": {

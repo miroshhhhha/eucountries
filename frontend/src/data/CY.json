@@ -2,7 +2,7 @@
   "country": "Cyprus",
   "country_code": "CY",
   "last_updated": "2026-07-01",
-  "schengen_member": null,
+  "schengen_member": false,
   "currency": "EUR",
   "official_language": null,
   "qualifying_courses": {
