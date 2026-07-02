@@ -17,7 +17,7 @@ export default function ResidencePermitCard({ permit }: Props) {
         {permit.validity_months && (
           <StatCard
             label="Permit validity"
-            value={`${permit.validity_months} year${permit.validity_months > 12 ? 's' : ''}`}
+            value={`${permit.validity_months} month${permit.validity_months > 12 ? 's' : ''}`}
             sub={permit.renewable ? 'renewable' : 'non-renewable'}
           />
         )}
