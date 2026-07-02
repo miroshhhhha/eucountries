@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, useTransition, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import EUMap from '../components/EUMap'
 import { AVAILABLE_COUNTRIES, appleFlagUrl } from '../data/countries'
@@ -44,6 +44,7 @@ function isActive(f: Filters): boolean {
 export default function Home() {
   const navigate = useNavigate()
   const [filters, setFilters] = useState<Filters>(EMPTY_FILTERS)
+  const [, startTransition] = useTransition()
 
   const highlightedCodes = useMemo<Set<string> | null>(() => {
     if (!isActive(filters)) return null
@@ -59,7 +60,7 @@ export default function Home() {
   }
 
   const setSelect = <K extends keyof Filters>(key: K, value: Filters[K]) => {
-    setFilters(prev => ({ ...prev, [key]: value }))
+    startTransition(() => setFilters(prev => ({ ...prev, [key]: value })))
   }
 
   const matchCount = highlightedCodes?.size ?? Object.keys(AVAILABLE_COUNTRIES).length
@@ -182,46 +183,46 @@ const BUDGET_MAX = 1500
 const BUDGET_STEP = 50
 
 function BudgetInput({ value, onChange }: { value: number | null; onChange: (v: number | null) => void }) {
-  const sliderVal = value ?? BUDGET_MAX
-  const active = value !== null
-  const pct = ((sliderVal - BUDGET_MIN) / (BUDGET_MAX - BUDGET_MIN)) * 100
+  const [local, setLocal] = useState<number>(value ?? BUDGET_MAX)
+  const active = local < BUDGET_MAX
+  const pct = ((local - BUDGET_MIN) / (BUDGET_MAX - BUDGET_MIN)) * 100
+
+  // sync when parent resets (e.g. "Clear all")
+  useEffect(() => { if (value === null) setLocal(BUDGET_MAX) }, [value])
 
   return (
     <div className={`flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border text-sm font-medium transition-colors
       ${active ? 'bg-indigo-600 border-indigo-600' : 'bg-white border-gray-200'}`}
     >
-      <span className={active ? 'text-white' : 'text-gray-500'}>
-        {active ? `≤ €${sliderVal}/mo` : 'Budget'}
+      <span className={`whitespace-nowrap ${active ? 'text-white' : 'text-gray-500'}`}>
+        {active ? `Required ≤ €${local}/mo` : 'Required funds'}
       </span>
-      <div className="relative w-24 flex items-center">
-        <input
-          type="range"
-          min={BUDGET_MIN}
-          max={BUDGET_MAX}
-          step={BUDGET_STEP}
-          value={sliderVal}
-          onChange={e => {
-            const v = Number(e.target.value)
-            onChange(v >= BUDGET_MAX ? null : v)
-          }}
-          className={`budget-slider w-full h-1.5 rounded-full appearance-none cursor-pointer
-            [&::-webkit-slider-thumb]:appearance-none
-            [&::-webkit-slider-thumb]:w-3.5
-            [&::-webkit-slider-thumb]:h-3.5
-            [&::-webkit-slider-thumb]:rounded-full
-            [&::-webkit-slider-thumb]:cursor-pointer
-            [&::-webkit-slider-thumb]:transition-transform
-            [&::-webkit-slider-thumb]:hover:scale-125
-            ${active ? 'active' : ''}`}
-          style={{
-            background: active
-              ? `linear-gradient(to right, rgba(255,255,255,0.85) ${pct}%, rgba(255,255,255,0.25) ${pct}%)`
-              : `linear-gradient(to right, #6366f1 ${pct}%, #e5e7eb ${pct}%)`,
-          }}
-        />
-      </div>
+      <input
+        type="range"
+        min={BUDGET_MIN}
+        max={BUDGET_MAX}
+        step={BUDGET_STEP}
+        value={local}
+        onChange={e => {
+          const v = Number(e.target.value)
+          setLocal(v)
+          onChange(v >= BUDGET_MAX ? null : v)
+        }}
+        className={`budget-slider w-24 h-1.5 rounded-full appearance-none cursor-pointer
+          [&::-webkit-slider-thumb]:appearance-none
+          [&::-webkit-slider-thumb]:w-3.5
+          [&::-webkit-slider-thumb]:h-3.5
+          [&::-webkit-slider-thumb]:rounded-full
+          [&::-webkit-slider-thumb]:cursor-pointer
+          ${active ? 'active' : ''}`}
+        style={{
+          background: active
+            ? `linear-gradient(to right, rgba(255,255,255,0.85) ${pct}%, rgba(255,255,255,0.25) ${pct}%)`
+            : `linear-gradient(to right, #6366f1 ${pct}%, #e5e7eb ${pct}%)`,
+        }}
+      />
       {active && (
-        <button onClick={() => onChange(null)} className="text-white/70 hover:text-white leading-none">×</button>
+        <button onClick={() => { setLocal(BUDGET_MAX); onChange(null) }} className="text-white/70 hover:text-white leading-none">×</button>
       )}
     </div>
   )

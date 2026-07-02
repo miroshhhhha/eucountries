@@ -46,7 +46,7 @@ export default function EUMap({ highlightedCodes = null }: Props) {
         projection="geoAzimuthalEqualArea"
         projectionConfig={{ rotate: [-15, -52, 0], scale: 900 }}
         width={800}
-        height={500}
+        height={560}
         style={{ width: '100%', height: 'auto' }}
       >
         <Geographies geography={GEO_URL}>
