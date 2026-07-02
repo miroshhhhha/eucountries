@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+input[type='range'].budget-slider::-webkit-slider-thumb {
+  background-color: #4f46e5;
+}
+input[type='range'].budget-slider.active::-webkit-slider-thumb {
+  background-color: #ffffff;
+}
+input[type='range'].budget-slider::-moz-range-thumb {
+  background-color: #4f46e5;
+  border: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+input[type='range'].budget-slider.active::-moz-range-thumb {
+  background-color: #ffffff;
+}

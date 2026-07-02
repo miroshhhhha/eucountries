@@ -30,10 +30,11 @@ function matchesFilters(data: CountryData, f: Filters): boolean {
   }
   if (f.maxFinancial !== null) {
     const eur = data.financial_requirements?.reference_value_monthly_eur
-    if (eur === null || eur === undefined || eur > f.maxFinancial) return false
+    // if EUR value unknown, don't exclude — user can check details manually
+    if (eur !== null && eur !== undefined && eur > f.maxFinancial) return false
   }
-  if (f.jobPermit !== null && data.post_study_work?.available !== f.jobPermit) return false
-  return true
+  return !(f.jobPermit !== null && data.post_study_work?.available !== f.jobPermit);
+
 }
 
 function isActive(f: Filters): boolean {
@@ -100,16 +101,9 @@ export default function Home() {
             onClick={() => toggle('minWorkHours', 20)}
           />
 
-          <Select
-            value={filters.maxFinancial !== null ? String(filters.maxFinancial) : ''}
-            onChange={v => setSelect('maxFinancial', v ? Number(v) : null)}
-            options={[
-              { value: '', label: 'Any budget' },
-              { value: '500', label: '≤ €500/mo' },
-              { value: '600', label: '≤ €600/mo' },
-              { value: '700', label: '≤ €700/mo' },
-              { value: '800', label: '≤ €800/mo' },
-            ]}
+          <BudgetInput
+            value={filters.maxFinancial}
+            onChange={v => setSelect('maxFinancial', v)}
           />
 
           <FilterPill
@@ -183,26 +177,52 @@ function FilterPill({ label, active, onClick }: { label: string; active: boolean
   )
 }
 
-interface SelectOption { value: string; label: string }
-function Select({ value, onChange, options }: {
-  value: string
-  onChange: (v: string) => void
-  options: SelectOption[]
-}) {
-  const active = value !== ''
+const BUDGET_MIN = 300
+const BUDGET_MAX = 1500
+const BUDGET_STEP = 50
+
+function BudgetInput({ value, onChange }: { value: number | null; onChange: (v: number | null) => void }) {
+  const sliderVal = value ?? BUDGET_MAX
+  const active = value !== null
+  const pct = ((sliderVal - BUDGET_MIN) / (BUDGET_MAX - BUDGET_MIN)) * 100
+
   return (
-    <select
-      value={value}
-      onChange={e => onChange(e.target.value)}
-      className={`px-3.5 py-1.5 rounded-full text-sm font-medium border transition-colors appearance-none cursor-pointer
-        ${active
-          ? 'bg-indigo-600 text-white border-indigo-600'
-          : 'bg-white text-gray-600 border-gray-200 hover:border-indigo-300 hover:text-indigo-600'
-        }`}
+    <div className={`flex items-center gap-2.5 px-3.5 py-1.5 rounded-full border text-sm font-medium transition-colors
+      ${active ? 'bg-indigo-600 border-indigo-600' : 'bg-white border-gray-200'}`}
     >
-      {options.map(o => (
-        <option key={o.value} value={o.value}>{o.label}</option>
-      ))}
-    </select>
+      <span className={active ? 'text-white' : 'text-gray-500'}>
+        {active ? `≤ €${sliderVal}/mo` : 'Budget'}
+      </span>
+      <div className="relative w-24 flex items-center">
+        <input
+          type="range"
+          min={BUDGET_MIN}
+          max={BUDGET_MAX}
+          step={BUDGET_STEP}
+          value={sliderVal}
+          onChange={e => {
+            const v = Number(e.target.value)
+            onChange(v >= BUDGET_MAX ? null : v)
+          }}
+          className={`budget-slider w-full h-1.5 rounded-full appearance-none cursor-pointer
+            [&::-webkit-slider-thumb]:appearance-none
+            [&::-webkit-slider-thumb]:w-3.5
+            [&::-webkit-slider-thumb]:h-3.5
+            [&::-webkit-slider-thumb]:rounded-full
+            [&::-webkit-slider-thumb]:cursor-pointer
+            [&::-webkit-slider-thumb]:transition-transform
+            [&::-webkit-slider-thumb]:hover:scale-125
+            ${active ? 'active' : ''}`}
+          style={{
+            background: active
+              ? `linear-gradient(to right, rgba(255,255,255,0.85) ${pct}%, rgba(255,255,255,0.25) ${pct}%)`
+              : `linear-gradient(to right, #6366f1 ${pct}%, #e5e7eb ${pct}%)`,
+          }}
+        />
+      </div>
+      {active && (
+        <button onClick={() => onChange(null)} className="text-white/70 hover:text-white leading-none">×</button>
+      )}
+    </div>
   )
 }

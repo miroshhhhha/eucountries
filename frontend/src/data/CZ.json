@@ -168,8 +168,8 @@
     }
   ],
   "financial_requirements": {
-    "reference_value_monthly_eur": null,
-    "reference_basis": "Existential Minimum (3,130 CZK/month, 2023 onward)",
+    "reference_value_monthly_eur": 124,
+    "reference_basis": "Existential Minimum (3,130 CZK/month ≈ €124, 2023)",
     "year": 2026,
     "calculation_rules": {
       "first_adult_pct": null,

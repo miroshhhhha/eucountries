@@ -123,8 +123,8 @@
     }
   ],
   "financial_requirements": {
-    "reference_value_monthly_eur": null,
-    "reference_basis": "Swedish Migration Agency requirement (SEK 10,656 per month)",
+    "reference_value_monthly_eur": 927,
+    "reference_basis": "Swedish Migration Agency (SEK 10,656/month ≈ €927)",
     "year": 2026,
     "calculation_rules": null,
     "example_12_months_eur": null,
