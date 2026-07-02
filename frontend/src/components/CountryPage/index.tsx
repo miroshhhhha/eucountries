@@ -1,14 +1,19 @@
-import CountryHero from "./CountryHero";
-import ApplicationStepper from "./ApplicationStepper";
-import DocumentChecklist from "./DocumentChecklist";
-import FinancialCalculator from "./FinancialCalculator";
-import WorkRules from "./WorkRules";
-import ResidencePermitCard from "./ResidencePermitCard";
-import PostStudyWork from "./PostStudyWork";
-import TipsAccordion from "./TipsAccordion";
-import OfficialLinks from "./OfficialLinks";
+import type { CountryData } from '../../types/country'
+import CountryHero from './CountryHero'
+import ApplicationStepper from './ApplicationStepper'
+import DocumentChecklist from './DocumentChecklist'
+import FinancialCalculator from './FinancialCalculator'
+import WorkRules from './WorkRules'
+import ResidencePermitCard from './ResidencePermitCard'
+import PostStudyWork from './PostStudyWork'
+import TipsAccordion from './TipsAccordion'
+import OfficialLinks from './OfficialLinks'
 
-export default function CountryPage({ data }) {
+interface Props {
+  data: CountryData
+}
+
+export default function CountryPage({ data }: Props) {
   return (
     <main className="space-y-5">
       <CountryHero
@@ -56,10 +61,16 @@ export default function CountryPage({ data }) {
         <OfficialLinks sources={data.official_sources} forms={data.application_forms} />
       </Section>
     </main>
-  );
+  )
 }
 
-function Section({ title, icon, children }) {
+interface SectionProps {
+  title: string
+  icon: string
+  children: React.ReactNode
+}
+
+function Section({ title, icon, children }: SectionProps) {
   return (
     <section className="bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
       <div className="px-6 py-4 border-b border-gray-100 flex items-center gap-3">
@@ -70,5 +81,5 @@ function Section({ title, icon, children }) {
         {children}
       </div>
     </section>
-  );
+  )
 }

@@ -1,4 +1,11 @@
-export default function PostStudyWork({ postStudy, renewal }) {
+import type { PostStudyWork as PostStudyWorkData, PermitRenewal } from '../../types/country'
+
+interface Props {
+  postStudy: PostStudyWorkData
+  renewal?: PermitRenewal | null
+}
+
+export default function PostStudyWork({ postStudy, renewal }: Props) {
   return (
     <div className="space-y-4">
       {postStudy.job_seeking_permit_months && (
@@ -12,7 +19,7 @@ export default function PostStudyWork({ postStudy, renewal }) {
         </div>
       )}
 
-      {postStudy.requirements?.length > 0 && (
+      {postStudy.requirements && postStudy.requirements.length > 0 && (
         <div>
           <p className="text-sm font-medium text-gray-700 mb-2">Requirements to transition</p>
           <ul className="space-y-1">
@@ -37,5 +44,5 @@ export default function PostStudyWork({ postStudy, renewal }) {
         <p className="text-xs text-gray-500 italic">{postStudy.notes}</p>
       )}
     </div>
-  );
+  )
 }

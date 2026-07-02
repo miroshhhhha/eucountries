@@ -1,4 +1,11 @@
-export default function OfficialLinks({ sources, forms }) {
+import type { OfficialSource, ApplicationForm } from '../../types/country'
+
+interface Props {
+  sources: OfficialSource[]
+  forms: ApplicationForm[]
+}
+
+export default function OfficialLinks({ sources, forms }: Props) {
   return (
     <div className="space-y-5">
       {sources?.length > 0 && (
@@ -8,16 +15,14 @@ export default function OfficialLinks({ sources, forms }) {
             {sources.map((s, i) => (
               <a
                 key={i}
-                href={s.url}
+                href={s.url ?? '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-3 p-4 border border-gray-200 rounded-xl hover:border-indigo-300 hover:bg-indigo-50 transition-colors group"
               >
                 <span className="text-gray-400 group-hover:text-indigo-500 mt-0.5">🔗</span>
                 <div>
-                  <p className="text-sm font-medium text-gray-800 group-hover:text-indigo-700">
-                    {s.name}
-                  </p>
+                  <p className="text-sm font-medium text-gray-800 group-hover:text-indigo-700">{s.name}</p>
                   {s.description && (
                     <p className="text-xs text-gray-500 mt-0.5">{s.description}</p>
                   )}
@@ -36,7 +41,7 @@ export default function OfficialLinks({ sources, forms }) {
             {forms.map((f, i) => (
               <a
                 key={i}
-                href={f.url}
+                href={f.url ?? '#'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 p-4 border border-gray-200 rounded-xl hover:border-green-300 hover:bg-green-50 transition-colors group"
@@ -44,9 +49,7 @@ export default function OfficialLinks({ sources, forms }) {
                 <span className="text-lg">📄</span>
                 <div>
                   <p className="text-sm font-medium text-gray-800 group-hover:text-green-700">{f.name}</p>
-                  {f.authority && (
-                    <p className="text-xs text-gray-400">{f.authority}</p>
-                  )}
+                  {f.authority && <p className="text-xs text-gray-400">{f.authority}</p>}
                 </div>
                 <span className="ml-auto text-xs text-gray-400 group-hover:text-green-600">Download →</span>
               </a>
@@ -55,5 +58,5 @@ export default function OfficialLinks({ sources, forms }) {
         </div>
       )}
     </div>
-  );
+  )
 }
