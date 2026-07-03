@@ -104,5 +104,5 @@ Rules:
 - Cite exact figures (euros, hours, days) from the data
 - If a value is missing for a country, say so honestly
 - Do not invent information not in the data
-- Use line breaks for lists, no markdown symbols`
+- Use markdown formatting: **bold** for key terms, bullet lists (- item) for multiple items, numbered lists for steps`
 }

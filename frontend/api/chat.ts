@@ -37,8 +37,58 @@ const ALL_COUNTRIES = {
 const SYSTEM_PROMPT = buildSystemPrompt(ALL_COUNTRIES)
 
 interface Message {
-  role: 'user' | 'assistant'
+  role: 'user' | 'assistant' | 'system'
   content: string
+}
+
+interface GroqResult {
+  content?: string
+  error?: string
+  retryAfterMs?: number
+}
+
+const MODELS = ['llama-3.3-70b-versatile', 'llama-3.1-8b-instant']
+const RETRY_AUTO_MAX_MS = 90_000
+
+function parseRetryMs(errMsg: string): number | null {
+  const minsec = errMsg.match(/try again in (\d+)m([\d.]+)s/i)
+  if (minsec) return (parseInt(minsec[1]) * 60 + parseFloat(minsec[2])) * 1000 + 500
+  const sec = errMsg.match(/try again in ([\d.]+)s/i)
+  if (sec) return parseFloat(sec[1]) * 1000 + 500
+  return null
+}
+
+async function callGroq(apiKeys: string[], messages: Message[]): Promise<GroqResult> {
+  const keys = apiKeys.filter(Boolean)
+  let minRetryMs: number | null = null
+
+  for (const model of MODELS) {
+    for (const key of keys) {
+      const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${key}` },
+        body: JSON.stringify({ model, messages, max_tokens: 1024, temperature: 0.3 }),
+      })
+      const data = await res.json() as { choices?: [{ message: { content: string } }]; error?: { message: string; code?: string } }
+      if (res.ok && data.choices) return { content: data.choices[0].message.content }
+
+      const errMsg = data.error?.message ?? JSON.stringify(data)
+      const isRateLimit = res.status === 429
+        || data.error?.code === 'rate_limit_exceeded'
+        || errMsg.includes('rate_limit')
+        || errMsg.includes('Rate limit')
+
+      if (!isRateLimit) return { error: errMsg }
+
+      const waitMs = parseRetryMs(errMsg) ?? (res.status === 413 ? 62_000 : null)
+      if (waitMs) minRetryMs = minRetryMs === null ? waitMs : Math.min(minRetryMs, waitMs)
+    }
+  }
+
+  if (minRetryMs !== null && minRetryMs <= RETRY_AUTO_MAX_MS) {
+    return { retryAfterMs: minRetryMs }
+  }
+  return { error: 'daily_limit' }
 }
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
@@ -52,37 +102,19 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: 'Message is required' })
   }
 
-  const apiKey = process.env.GROQ_API_KEY
-  if (!apiKey) {
+  const apiKeys = [process.env.GROQ_API_KEY, process.env.GROQ_API_KEY_2].filter((k): k is string => !!k)
+  if (!apiKeys.length) {
     return res.status(500).json({ error: 'GROQ_API_KEY is not configured' })
   }
 
-  const groqRes = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${apiKey}`,
-    },
-    body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
-      messages: [
-        { role: 'system', content: SYSTEM_PROMPT },
-        ...history.slice(-6),
-        { role: 'user', content: message },
-      ],
-      max_tokens: 1024,
-      temperature: 0.3,
-    }),
-  })
+  const msgs: Message[] = [
+    { role: 'system', content: SYSTEM_PROMPT },
+    ...history.slice(-6),
+    { role: 'user', content: message },
+  ]
 
-  if (!groqRes.ok) {
-    const data = await groqRes.json() as { error?: { message?: string } }
-    const errMsg = data.error?.message ?? 'Groq error'
-    const match = errMsg.match(/try again in ([\d.]+)s/i)
-    const retryAfterMs = match ? Math.ceil(parseFloat(match[1]) * 1000) + 500 : null
-    return res.status(retryAfterMs ? 429 : 502).json({ error: errMsg, retryAfterMs })
-  }
-
-  const data = await groqRes.json() as { choices: [{ message: { content: string } }] }
-  return res.json({ reply: data.choices[0].message.content })
+  const result = await callGroq(apiKeys, msgs)
+  if (result.retryAfterMs !== undefined) return res.status(429).json({ error: result.error, retryAfterMs: result.retryAfterMs })
+  if (result.error) return res.status(502).json({ error: result.error })
+  return res.json({ reply: result.content })
 }
