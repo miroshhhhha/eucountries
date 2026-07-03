@@ -5,6 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 import './index.css'
 import Home from './pages/Home'
 import CountryPage from './pages/CountryPage'
+import ChatWidget from './components/ChatWidget'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -17,6 +18,7 @@ createRoot(document.getElementById('root')!).render(
     <BrowserRouter>
       <ScrollToTop />
       <Analytics />
+      <ChatWidget />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/country/:code" element={<CountryPage />} />
