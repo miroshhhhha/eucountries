@@ -74,12 +74,19 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <div className="max-w-5xl mx-auto px-4 py-12">
-        <div className="text-center mb-10">
-          <h1 className="text-4xl font-bold text-gray-900 mb-3">EU Study Guide</h1>
-          <p className="text-lg text-gray-500 max-w-xl mx-auto">
-            Step-by-step visa guides, document checklists, and financial calculators
-            for non-EU students. Click a country to get started.
-          </p>
+        <div className="flex flex-col sm:flex-row items-center gap-8 mb-10">
+          <div className="flex-1">
+            <h1 className="text-4xl font-bold text-gray-900 mb-3">EU Study Guide</h1>
+            <p className="text-lg text-gray-500">
+              Step-by-step visa guides, document checklists, and financial calculators
+              for non-EU students. Click a country to get started.
+            </p>
+          </div>
+          <img
+            src="/Techno_TLN_Logo.svg"
+            alt="Techno TLN"
+            className="w-64 max-w-full flex-shrink-0"
+          />
         </div>
 
         {/* Filter bar */}

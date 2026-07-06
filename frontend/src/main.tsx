@@ -6,6 +6,7 @@ import './index.css'
 import Home from './pages/Home'
 import CountryPage from './pages/CountryPage'
 import ChatWidget from './components/ChatWidget'
+import Footer from './components/Footer'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -23,6 +24,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/" element={<Home />} />
         <Route path="/country/:code" element={<CountryPage />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </StrictMode>,
 )
