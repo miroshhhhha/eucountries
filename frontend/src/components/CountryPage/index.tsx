@@ -1,5 +1,6 @@
 import type { CountryData } from '../../types/country'
 import CountryHero from './CountryHero'
+import CountryGallery from './CountryGallery'
 import ApplicationStepper from './ApplicationStepper'
 import DocumentChecklist from './DocumentChecklist'
 import FinancialCalculator from './FinancialCalculator'
@@ -22,6 +23,12 @@ export default function CountryPage({ data }: Props) {
         currency={data.currency}
         lastUpdated={data.last_updated}
       />
+
+      {data.country_code && data.country && (
+        <Section title="Gallery" icon="🖼️">
+          <CountryGallery countryCode={data.country_code} countryName={data.country} />
+        </Section>
+      )}
 
       <Section title="How to Apply" icon="📋">
         <ApplicationStepper
