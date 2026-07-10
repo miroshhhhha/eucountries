@@ -283,13 +283,15 @@
   "application_forms": [
     {
       "name": "ST1 application form",
-      "url": "nyidanmark.dk",
-      "authority": "SIRI"
+      "url": "https://www.nyidanmark.dk/-/media/Files/SIRI/Application-forms/Study/ST1_en.pdf",
+      "authority": "SIRI",
+      "type": "pdf"
     },
     {
       "name": "Online application portal",
-      "url": "nyidanmark.dk",
-      "authority": "SIRI"
+      "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Study/Higher-Education",
+      "authority": "SIRI / New to Denmark",
+      "type": "online"
     }
   ],
   "tips": [

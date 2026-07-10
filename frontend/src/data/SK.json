@@ -305,18 +305,21 @@
   "application_forms": [
     {
       "name": "Application for National Visa",
-      "url": "mzv.sk",
-      "authority": "Ministry of Foreign Affairs"
+      "url": "https://www.mzv.sk/en/web/en/visa-and-services/visa-application-forms",
+      "authority": "Ministry of Foreign and European Affairs",
+      "type": "online"
     },
     {
       "name": "Application for Temporary Residence",
-      "url": "mic.iom.sk",
-      "authority": "Ministry of Interior / IOM Migration Information Centre"
+      "url": "https://mic.iom.sk/en/residence/temporary-residence/233-application-for-temporary-residence.html",
+      "authority": "IOM Migration Information Center",
+      "type": "online"
     },
     {
       "name": "Official Electronic Application Form (Temporary Residence)",
       "url": null,
-      "authority": "Foreign Police"
+      "authority": null,
+      "type": null
     }
   ],
   "tips": [],

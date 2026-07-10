@@ -282,8 +282,9 @@
   "application_forms": [
     {
       "name": "Application for issuing or renewing a temporary residence permit for study purposes (Form 8/1)",
-      "url": "https://www.pisrs.si/",
-      "authority": "Slovenian embassies and consular posts abroad, Administrative units (upravne enote) in Slovenia, e-uprava.gov.si"
+      "url": "https://www.gov.si/en/topics/entry-and-residence/",
+      "authority": "Administrative Unit (Upravna enota)",
+      "type": "online"
     }
   ],
   "tips": [

@@ -258,23 +258,27 @@
   "application_forms": [
     {
       "name": "Official Forms",
-      "url": "https://www.ipc.gov.cz/forms-and-documents",
-      "authority": "Ministry of the Interior"
+      "url": "https://ipc.gov.cz/en/forms-and-documents/forms-and-documents-for-third-country-nationals-and-eu-citizens-and-their-family-members-2/",
+      "authority": "Ministry of the Interior",
+      "type": "online"
     },
     {
       "name": "Application for a long-term visa for a stay over 90 days",
-      "url": "https://www.ipc.gov.cz/forms-and-documents",
-      "authority": "Ministry of the Interior"
+      "url": "https://ipc.gov.cz/en/forms-and-documents/forms-and-documents-for-third-country-nationals-and-eu-citizens-and-their-family-members-2/",
+      "authority": "Czech Police / MFA",
+      "type": "pdf"
     },
     {
       "name": "Application for a long-term residence permit",
-      "url": "https://www.ipc.gov.cz/forms-and-documents",
-      "authority": "Ministry of the Interior"
+      "url": "https://ipc.gov.cz/en/forms-and-documents/forms-and-documents-for-third-country-nationals-and-eu-citizens-and-their-family-members-2/",
+      "authority": "Czech Police / MVC",
+      "type": "pdf"
     },
     {
       "name": "Application for issuing or extending an employee card",
-      "url": "https://www.ipc.gov.cz/forms-and-documents",
-      "authority": "Ministry of the Interior"
+      "url": "https://ipc.gov.cz/en/forms-and-documents/forms-and-documents-for-third-country-nationals-and-eu-citizens-and-their-family-members-2/",
+      "authority": "Czech Police / MVC",
+      "type": "pdf"
     }
   ],
   "tips": [

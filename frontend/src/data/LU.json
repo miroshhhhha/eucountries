@@ -236,23 +236,27 @@
   "application_forms": [
     {
       "name": "Initial student residence authorization request",
-      "url": "guichet.public.lu",
-      "authority": "Directorate General of Immigration"
+      "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/etudiant/etudiant-pays-tiers.html",
+      "authority": "Luxembourg Immigration",
+      "type": "online"
     },
     {
       "name": "Student residence permit renewal request",
-      "url": "guichet.public.lu",
-      "authority": "Directorate General of Immigration"
+      "url": "https://guichet.public.lu/en/citoyens/immigration/plus-3-mois/ressortissant-tiers/etudiant/etudiant-pays-tiers.html",
+      "authority": "Luxembourg Immigration",
+      "type": "online"
     },
     {
       "name": "Engagement de prise en charge (financial sponsorship declaration)",
-      "url": "guichet.public.lu",
-      "authority": "Directorate General of Immigration"
+      "url": null,
+      "authority": null,
+      "type": null
     },
     {
       "name": "Post-studies jobseeking/business-creation residence permit request",
-      "url": "guichet.public.lu",
-      "authority": "Directorate General of Immigration"
+      "url": "https://guichet.public.lu",
+      "authority": "Luxembourg Immigration",
+      "type": "online"
     }
   ],
   "tips": [],

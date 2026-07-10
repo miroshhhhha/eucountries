@@ -285,13 +285,15 @@
   "application_forms": [
     {
       "name": "Electronic Visa/Permit Application",
-      "url": "https://migracija.lt",
-      "authority": "MIGRIS"
+      "url": "https://www.migracija.lt/en/esu-studentas1",
+      "authority": "Migration Department",
+      "type": "online"
     },
     {
       "name": "Mediation Letter",
-      "url": "https://migracija.lt",
-      "authority": "Host University via MIGRIS"
+      "url": null,
+      "authority": null,
+      "type": null
     }
   ],
   "tips": [

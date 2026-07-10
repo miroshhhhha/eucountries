@@ -268,28 +268,33 @@
   "application_forms": [
     {
       "name": "Student visa application",
-      "url": "france-visas.gouv.fr",
-      "authority": "France-Visas"
+      "url": "https://france-visas.gouv.fr/en/etudiant",
+      "authority": "French Ministry of Foreign Affairs",
+      "type": "online"
     },
     {
       "name": "Campus France registration (EEF)",
-      "url": "campusfrance.org",
-      "authority": "Campus France"
+      "url": "https://www.campusfrance.org/en",
+      "authority": "Campus France",
+      "type": "online"
     },
     {
       "name": "VLS-TS validation (OFII) after arrival",
-      "url": "administration-etrangers-en-france.interieur.gouv.fr",
-      "authority": "ANEF"
+      "url": "https://administration-etrangers-en-france.interieur.gouv.fr",
+      "authority": "OFII",
+      "type": "online"
     },
     {
       "name": "Residence permit renewal",
-      "url": "administration-etrangers-en-france.interieur.gouv.fr",
-      "authority": "ANEF"
+      "url": "https://administration-etrangers-en-france.interieur.gouv.fr",
+      "authority": "Prefecture",
+      "type": "online"
     },
     {
       "name": "Job search permit (RECE)",
-      "url": "administration-etrangers-en-france.interieur.gouv.fr",
-      "authority": "ANEF"
+      "url": "https://administration-etrangers-en-france.interieur.gouv.fr",
+      "authority": "Prefecture",
+      "type": "online"
     }
   ],
   "tips": [

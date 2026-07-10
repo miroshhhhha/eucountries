@@ -277,28 +277,33 @@
   "application_forms": [
     {
       "name": "MVV + VVR (TEV procedure)",
-      "url": null,
-      "authority": "University / IND"
+      "url": "https://ind.nl/en/residence-permits/study/student-residence-permit-for-university-or-higher-professional-education",
+      "authority": "IND",
+      "type": "online"
     },
     {
       "name": "Orientation Year Permit Application",
       "url": "https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year",
-      "authority": "IND"
+      "authority": "IND",
+      "type": "online"
     },
     {
       "name": "BRP Registration",
       "url": null,
-      "authority": "Local Municipality (Gemeente)"
+      "authority": null,
+      "type": null
     },
     {
       "name": "IND General Forms and Checklists",
       "url": "https://ind.nl/en/forms",
-      "authority": "IND"
+      "authority": "IND",
+      "type": "online"
     },
     {
       "name": "Antecedents Certificate",
       "url": null,
-      "authority": "University / IND"
+      "authority": null,
+      "type": null
     }
   ],
   "tips": [

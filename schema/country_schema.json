@@ -686,6 +686,19 @@
               "string",
               "null"
             ]
+          },
+          "type": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "online",
+              "pdf",
+              "image",
+              null
+            ],
+            "description": "online = web form; pdf = direct download; image = example scan"
           }
         }
       }

@@ -324,18 +324,21 @@
   "application_forms": [
     {
       "name": "National (D-Type) Long-Stay Visa Application Form",
-      "url": "https://www.mfa.gr/en/visas/",
-      "authority": "Ministry of Foreign Affairs"
+      "url": "https://www.mfa.gr/images/docs/ethnikes_theoriseis/application_national_visas.pdf",
+      "authority": "Ministry of Foreign Affairs",
+      "type": "pdf"
     },
     {
       "name": "Medical Certificate Form",
       "url": "https://studyingreece.edu.gr/before-arrival/",
-      "authority": "Study in Greece"
+      "authority": "Study in Greece",
+      "type": "online"
     },
     {
       "name": "Residence Permit Application (Online Portal)",
       "url": "https://applications.migration.gov.gr/en/metanasteusi/",
-      "authority": "Ministry of Migration and Asylum"
+      "authority": "Hellenic Ministry of Migration & Asylum",
+      "type": "online"
     }
   ],
   "tips": [

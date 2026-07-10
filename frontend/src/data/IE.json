@@ -230,13 +230,15 @@
   "application_forms": [
     {
       "name": "AVATS Online Facility",
-      "url": "irishimmigration.ie",
-      "authority": "Irish Immigration Service (ISD)"
+      "url": "https://www.visas.inis.gov.ie/avats/OnlineHome.aspx",
+      "authority": "Irish Immigration Service",
+      "type": "online"
     },
     {
       "name": "ISD Customer Service Portal",
-      "url": "irishimmigration.ie",
-      "authority": "Irish Immigration Service (ISD)"
+      "url": "https://www.irishimmigration.ie/coming-to-study-in-ireland/what-are-my-study-visa-options/how-to-apply-for-long-term-study-visa/",
+      "authority": "Immigration Service Delivery",
+      "type": "online"
     }
   ],
   "tips": [],

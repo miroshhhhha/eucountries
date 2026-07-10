@@ -240,13 +240,15 @@
   "application_forms": [
     {
       "name": "National Visa Application Form",
-      "url": "secure.e-konsulat.gov.pl",
-      "authority": "e-Konsulat portal / Ministry of Foreign Affairs"
+      "url": "https://www.gov.pl/attachment/902adb76-d940-4d65-a9e7-da9e33d1ffd3",
+      "authority": "Ministry of Foreign Affairs",
+      "type": "pdf"
     },
     {
       "name": "Temporary Residence Permit Application Form",
-      "url": "mos.cudzoziemcy.gov.pl",
-      "authority": "Office for Foreigners"
+      "url": "https://www.mos.cudzoziemcy.gov.pl/en/application/",
+      "authority": "Voivode Office",
+      "type": "online"
     }
   ],
   "tips": [],

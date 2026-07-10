@@ -196,8 +196,9 @@
   "application_forms": [
     {
       "name": "Online Application Portal (E-services)",
-      "url": "https://www.migrationsverket.se",
-      "authority": "Swedish Migration Agency"
+      "url": "https://www.migrationsverket.se/en/you-want-to-apply/study/higher-education.html",
+      "authority": "Swedish Migration Agency",
+      "type": "online"
     }
   ],
   "tips": [],

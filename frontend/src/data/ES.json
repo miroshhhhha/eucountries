@@ -312,33 +312,39 @@
   "application_forms": [
     {
       "name": "National Visa Application Form (EX-00)",
-      "url": "Your local Spanish Consulate website",
-      "authority": "Spanish Consulate"
+      "url": "https://www.exteriores.gob.es/en/EmbajadasConsulados/Documents/Consular/20210611-Formulario%20nacional%20espa%C3%B1ol-ingl%C3%A9s.pdf",
+      "authority": "Ministry of Foreign Affairs",
+      "type": "pdf"
     },
     {
       "name": "EX-17 (TIE Application Form)",
-      "url": "Oficina de Extranjería or online",
-      "authority": "Oficina de Extranjería"
+      "url": "https://www.inclusion.gob.es/documents/410169/2156469/17-Formulario_TIE.pdf",
+      "authority": "Ministry of Inclusion",
+      "type": "pdf"
     },
     {
       "name": "TASA 790-012 (TIE Fee Payment)",
       "url": "https://sede.administracionespublicas.gob.es",
-      "authority": "Administraciones Públicas"
+      "authority": "AEAT / Ministerio de Hacienda",
+      "type": "online"
     },
     {
       "name": "Empadronamiento (Municipal Registration)",
-      "url": "Your local Ayuntamiento (town hall)",
-      "authority": "Ayuntamiento"
+      "url": null,
+      "authority": "Local Ayuntamiento",
+      "type": null
     },
     {
       "name": "EX-01 (Work/Residence Authorisation Renewals)",
-      "url": "Oficina de Extranjería",
-      "authority": "Oficina de Extranjería"
+      "url": "https://www.inclusion.gob.es/en/web/migraciones/modelos-generales",
+      "authority": "Ministry of Inclusion",
+      "type": "online"
     },
     {
       "name": "TASA 790-052 (Other Fee Payment)",
       "url": "https://sede.administracionespublicas.gob.es",
-      "authority": "Administraciones Públicas"
+      "authority": "AEAT / Ministerio de Hacienda",
+      "type": "online"
     }
   ],
   "tips": [

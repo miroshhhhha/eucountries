@@ -250,17 +250,20 @@
     {
       "name": "Temporary stay application (Form 1a)",
       "url": null,
-      "authority": "Croatian consulates abroad or local police station/police administration; MUP application database"
+      "authority": null,
+      "type": null
     },
     {
       "name": "Temporary stay registration (Form 1b)",
       "url": null,
-      "authority": "Police station (for EEA nationals)"
+      "authority": null,
+      "type": null
     },
     {
       "name": "Online visa form",
-      "url": "crovisa.mvep.hr",
-      "authority": "Croatian Ministry of Foreign Affairs"
+      "url": "https://crovisa.mvep.hr/",
+      "authority": "Ministry of Foreign and European Affairs",
+      "type": "online"
     }
   ],
   "tips": [

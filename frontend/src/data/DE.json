@@ -282,13 +282,15 @@
   "application_forms": [
     {
       "name": "National Visa Application Form (Antrag auf Erteilung eines nationalen Visums)",
-      "url": null,
-      "authority": "German Embassy/Consulate website or official online application portal VIDEX"
+      "url": "https://www.auswaertiges-amt.de/resource/blob/266818/f9342033f2933dc05da54151efe283db/aufenthalten-data.pdf",
+      "authority": "Federal Foreign Office (Auswärtiges Amt)",
+      "type": "pdf"
     },
     {
       "name": "Residence Permit Application Form (Antrag auf Erteilung/Verlängerung eines Aufenthaltstitels)",
       "url": null,
-      "authority": "Local Ausländerbehörde website"
+      "authority": "Local Ausländerbehörde",
+      "type": null
     }
   ],
   "tips": [],

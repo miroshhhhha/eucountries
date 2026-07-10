@@ -303,18 +303,21 @@
   "application_forms": [
     {
       "name": "Long-Stay (D) Visa Application Form",
-      "url": null,
-      "authority": "Identità, Ministry for Foreign Affairs, VFS Global Malta portal, embassies/consulates"
+      "url": "https://identita.gov.mt/wp-content/uploads/2025/07/1.-National-D-Visa-Application.pdf",
+      "authority": "Identità Malta",
+      "type": "pdf"
     },
     {
       "name": "Residence Permit Application Form (CEA N.01 for Study)",
-      "url": "https://expatriates.identita.gov.mt",
-      "authority": "Identità Expatriates Portal"
+      "url": "https://identita.gov.mt/wp-content/uploads/2024/10/FORM-N.01.pdf",
+      "authority": "Identità Malta (Expatriates Unit)",
+      "type": "pdf"
     },
     {
       "name": "Student Work Permit Forms",
       "url": null,
-      "authority": "Jobsplus"
+      "authority": null,
+      "type": null
     }
   ],
   "tips": [

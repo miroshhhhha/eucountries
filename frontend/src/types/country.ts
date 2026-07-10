@@ -112,6 +112,7 @@ export interface ApplicationForm {
   name: string | null
   url: string | null
   authority: string | null
+  type: 'online' | 'pdf' | 'image' | null
 }
 
 export interface Tip {

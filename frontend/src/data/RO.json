@@ -304,14 +304,15 @@
   "application_forms": [
     {
       "name": "Online Visa Application Form",
-      "url": "https://evisa.mae.ro",
-      "authority": "E-VISA portal"
+      "url": "https://evisa.mae.ro/Home?lang=en-US",
+      "authority": "Ministry of Foreign Affairs",
+      "type": "online"
     },
     {
       "name": "Residence Permit Forms",
       "url": "https://igi.mai.gov.ro/en/studies/",
       "authority": "General Inspectorate for Immigration (IGI)",
-      "description": "Includes application for extension of temporary right of residence, certificate from educational institution, proof of means of subsistence, proof of legal right to dwelling space, medical certificate, and fee schedule document."
+      "type": "online"
     }
   ],
   "tips": [

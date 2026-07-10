@@ -303,13 +303,15 @@
   "application_forms": [
     {
       "name": "National Visa Application Forms",
-      "url": "https://vistos.mne.gov.pt/en/visa-models",
-      "authority": "Ministry of Foreign Affairs"
+      "url": "https://vistos.mne.gov.pt/images/formulario_visto_nacional_en.pdf",
+      "authority": "Ministry of Foreign Affairs",
+      "type": "pdf"
     },
     {
       "name": "AIMA Forms (e.g., Termo de Responsabilidade)",
-      "url": "https://aima.gov.pt",
-      "authority": "AIMA"
+      "url": "https://aima.gov.pt/documents/modelo-4.pdf",
+      "authority": "AIMA",
+      "type": "pdf"
     }
   ],
   "tips": [

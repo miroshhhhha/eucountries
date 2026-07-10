@@ -268,13 +268,15 @@
   "application_forms": [
     {
       "name": "Residence Permit Application Form",
-      "url": "https://oif.gov.hu/factsheets/residence-of-the-student-pupil",
-      "authority": "OIF"
+      "url": "https://oif.gov.hu/forms?locale=en",
+      "authority": "National Directorate-General for Aliens Policing",
+      "type": "pdf"
     },
     {
       "name": "Online Application via EnterHungary",
       "url": "https://enterhungary.gov.hu",
-      "authority": "OIF"
+      "authority": "National Directorate-General for Aliens Policing",
+      "type": "online"
     }
   ],
   "tips": [

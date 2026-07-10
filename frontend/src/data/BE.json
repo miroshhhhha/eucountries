@@ -262,19 +262,21 @@
   "application_forms": [
     {
       "name": "Visa Application Form (Long Stay)",
-      "url": "visaonweb.be",
-      "authority": "Belgian Immigration Office"
+      "url": "https://www.visaonweb.be",
+      "authority": "FPS Foreign Affairs",
+      "type": "online"
     },
     {
       "name": "Financial Guarantee (Annex 32)",
-      "url": "dofi.ibz.be",
-      "authority": "Belgian Immigration Office"
+      "url": "https://dofi.ibz.be/sites/default/files/2026-06/Annexe%2032_update%2031%20mei%202026.pdf",
+      "authority": "DOFI/IBZ",
+      "type": "pdf"
     },
     {
       "name": "Annexes for Residence Permit",
-      "url": "dofi.ibz.be",
-      "authority": "Belgian Immigration Office",
-      "description": "Available under Documentation, then Legislation (in French and Dutch only)."
+      "url": "https://dofi.ibz.be/en/documentation",
+      "authority": "DOFI/IBZ",
+      "type": "online"
     }
   ],
   "tips": [

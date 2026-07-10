@@ -275,28 +275,33 @@
   "application_forms": [
     {
       "name": "OeAD Website",
-      "url": "oead.at",
-      "authority": "OeAD"
+      "url": "https://oead.at/en/to-austria/entry-and-residence/visa-c-or-visa-d",
+      "authority": "OeAD",
+      "type": "online"
     },
     {
       "name": "BMEIA Website",
-      "url": "bmeia.gv.at",
-      "authority": "Federal Ministry for European and International Affairs"
+      "url": "https://www.bmeia.gv.at/en/travel-stay/entrance-and-residence-in-austria/visa",
+      "authority": "BMEIA",
+      "type": "online"
     },
     {
       "name": "Official Austrian Government Portal",
-      "url": "oesterreich.gv.at",
-      "authority": "Austrian Government"
+      "url": "https://www.oesterreich.gv.at/en/themen/menschen_aus_anderen_staaten/visum_fuer_oesterreich/Seite.3550010",
+      "authority": "Federal Government",
+      "type": "online"
     },
     {
       "name": "Specific Austrian Embassy/Consulate Website",
       "url": null,
-      "authority": "Austrian Embassy/Consulate"
+      "authority": null,
+      "type": null
     },
     {
       "name": "MA35 Website (for Vienna)",
       "url": null,
-      "authority": "MA35"
+      "authority": "City of Vienna",
+      "type": null
     }
   ],
   "tips": [

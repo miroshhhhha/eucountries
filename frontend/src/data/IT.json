@@ -323,17 +323,20 @@
     {
       "name": "Visa Application Form",
       "url": "https://vistoperitalia.esteri.it",
-      "authority": "Italian Embassy/Consulate"
+      "authority": "Italian Ministry of Foreign Affairs",
+      "type": "online"
     },
     {
       "name": "Universitaly Pre-enrollment",
       "url": "https://www.universitaly.it",
-      "authority": "Universitaly"
+      "authority": "CINECA / Ministry of University and Research",
+      "type": "online"
     },
     {
       "name": "Permesso di Soggiorno Kit (Mod. 209)",
-      "url": null,
-      "authority": "Poste Italiane / Questura"
+      "url": "https://www.portaleimmigrazione.it/media/documentazione/MOD_209_Multilingue.pdf",
+      "authority": "Ministero dell'Interno",
+      "type": "pdf"
     }
   ],
   "tips": [],

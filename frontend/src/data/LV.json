@@ -335,13 +335,15 @@
   "application_forms": [
     {
       "name": "OCMA Residence Permit Application Form",
-      "url": "https://www.pmlp.gov.lv/en/application-requiring-residence-permit",
-      "authority": "OCMA/PMLP"
+      "url": "https://www.pmlp.gov.lv/en/applications",
+      "authority": "OCMA",
+      "type": "pdf"
     },
     {
       "name": "D-Visa Application Form (e-visa system)",
       "url": "https://epak.pmlp.gov.lv/NVIS.EService001.WebSite/ApplicationInquiry.aspx",
-      "authority": "OCMA/PMLP"
+      "authority": "OCMA",
+      "type": "online"
     }
   ],
   "tips": [],

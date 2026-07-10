@@ -265,8 +265,9 @@
   "application_forms": [
     {
       "name": "MEDU1/MEDUM1",
-      "url": "gov.cy/mip-md/en",
-      "authority": "Civil Registry and Migration Department"
+      "url": "https://www.aubmed.ac.cy/Mediterraneo/Documents/08-Application%20Form-MEDUMEDUM1.pdf",
+      "authority": "Civil Registry and Migration Department",
+      "type": "pdf"
     }
   ],
   "tips": [

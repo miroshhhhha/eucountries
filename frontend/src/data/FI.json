@@ -279,17 +279,20 @@
     {
       "name": "Enter Finland (Online Application)",
       "url": "https://enterfinland.fi",
-      "authority": "Finnish Immigration Service (Migri)"
+      "authority": "Finnish Immigration Service",
+      "type": "online"
     },
     {
       "name": "Residence Permit Application for Studies (Form OLE_OPI)",
-      "url": "https://migri.fi/en/residence-permit-application-for-studies",
-      "authority": "Finnish Immigration Service (Migri)"
+      "url": "https://migri.fi/documents/5202425/5790178/Opiskelijan+oleskelulupahakemus,+OLE_OPI+(en)/be236f82-1811-4451-b3d8-9fd9b4a98d49/Opiskelijan+oleskelulupahakemus,+OLE_OPI+(en).pdf",
+      "authority": "Finnish Immigration Service (Migri)",
+      "type": "pdf"
     },
     {
       "name": "Schengen Short-Stay Visa Forms",
       "url": "https://um.fi",
-      "authority": "Finnish Ministry for Foreign Affairs"
+      "authority": "Ministry for Foreign Affairs",
+      "type": null
     }
   ],
   "tips": [

@@ -250,13 +250,15 @@
   "application_forms": [
     {
       "name": "D-Visa Application Form",
-      "url": "https://www.politsei.ee",
-      "authority": "PPA / Estonian Embassy/Consulate"
+      "url": "https://www.politsei.ee/files/viibimisaja%20ja%20viisa%20pikendamise%20ankeedid/pikaajalise-viisa-ankeet-en.pdf",
+      "authority": "Police and Border Guard Board",
+      "type": "pdf"
     },
     {
       "name": "Temporary Residence Permit for Study Application Form",
-      "url": "https://www.politsei.ee",
-      "authority": "PPA"
+      "url": "https://www.politsei.ee/files/dokumendid/ankeedid/2023_02/te-taotlus-eng-31.01.2024.pdf",
+      "authority": "Police and Border Guard Board",
+      "type": "pdf"
     }
   ],
   "tips": [

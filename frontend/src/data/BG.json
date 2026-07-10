@@ -284,18 +284,21 @@
   "application_forms": [
     {
       "name": "D-Visa Application Form",
-      "url": null,
-      "authority": "Bulgarian Embassy/Consulate, MFA, VFS Global"
+      "url": "https://www.mfa.bg/upload/69320/Application%20Form%20for%20Bulgarian%20Visa%20(ENG).pdf",
+      "authority": "Ministry of Foreign Affairs",
+      "type": "pdf"
     },
     {
       "name": "Residence Permit Application Form",
       "url": null,
-      "authority": "National Migration Directorate, Regional Migration Directorates, local police station Immigration Department, regional university international offices"
+      "authority": null,
+      "type": null
     },
     {
       "name": "Ministry of Education Eligibility Certificate",
       "url": null,
-      "authority": "Bulgarian Ministry of Education (via university)"
+      "authority": null,
+      "type": null
     }
   ],
   "tips": [],
