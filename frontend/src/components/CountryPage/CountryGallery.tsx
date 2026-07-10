@@ -152,7 +152,7 @@ export default function CountryGallery({ countryCode, countryName }: Props) {
   return (
     <>
       <div
-        className="relative w-full overflow-hidden rounded-xl bg-gray-900 select-none cursor-zoom-in"
+        className="group relative w-full overflow-hidden rounded-xl bg-gray-900 select-none cursor-pointer"
         style={{ aspectRatio: '16/9' }}
         onClick={() => setModalImage(images[current])}
         onTouchStart={onTouchStart}
@@ -169,7 +169,16 @@ export default function CountryGallery({ countryCode, countryName }: Props) {
           />
         ))}
 
+        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200 pointer-events-none" />
+
         <div className="absolute inset-x-0 bottom-0 h-12 bg-gradient-to-t from-black/50 to-transparent pointer-events-none" />
+
+        <div className="absolute top-3 right-3 flex items-center gap-1.5 bg-black/50 text-white text-xs px-2.5 py-1 rounded-full pointer-events-none">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+            <circle cx="12" cy="12" r="10" /><line x1="12" y1="8" x2="12" y2="12" /><line x1="12" y1="16" x2="12.01" y2="16" />
+          </svg>
+          Tap for info
+        </div>
 
         <span className="absolute bottom-2 left-4 text-white/80 text-xs pointer-events-none">
           {images[current]?.caption}
