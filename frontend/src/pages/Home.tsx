@@ -145,17 +145,14 @@ export default function Home() {
           <p className="text-sm font-medium text-gray-500 uppercase tracking-wide mb-3">
             {filtersOn ? `Matching countries (${matchCount})` : 'Guides available now'}
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
             {visibleCodes.map(([code, { name }]) => (
-              <button
+              <CountryCard
                 key={code}
+                code={code}
+                name={name}
                 onClick={() => navigate(`/country/${code}`)}
-                className="flex items-center gap-3 bg-white border border-gray-200 rounded-xl px-4 py-3
-                           hover:border-indigo-400 hover:bg-indigo-50 transition-colors text-left group"
-              >
-                <img src={appleFlagUrl(code)} alt={name} className="h-6 w-auto flex-shrink-0" />
-                <span className="font-medium text-gray-800 group-hover:text-indigo-700">{name}</span>
-              </button>
+              />
             ))}
             {filtersOn && matchCount === 0 && (
               <p className="col-span-full text-sm text-gray-400 py-4">
@@ -163,6 +160,84 @@ export default function Home() {
               </p>
             )}
           </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+const COUNTRY_PHOTO_EXT: Record<string, string> = { NL: 'png', ES: 'jpeg' }
+
+function countryPhotoUrl(code: string): string {
+  const ext = COUNTRY_PHOTO_EXT[code] ?? 'jpg'
+  return `/images/countries/${code}.${ext}`
+}
+
+const CARD_GRADIENTS = [
+  'from-indigo-500 to-blue-700',
+  'from-violet-500 to-purple-700',
+  'from-sky-500 to-cyan-700',
+  'from-teal-500 to-emerald-700',
+]
+
+function cardGradient(code: string): string {
+  const idx = (code.charCodeAt(0) + code.charCodeAt(1)) % CARD_GRADIENTS.length
+  return CARD_GRADIENTS[idx]
+}
+
+function CountryCard({ code, name, onClick }: { code: string; name: string; onClick: () => void }) {
+  const data = ALL_COUNTRIES[code as keyof typeof ALL_COUNTRIES]
+  const financial = data?.financial_requirements?.reference_value_monthly_eur
+  const workAllowed = data?.work_while_studying?.allowed
+  const workHours = workAllowed ? data?.work_while_studying?.max_hours_per_week_during_term : null
+  const postStudyMonths = data?.post_study_work?.available
+    ? data?.post_study_work?.job_seeking_permit_months
+    : null
+
+  return (
+    <div
+      role="button"
+      tabIndex={0}
+      onClick={onClick}
+      onKeyDown={e => e.key === 'Enter' && onClick()}
+      className={`relative overflow-hidden rounded-2xl cursor-pointer group aspect-[3/2]
+                  bg-gradient-to-br ${cardGradient(code)}`}
+    >
+      <img
+        src={countryPhotoUrl(code)}
+        alt={name}
+        className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        onError={e => { (e.currentTarget as HTMLImageElement).style.opacity = '0' }}
+      />
+
+      {/* vignette */}
+      <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent" />
+
+      {/* hover shimmer */}
+      <div className="absolute inset-0 bg-white/0 group-hover:bg-white/8 transition-colors duration-200" />
+
+      {/* bottom label */}
+      <div className="absolute bottom-0 left-0 right-0 p-3">
+        <div className="flex items-center gap-1.5 mb-1.5">
+          <img src={appleFlagUrl(code)} alt="" className="h-5 w-auto flex-shrink-0 drop-shadow" />
+          <span className="text-white font-semibold text-sm leading-tight drop-shadow">{name}</span>
+        </div>
+        <div className="flex flex-wrap gap-1.5">
+          {financial != null && (
+            <span className="text-[11px] text-white/90 bg-black/35 backdrop-blur-sm rounded-full px-2 py-0.5">
+              €{Math.round(financial)}/mo
+            </span>
+          )}
+          {workHours != null && (
+            <span className="text-[11px] text-white/90 bg-black/35 backdrop-blur-sm rounded-full px-2 py-0.5">
+              {workHours}h/wk work
+            </span>
+          )}
+          {postStudyMonths != null && (
+            <span className="text-[11px] text-white/90 bg-black/35 backdrop-blur-sm rounded-full px-2 py-0.5">
+              {postStudyMonths}mo job search
+            </span>
+          )}
         </div>
       </div>
     </div>
