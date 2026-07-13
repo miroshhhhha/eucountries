@@ -25,7 +25,7 @@ export default function Tooltip({ name, code, hasData, x, y }: TooltipProps) {
       {code && <img src={appleFlagUrl(code)} alt={code} className="h-4 w-auto" />}
       {name}
       {hasData ? (
-        <span className="text-xs text-indigo-600 font-normal">Click to open →</span>
+        <span className="text-xs text-indigo-600 font-normal">Open guide</span>
       ) : (
         <span className="text-xs text-gray-400 font-normal">Coming soon</span>
       )}
