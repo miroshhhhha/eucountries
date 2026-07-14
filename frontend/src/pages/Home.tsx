@@ -82,11 +82,13 @@ export default function Home() {
               for non-EU students. Click a country to get started.
             </p>
           </div>
-          <img
-            src="/Techno_TLN_Logo.svg"
-            alt="Techno TLN"
-            className="w-64 max-w-full flex-shrink-0"
-          />
+          <a href="https://techno.ee" target="_blank" rel="noopener noreferrer">
+            <img
+              src="/Techno_TLN_Logo.svg"
+              alt="Techno TLN"
+              className="w-64 max-w-full flex-shrink-0"
+            />
+          </a>
         </div>
 
         {/* Filter bar */}
