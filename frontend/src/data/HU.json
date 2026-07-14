@@ -170,11 +170,11 @@
     }
   ],
   "financial_requirements": {
-    "reference_value_monthly_eur": null,
+    "reference_value_monthly_eur": 1000,
     "reference_basis": "Sufficient funds to cover tuition, accommodation, health insurance, and living expenses for the entire stay.",
-    "year": null,
+    "year": 2022,
     "calculation_rules": null,
-    "example_12_months_eur": null,
+    "example_12_months_eur": 12500,
     "acceptable_proof": [
       "Certified bank statements (past 3-6 months) from student or parent/guardian",
       "Notarized affidavit of support/commitment letter from a financial sponsor",
